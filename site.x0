@@ -1,8 +1,8 @@
 {
   "meta": {
     "engine": "x0",
-    "version": "1.0.0-b0",
-    "filename": "/Users/jackson/repos/design-systems-coalition-NYC.github.io/site.x0"
+    "filename": "/Users/jackson/repos/design-systems-coalition-NYC.github.io/site.x0",
+    "version": "1.0.0-b0"
   },
   "content": [
     {
@@ -17,6 +17,11 @@
           "_id": 87,
           "href": "https://twitter.com/nyc_dsc",
           "text": "Twitter"
+        },
+        {
+          "_id": 259502,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup",
+          "text": "GitHub"
         }
       ],
       "meta": {
@@ -43,7 +48,88 @@
         "type": "header"
       },
       "subhead": "NYC",
-      "text": ""
+      "text": "A group of design systems thinkers, designers, developers, and managers to get together and chat about product design, frontend architecture, style guides, pattern libraries, css frameworks, and other design systems-related topics."
+    },
+    {
+      "_id": 663759518544602,
+      "heading": "Meetup",
+      "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
+      "links": [
+        {
+          "_id": 29205419981079176,
+          "href": "https://www.meetup.com//NYC-Design-Systems-Coalition/events/237573049/?showDescription=true",
+          "text": "RSVP on Meetup"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "button": {},
+          "subhead": 3
+        },
+        "name": "Staggered",
+        "type": "section"
+      },
+      "subhead": "March 23 @ Etsy HQ",
+      "text": "Join us at Etsy HQ for the next Design Systems Coalition meetup on Thursday, March 23rd! The topic for the next meetup will be brand design systems that scale.   We'll have Marco Suarez, Sophie Shepherd, and Will Miner giving 10 minute talks with a Q&A session after, and plenty of time to social and chat with other design systems enthusiasts."
+    },
+    {
+      "_id": 1320217735086424800,
+      "images": [
+        {
+          "_id": 27735192589545170000,
+          "src": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/6/f/600_458373135.jpeg"
+        },
+        {
+          "_id": 179647848384481500000,
+          "src": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/7/6/600_458373142.jpeg"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "",
+          "button": {}
+        },
+        "name": "TwoColumns3to4",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 27083472,
+      "buttons": [
+        {
+          "_id": 1764323111472,
+          "href": "https://www.youtube.com/watch?v=YSpQiestvjk",
+          "text": "Watch on YouTube"
+        },
+        {
+          "_id": 1327678945,
+          "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
+          "text": "Solid"
+        },
+        {
+          "_id": 86922345689,
+          "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
+          "text": "Union"
+        },
+        {
+          "_id": 42521528212063,
+          "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
+          "text": "Primer"
+        }
+      ],
+      "heading": "December’s Meetup",
+      "meta": {
+        "colors": {
+          "background": 5,
+          "button": {},
+          "heading": "",
+          "text": 2
+        },
+        "name": "Basic",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": "Emily Brick, Silvia Tueros-Cossio, Philip Kelly, and Diana Mounter"
     },
     {
       "_id": 12255,
@@ -57,6 +143,11 @@
           "_id": 87,
           "href": "https://twitter.com/nyc_dsc",
           "text": "Twitter"
+        },
+        {
+          "_id": 2447479,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup",
+          "text": "GitHub"
         }
       ],
       "meta": {
@@ -150,7 +241,11 @@
       128
     ],
     "ui": {
-      "button": {},
+      "button": {
+        "backgroundColor": 3,
+        "color": 0,
+        "fontWeight": 700
+      },
       "link": {
         "color": 3
       }
