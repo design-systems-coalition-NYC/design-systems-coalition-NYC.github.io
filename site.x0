@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "engine": "x0",
+    "version": "1.0.0-b0",
+    "filename": "/Users/jackson/repos/design-systems-coalition-NYC.github.io/site.x0"
+  },
+  "content": [
+    {
+      "_id": 2,
+      "links": [
+        {
+          "_id": 86,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Meetup"
+        },
+        {
+          "_id": 87,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 3
+        },
+        "name": "Right",
+        "type": "nav"
+      },
+      "src": ""
+    },
+    {
+      "_id": 10,
+      "heading": "Design Systems Coalition",
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "name": "Bold",
+        "type": "header"
+      },
+      "subhead": "NYC",
+      "text": ""
+    },
+    {
+      "_id": 12255,
+      "links": [
+        {
+          "_id": 86,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Meetup"
+        },
+        {
+          "_id": 87,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "link": "",
+          "text": 3
+        },
+        "name": "Grid",
+        "type": "footer"
+      }
+    }
+  ],
+  "theme": {
+    "bold": 700,
+    "breakpoints": [
+      "@media screen and (min-width:32em)",
+      "@media screen and (min-width:48em)",
+      "@media screen and (min-width:64em)",
+      "@media screen and (min-width:96em)"
+    ],
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "h1": {
+      "fontSizes": [
+        5,
+        null,
+        6,
+        null,
+        7
+      ],
+      "lineHeight": 1.125,
+      "weight": 700
+    },
+    "h2": {
+      "caps": true,
+      "fontSizes": [
+        3,
+        null,
+        4,
+        null,
+        5
+      ],
+      "lineHeight": 1.125,
+      "tracking": 0.125,
+      "weight": 700
+    },
+    "h3": {
+      "fontSizes": [
+        2,
+        null,
+        3
+      ],
+      "lineHeight": 1.125,
+      "weight": 700
+    },
+    "lineHeight": 1.5,
+    "maxWidth": 1024,
+    "name": "Base",
+    "palette": [
+      "#222",
+      "#05a",
+      "#444",
+      "tomato",
+      "#ccc",
+      "#eee",
+      "#111"
+    ],
+    "radius": 2,
+    "space": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "typeScale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "ui": {
+      "button": {},
+      "link": {
+        "color": 3
+      }
+    },
+    "white": "#fff"
+  }
+}
