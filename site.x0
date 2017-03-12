@@ -1,43 +1,33 @@
 {
   "meta": {
+    "description": "A group of design systems thinkers, designers, developers, and managers to get together and chat about product design, frontend architecture, style guides, pattern libraries, css frameworks, and other design systems-related topics.",
     "engine": "x0",
     "filename": "/Users/jackson/repos/design-systems-coalition-NYC.github.io/site.x0",
+    "title": "Design Systems Coalition NYC",
+    "twitterSite": "@nyc_dsc",
     "version": "1.0.0-b0"
   },
   "content": [
     {
-      "_id": 2,
+      "_id": 10,
+      "heading": "Design Systems Coalition",
       "links": [
         {
-          "_id": 86,
+          "_id": 1.9640856367366866e+26,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
           "text": "Meetup"
         },
         {
-          "_id": 87,
+          "_id": 1.9643420858788695e+27,
           "href": "https://twitter.com/nyc_dsc",
           "text": "Twitter"
         },
         {
-          "_id": 259502,
+          "_id": 2.3572130675460653e+28,
           "href": "https://github.com/design-systems-coalition-NYC/meetup",
           "text": "GitHub"
         }
       ],
-      "meta": {
-        "colors": {
-          "background": 2,
-          "button": {},
-          "text": 3
-        },
-        "name": "Right",
-        "type": "nav"
-      },
-      "src": ""
-    },
-    {
-      "_id": 10,
-      "heading": "Design Systems Coalition",
       "meta": {
         "colors": {
           "background": 0,
@@ -132,6 +122,55 @@
       "text": "Emily Brick, Silvia Tueros-Cossio, Philip Kelly, and Diana Mounter"
     },
     {
+      "_id": 52835259785315430000,
+      "heading": "Thanks to our hosts",
+      "images": [
+        {
+          "_id": 4.0035918102322217e+21,
+          "src": "https://logo.clearbit.com/xogroupinc.com?s=128"
+        },
+        {
+          "_id": 1.298426509224109e+21,
+          "src": "https://logo.clearbit.com/etsy.com?s=128"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 5,
+          "button": {}
+        },
+        "name": "Basic",
+        "type": "companiesList"
+      },
+      "text": ""
+    },
+    {
+      "_id": 2.559075807701717e+22,
+      "buttons": [
+        {
+          "_id": 1.0252550073190852e+23,
+          "href": "https://twitter.com/tomtaki",
+          "text": "Tom Takigayama"
+        },
+        {
+          "_id": 3.5631267043874543e+24,
+          "href": "https://twitter.com/broccolini",
+          "text": "Diana Mounter"
+        }
+      ],
+      "heading": "Organizers",
+      "meta": {
+        "colors": {
+          "background": 5,
+          "button": {},
+          "text": 0
+        },
+        "name": "Basic",
+        "type": "section"
+      },
+      "text": ""
+    },
+    {
       "_id": 12255,
       "links": [
         {
@@ -152,7 +191,7 @@
       ],
       "meta": {
         "colors": {
-          "background": 2,
+          "background": 0,
           "button": {},
           "link": "",
           "text": 3
@@ -243,7 +282,7 @@
     "ui": {
       "button": {
         "backgroundColor": 3,
-        "color": 0,
+        "color": 5,
         "fontWeight": 700
       },
       "link": {
