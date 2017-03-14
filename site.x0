@@ -54,7 +54,8 @@
       "meta": {
         "colors": {
           "button": {},
-          "subhead": 3
+          "subhead": 3,
+          "text": 0
         },
         "name": "Staggered",
         "type": "section"
@@ -92,7 +93,7 @@
           "background": "",
           "button": {},
           "heading": "",
-          "text": ""
+          "text": 0
         },
         "name": "Half",
         "type": "video"
@@ -125,14 +126,20 @@
         }
       ],
       "meta": {
-        "name": "Grid",
+        "colors": {
+          "button": {},
+          "link": 0,
+          "text": 0
+        },
+        "name": "ThreeColumnCollapseOne",
         "type": "linkList"
       },
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e"
     },
     {
       "_id": 52835259785315430000,
-      "heading": "Thanks to our hosts",
+      "cta": [],
+      "heading": "",
       "images": [
         {
           "_id": 4.0035918102322217e+21,
@@ -145,13 +152,14 @@
       ],
       "meta": {
         "colors": {
-          "background": 5,
-          "button": {}
+          "background": "",
+          "button": {},
+          "text": 0
         },
-        "name": "Basic",
+        "name": "Center",
         "type": "companiesList"
       },
-      "text": ""
+      "text": "Thanks to our hosts"
     },
     {
       "_id": 2.559075807701717e+22,
@@ -188,7 +196,7 @@
       ],
       "meta": {
         "colors": {
-          "background": 5,
+          "background": 4,
           "button": {},
           "text": 0
         },
@@ -224,7 +232,7 @@
           "link": "",
           "text": 3
         },
-        "name": "Basic",
+        "name": "Right",
         "type": "footer"
       }
     }
@@ -276,7 +284,7 @@
     "name": "Custom",
     "palette": [
       "#222",
-      "#05a",
+      "#09a",
       "#444",
       "tomato",
       "#ccc",
@@ -314,7 +322,12 @@
         "fontWeight": 700
       },
       "link": {
-        "color": 1
+        "color": 1,
+        "hover": {
+          "color": 1,
+          "textDecoration": "underline"
+        },
+        "textDecoration": "none"
       }
     },
     "white": "#fff"
