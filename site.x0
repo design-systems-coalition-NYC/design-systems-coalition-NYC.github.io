@@ -2,10 +2,19 @@
   "meta": {
     "description": "A group of design systems thinkers, designers, developers, and managers to get together and chat about product design, frontend architecture, style guides, pattern libraries, css frameworks, and other design systems-related topics.",
     "engine": "x0",
+    "favicon": "data:image/png;base64,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",
     "filename": "/Users/jackson/repos/design-systems-coalition-NYC.github.io/site.x0",
+    "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "1.0.0-b1"
+    "version": "1.0.0-b1",
+    "xicon": {
+      "backgroundColor": 3,
+      "color": 0,
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": 32,
+      "letter": "DS"
+    }
   },
   "content": [
     {
@@ -57,7 +66,7 @@
           "subhead": 3,
           "text": 0
         },
-        "name": "Staggered",
+        "name": "Basic",
         "type": "section"
       },
       "subhead": "March 23 @ Etsy HQ",
@@ -90,7 +99,7 @@
       "heading": "December Meetup",
       "meta": {
         "colors": {
-          "background": "",
+          "background": 5,
           "button": {},
           "heading": "",
           "text": 0
@@ -127,6 +136,7 @@
       ],
       "meta": {
         "colors": {
+          "background": 5,
           "button": {},
           "link": 0,
           "text": 0
@@ -135,31 +145,6 @@
         "type": "linkList"
       },
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e"
-    },
-    {
-      "_id": 52835259785315430000,
-      "cta": [],
-      "heading": "",
-      "images": [
-        {
-          "_id": 4.0035918102322217e+21,
-          "src": "https://logo.clearbit.com/xogroupinc.com?s=128"
-        },
-        {
-          "_id": 1.298426509224109e+21,
-          "src": "https://logo.clearbit.com/etsy.com?s=128"
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": "",
-          "button": {},
-          "text": 0
-        },
-        "name": "Center",
-        "type": "companiesList"
-      },
-      "text": "Thanks to our hosts"
     },
     {
       "_id": 2.559075807701717e+22,
@@ -317,9 +302,12 @@
     ],
     "ui": {
       "button": {
-        "backgroundColor": 3,
-        "color": "#fff",
-        "fontWeight": 700
+        "backgroundColor": 0,
+        "borderRadius": 34,
+        "color": 3,
+        "fontWeight": 700,
+        "paddingLeft": 24,
+        "paddingRight": 24
       },
       "link": {
         "color": 1,
