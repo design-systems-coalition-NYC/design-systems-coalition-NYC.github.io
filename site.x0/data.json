@@ -19,34 +19,18 @@
     {
       "_id": 1,
       "heading": "Design Systems Coalition",
-      "links": [
-        {
-          "_id": 2,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
-          "text": "Meetup"
-        },
-        {
-          "_id": 3,
-          "href": "https://twitter.com/nyc_dsc",
-          "text": "Twitter"
-        },
-        {
-          "_id": 4,
-          "href": "https://github.com/design-systems-coalition-NYC/meetup",
-          "text": "GitHub"
-        }
-      ],
+      "links": [],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": 3,
           "button": {},
-          "text": 3
+          "text": 0
         },
         "name": "Bold",
         "type": "header"
       },
       "subhead": "NYC",
-      "text": "A group of design systems thinkers, designers, developers, and managers to get together and chat about product design, frontend architecture, style guides, pattern libraries, css frameworks, and other design systems-related topics."
+      "text": "A community for people who build design systems to share and learn from each other."
     },
     {
       "_id": 5,
@@ -106,8 +90,8 @@
         "name": "Half",
         "type": "video"
       },
-      "subhead": "Hosted at XO Group",
-      "text": "Featuring Emily Brick, Silvia Tueros-Cossio, Philip Kelly, and Diana Mounter",
+      "subhead": "Hosted by XO Group",
+      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub.",
       "video": "https://www.youtube.com/embed/YSpQiestvjk"
     },
     {
@@ -146,6 +130,34 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e"
     },
     {
+      "_id": 291964490050080,
+      "buttons": [
+        {
+          "_id": 1304866528529473000,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/issues/new",
+          "text": "Get involved"
+        }
+      ],
+      "heading": "Host or speak at our next meetup!",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {
+            "background": 5,
+            "text": 3
+          },
+          "link": 3,
+          "subhead": 1,
+          "text": 0
+        },
+        "name": "Basic",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, <a href=\"https://github.com/design-systems-coalition-NYC/meetup/issues/new\">open an issue on GitHub</a>."
+    },
+    {
       "_id": 16,
       "buttons": [
         {
@@ -167,7 +179,7 @@
           "image": "https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg",
           "links": "",
           "subhead": "",
-          "text": "Design systems lead at GitHub"
+          "text": "Design Systems lead at GitHub"
         },
         {
           "_id": 20,
@@ -194,14 +206,20 @@
       "_id": 21,
       "links": [
         {
+          "_id": 23,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        },
+        {
           "_id": 22,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
           "text": "Meetup"
         },
         {
-          "_id": 23,
-          "href": "https://twitter.com/nyc_dsc",
-          "text": "Twitter"
+          "_id": 415088109470429800000,
+          "href": "https://medium.com/design-systems-nyc",
+          "icon": "",
+          "text": "Medium"
         },
         {
           "_id": 24,
@@ -302,7 +320,8 @@
     "ui": {
       "button": {
         "backgroundColor": 0,
-        "borderRadius": 34,
+        "border": 0,
+        "borderRadius": 0,
         "color": 3,
         "fontWeight": 700,
         "paddingLeft": 24,
