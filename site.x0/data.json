@@ -377,8 +377,9 @@
         "color": 3,
         "fontWeight": 700,
         "hover": {
-          "backgroundColor": 3,
-          "color": 0
+          "backgroundColor": 2,
+          "borderColor": null,
+          "color": "white"
         },
         "paddingLeft": 24,
         "paddingRight": 24
