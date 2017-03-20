@@ -6,7 +6,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "1.0.0-b2",
+    "version": "1.0.0-b3",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -81,6 +81,7 @@
       ],
       "heading": "December Meetup",
       "meta": {
+        "backgroundImage": "",
         "colors": {
           "background": 5,
           "button": {},
@@ -149,27 +150,31 @@
         }
       ],
       "heading": "Host or speak at our next meetup!",
+      "image": "",
       "kicker": "",
       "links": [
         {
           "_id": 39123241666723656,
-          "href": "https://github.com/design-systems-coalition-NYC/meetup/issues/new",
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup",
           "icon": "",
           "text": "Get involved"
         }
       ],
       "meta": {
+        "backgroundImage": "assets/dark-bg-4.9175079171789114e+32.png",
         "colors": {
           "background": "white",
           "button": {
             "background": 3,
             "text": 0
           },
-          "link": 3,
-          "subhead": 1,
-          "text": 0
+          "heading": "white",
+          "link": "white",
+          "subhead": "white",
+          "text": "white"
         },
-        "name": "Basic",
+        "name": "Staggered",
+        "ratio": 0,
         "type": "section"
       },
       "subhead": "",
@@ -222,6 +227,33 @@
     },
     {
       "_id": 21,
+      "cta": [
+        {
+          "_id": 415089277328390000000,
+          "href": "http://designsystems.herokuapp.com/",
+          "text": "Slack"
+        }
+      ],
+      "iconLinks": [
+        {
+          "_id": 2.6744482064160775e+28,
+          "href": "",
+          "icon": "twitter",
+          "text": "Hello"
+        },
+        {
+          "_id": 4.0116723096241574e+29,
+          "href": "",
+          "icon": "medium",
+          "text": "Hello"
+        },
+        {
+          "_id": 5.964019500307916e+30,
+          "href": "",
+          "icon": "github",
+          "text": "Hello"
+        }
+      ],
       "links": [
         {
           "_id": 23,
@@ -254,7 +286,9 @@
         },
         "name": "Right",
         "type": "footer"
-      }
+      },
+      "small": "",
+      "text": "test"
     }
   ],
   "theme": {
@@ -342,6 +376,10 @@
         "borderRadius": 0,
         "color": 3,
         "fontWeight": 700,
+        "hover": {
+          "backgroundColor": 3,
+          "color": 0
+        },
         "paddingLeft": 24,
         "paddingRight": 24
       },
