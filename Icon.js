@@ -67,7 +67,7 @@ const Icon = () => {
           fill={colors.black}
           textAnchor='middle'
           x={16}
-          y={20}>
+          y={20.5}>
           DSC
         </text>
       </svg>
