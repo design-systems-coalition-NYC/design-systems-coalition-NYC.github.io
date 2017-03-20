@@ -100,34 +100,40 @@
       "items": [
         {
           "_id": 13,
-          "heading": "Union",
+          "heading": "Union: The Knot's new design system",
           "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
-          "text": "Silvia Tueros-Cossio & Philip Kelly from The Knot"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg",
+          "subhead": "",
+          "text": "By Silvia Tueros-Cossio and<br /> Philip Kelly"
         },
         {
           "_id": 14,
-          "heading": "Solid",
+          "heading": "Solid by Buzzfeed",
           "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
-          "text": "Emily Brick from Buzzfeed"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg",
+          "text": "By Emily Brick"
         },
         {
           "_id": 15,
-          "heading": "Primer",
+          "heading": "Building design systems at GitHub",
           "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
-          "text": "Diana Mounter from GitHub"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg",
+          "text": "By Diana Mounter"
         }
       ],
       "meta": {
+        "ratio":0.5625,
+        "columns": [1, 3],
         "colors": {
           "background": 5,
           "button": {},
           "link": 0,
           "text": 0
         },
-        "name": "ThreeColumnCollapseOne",
-        "type": "linkList"
+        "name": "Basic",
+        "type": "cards"
       },
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e"
+      "text": ""
     },
     {
       "_id": 291964490050080,
