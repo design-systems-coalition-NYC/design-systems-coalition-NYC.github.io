@@ -100,39 +100,43 @@
       "items": [
         {
           "_id": 13,
-          "heading": "Union: The Knot's new design system",
+          "heading": "Silvia Tueros-Cossio and Philip Kelly from The Knot",
           "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
           "image": "https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg",
           "subhead": "",
-          "text": "By Silvia Tueros-Cossio and<br /> Philip Kelly"
+          "text": ""
         },
         {
           "_id": 14,
-          "heading": "Solid by Buzzfeed",
+          "heading": "Emily Brick from Buzzfeed",
           "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
           "image": "https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg",
-          "text": "By Emily Brick"
+          "text": ""
         },
         {
           "_id": 15,
-          "heading": "Building design systems at GitHub",
+          "heading": "Diana Mounter from GitHub",
           "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
           "image": "https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg",
-          "text": "By Diana Mounter"
+          "text": ""
         }
       ],
       "meta": {
-        "ratio":0.5625,
-        "columns": [1, 3],
         "colors": {
           "background": 5,
           "button": {},
           "link": 0,
           "text": 0
         },
+        "columns": [
+          1,
+          3
+        ],
         "name": "Basic",
+        "ratio": 0.5625,
         "type": "cards"
       },
+      "subhead": "",
       "text": ""
     },
     {
@@ -146,12 +150,20 @@
       ],
       "heading": "Host or speak at our next meetup!",
       "kicker": "",
+      "links": [
+        {
+          "_id": 39123241666723656,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/issues/new",
+          "icon": "",
+          "text": "Get involved"
+        }
+      ],
       "meta": {
         "colors": {
           "background": "white",
           "button": {
-            "background": 5,
-            "text": 3
+            "background": 3,
+            "text": 0
           },
           "link": 3,
           "subhead": 1,
@@ -161,7 +173,7 @@
         "type": "section"
       },
       "subhead": "",
-      "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, <a href=\"https://github.com/design-systems-coalition-NYC/meetup/issues/new\">open an issue on GitHub</a>."
+      "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, open an issue on GitHub."
     },
     {
       "_id": 16,
