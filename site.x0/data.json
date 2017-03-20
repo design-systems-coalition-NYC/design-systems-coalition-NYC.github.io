@@ -45,7 +45,11 @@
       ],
       "meta": {
         "colors": {
-          "button": {},
+          "button": {
+            "background": 0,
+            "text": 3
+          },
+          "link": null,
           "subhead": 3,
           "text": 0
         },
@@ -373,11 +377,12 @@
       "button": {
         "backgroundColor": 0,
         "border": 0,
+        "borderColor": null,
         "borderRadius": 0,
         "color": 3,
         "fontWeight": 700,
         "hover": {
-          "backgroundColor": 2,
+          "backgroundColor": null,
           "borderColor": null,
           "color": "white"
         },
