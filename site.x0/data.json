@@ -4,6 +4,7 @@
     "engine": "x0",
     "favicon": "assets/favicon.png",
     "icon": "assets/apple-touch-icon.png",
+    "image": "assets/apple-touch-icon.png",
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
