@@ -6,7 +6,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "1.0.0-b2",
+    "version": "1.0.0-b3",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -19,34 +19,18 @@
     {
       "_id": 1,
       "heading": "Design Systems Coalition",
-      "links": [
-        {
-          "_id": 2,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
-          "text": "Meetup"
-        },
-        {
-          "_id": 3,
-          "href": "https://twitter.com/nyc_dsc",
-          "text": "Twitter"
-        },
-        {
-          "_id": 4,
-          "href": "https://github.com/design-systems-coalition-NYC/meetup",
-          "text": "GitHub"
-        }
-      ],
+      "links": [],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": 3,
           "button": {},
-          "text": 3
+          "text": 0
         },
         "name": "Bold",
         "type": "header"
       },
       "subhead": "NYC",
-      "text": "A group of design systems thinkers, designers, developers, and managers to get together and chat about product design, frontend architecture, style guides, pattern libraries, css frameworks, and other design systems-related topics."
+      "text": "A community for people who build design systems to share and learn from each other."
     },
     {
       "_id": 5,
@@ -97,6 +81,7 @@
       ],
       "heading": "December Meetup",
       "meta": {
+        "backgroundImage": "",
         "colors": {
           "background": 5,
           "button": {},
@@ -106,8 +91,8 @@
         "name": "Half",
         "type": "video"
       },
-      "subhead": "Hosted at XO Group",
-      "text": "Featuring Emily Brick, Silvia Tueros-Cossio, Philip Kelly, and Diana Mounter",
+      "subhead": "Hosted by XO Group",
+      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub.",
       "video": "https://www.youtube.com/embed/YSpQiestvjk"
     },
     {
@@ -116,21 +101,25 @@
       "items": [
         {
           "_id": 13,
-          "heading": "Union",
+          "heading": "Silvia Tueros-Cossio and Philip Kelly from The Knot",
           "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
-          "text": "Silvia Tueros-Cossio & Philip Kelly from The Knot"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg",
+          "subhead": "",
+          "text": ""
         },
         {
           "_id": 14,
-          "heading": "Solid",
+          "heading": "Emily Brick from Buzzfeed",
           "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
-          "text": "Emily Brick from Buzzfeed"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg",
+          "text": ""
         },
         {
           "_id": 15,
-          "heading": "Primer",
+          "heading": "Diana Mounter from GitHub",
           "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
-          "text": "Diana Mounter from GitHub"
+          "image": "https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg",
+          "text": ""
         }
       ],
       "meta": {
@@ -140,10 +129,56 @@
           "link": 0,
           "text": 0
         },
-        "name": "ThreeColumnCollapseOne",
-        "type": "linkList"
+        "columns": [
+          1,
+          3
+        ],
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
       },
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut e"
+      "subhead": "",
+      "text": ""
+    },
+    {
+      "_id": 291964490050080,
+      "buttons": [
+        {
+          "_id": 1304866528529473000,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/issues/new",
+          "text": "Get involved"
+        }
+      ],
+      "heading": "Host or speak at our next meetup!",
+      "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 39123241666723656,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup",
+          "icon": "",
+          "text": "Get involved"
+        }
+      ],
+      "meta": {
+        "backgroundImage": "assets/dark-bg-4.9175079171789114e+32.png",
+        "colors": {
+          "background": "white",
+          "button": {
+            "background": 3,
+            "text": 0
+          },
+          "heading": "white",
+          "link": "white",
+          "subhead": "white",
+          "text": "white"
+        },
+        "name": "Staggered",
+        "ratio": 0,
+        "type": "section"
+      },
+      "subhead": "",
+      "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, open an issue on GitHub."
     },
     {
       "_id": 16,
@@ -167,7 +202,7 @@
           "image": "https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg",
           "links": "",
           "subhead": "",
-          "text": "Design systems lead at GitHub"
+          "text": "Design Systems lead at GitHub"
         },
         {
           "_id": 20,
@@ -192,16 +227,49 @@
     },
     {
       "_id": 21,
+      "cta": [
+        {
+          "_id": 415089277328390000000,
+          "href": "http://designsystems.herokuapp.com/",
+          "text": "Slack"
+        }
+      ],
+      "iconLinks": [
+        {
+          "_id": 2.6744482064160775e+28,
+          "href": "",
+          "icon": "twitter",
+          "text": "Hello"
+        },
+        {
+          "_id": 4.0116723096241574e+29,
+          "href": "",
+          "icon": "medium",
+          "text": "Hello"
+        },
+        {
+          "_id": 5.964019500307916e+30,
+          "href": "",
+          "icon": "github",
+          "text": "Hello"
+        }
+      ],
       "links": [
+        {
+          "_id": 23,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        },
         {
           "_id": 22,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
           "text": "Meetup"
         },
         {
-          "_id": 23,
-          "href": "https://twitter.com/nyc_dsc",
-          "text": "Twitter"
+          "_id": 415088109470429800000,
+          "href": "https://medium.com/design-systems-nyc",
+          "icon": "",
+          "text": "Medium"
         },
         {
           "_id": 24,
@@ -218,7 +286,9 @@
         },
         "name": "Right",
         "type": "footer"
-      }
+      },
+      "small": "",
+      "text": "test"
     }
   ],
   "theme": {
@@ -302,9 +372,14 @@
     "ui": {
       "button": {
         "backgroundColor": 0,
-        "borderRadius": 34,
+        "border": 0,
+        "borderRadius": 0,
         "color": 3,
         "fontWeight": 700,
+        "hover": {
+          "backgroundColor": 3,
+          "color": 0
+        },
         "paddingLeft": 24,
         "paddingRight": 24
       },
