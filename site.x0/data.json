@@ -260,7 +260,7 @@
         "colors": {
           "background": 2,
           "button": {},
-          "text": 5
+          "text": "white"
         },
         "columns": [
           1,
@@ -276,7 +276,7 @@
             5
           ]
         },
-        "name": "Centered",
+        "name": "Basic",
         "type": "profiles"
       },
       "subhead": "Organizers",
