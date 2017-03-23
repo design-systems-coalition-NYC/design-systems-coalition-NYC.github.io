@@ -8,7 +8,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.23",
+    "version": "0.0.25",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -351,11 +351,23 @@
             4
           ]
         },
-        "name": "Right",
+        "name": "Basic",
         "type": "footer"
       },
       "small": "",
-      "text": "test"
+      "text": ""
+    },
+    {
+      "_id": 291964490050085,
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 0
+        },
+        "name": "PromoBadge",
+        "type": "styleguide"
+      }
     }
   ],
   "theme": {
