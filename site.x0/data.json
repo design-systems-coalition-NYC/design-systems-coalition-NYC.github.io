@@ -1,14 +1,15 @@
 {
   "meta": {
+    "cssMode": "atomic",
     "description": "A community for people who build design systems to share and learn from each other.",
     "engine": "x0",
     "favicon": "assets/favicon.png",
     "icon": "assets/apple-touch-icon.png",
-    "image": "assets/apple-touch-icon.png",
+    "image": "http://designsystems.nyc/assets/apple-touch-icon.png",
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.25",
+    "version": "0.0.28",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -102,12 +103,11 @@
         "colors": {
           "background": 5,
           "button": {},
-          "heading": "",
           "text": 0
         },
         "layout": {
           "paddingBottom": [
-            1
+            4
           ],
           "paddingTop": [
             5
@@ -268,7 +268,6 @@
         ],
         "layout": {
           "paddingBottom": [
-            null,
             4
           ],
           "paddingTop": [
@@ -338,7 +337,6 @@
         "colors": {
           "background": 0,
           "button": {},
-          "link": "",
           "text": 3
         },
         "layout": {
@@ -467,7 +465,7 @@
       "link": {
         "color": 1,
         "hover": {
-          "color": 1,
+          "color": 3,
           "textDecoration": "underline"
         },
         "textDecoration": "none"
