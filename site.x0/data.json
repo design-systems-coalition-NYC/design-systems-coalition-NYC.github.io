@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.27",
+    "version": "0.0.28",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -465,7 +465,7 @@
       "link": {
         "color": 1,
         "hover": {
-          "color": 1,
+          "color": 3,
           "textDecoration": "underline"
         },
         "textDecoration": "none"
