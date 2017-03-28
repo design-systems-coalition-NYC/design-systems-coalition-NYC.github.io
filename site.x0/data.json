@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.28",
+    "version": "0.0.30",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -68,10 +68,11 @@
           ]
         },
         "name": "Basic",
-        "type": "section"
+        "type": "video"
       },
       "subhead": "March 23 @ Etsy HQ",
-      "text": "Join us at Etsy HQ for the next Design Systems Coalition meetup on Thursday, March 23rd! The topic for the next meetup will be brand design systems that scale.   We'll have Marco Suarez, Sophie Shepherd, and Will Miner giving 10 minute talks with a Q&A session after, and plenty of time to social and chat with other design systems enthusiasts."
+      "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale.",
+      "video": "https://www.youtube.com/embed/7w457gzzN5A"
     },
     {
       "_id": 7,
