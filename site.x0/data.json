@@ -51,6 +51,7 @@
       ],
       "meta": {
         "colors": {
+          "background": "white",
           "button": {
             "background": 0,
             "text": 3
@@ -73,6 +74,61 @@
       "subhead": "March 23 @ Etsy HQ",
       "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale.",
       "video": "https://www.youtube.com/embed/7w457gzzN5A"
+    },
+    {
+      "_id": 291964490050088,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050476,
+          "heading": "Sophie Shepherd from GitHub",
+          "href": "https://speakerdeck.com/sophshep/wrangling-githubs-brand",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/67aa611689e0413dbdcd20de9f3e52b6/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490050477,
+          "heading": "Will Miner from 2U",
+          "href": "https://speakerdeck.com/wgminer/branding-at-scale",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/33a8d38622244e999dfb6ce1d1721c79/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490050478,
+          "heading": "Marco Suarez from Etsy",
+          "href": "https://speakerdeck.com/marcosuarez/new-york-design-systems-coalition",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/e6b3d71e7c8f483aad619d3e615cc9e2/slide_0.jpg",
+          "text": ""
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "border": 2,
+          "button": {},
+          "subhead": 0,
+          "text": 0
+        },
+        "layout": {
+          "columns": [
+            null,
+            null,
+            3
+          ],
+          "paddingBottom": [
+            null,
+            null,
+            3
+          ],
+          "paddingTop": [
+            1
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      },
+      "subhead": "Slidedecks"
     },
     {
       "_id": 7,
