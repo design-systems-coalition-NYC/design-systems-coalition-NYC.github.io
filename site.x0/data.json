@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.30",
+    "version": "0.0.37",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -30,7 +30,9 @@
           "text": 0
         },
         "layout": {
-          "paddingBottom": null
+          "paddingBottom": [
+            5
+          ]
         },
         "name": "Bold",
         "type": "header"
@@ -40,15 +42,10 @@
     },
     {
       "_id": 5,
+      "embed": "https://www.youtube.com/embed/7w457gzzN5A",
       "heading": "March Meetup",
       "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
-      "links": [
-        {
-          "_id": 6,
-          "href": "https://www.meetup.com//NYC-Design-Systems-Coalition/events/237573049/?showDescription=true",
-          "text": "RSVP on Meetup"
-        }
-      ],
+      "links": [],
       "meta": {
         "colors": {
           "background": "white",
@@ -68,12 +65,11 @@
             5
           ]
         },
-        "name": "Basic",
-        "type": "video"
+        "name": "Center",
+        "type": "section"
       },
       "subhead": "March 23 @ Etsy HQ",
-      "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale.",
-      "video": "https://www.youtube.com/embed/7w457gzzN5A"
+      "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale."
     },
     {
       "_id": 291964490050088,
@@ -111,8 +107,8 @@
         },
         "layout": {
           "columns": [
-            null,
-            null,
+            1,
+            3,
             3
           ],
           "paddingBottom": [
@@ -126,7 +122,13 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "type": "cards",
+        "typography": {
+          "h1": [
+            2,
+            3
+          ]
+        }
       },
       "subhead": "Slidedecks"
     },
@@ -154,6 +156,7 @@
           "text": "Primer"
         }
       ],
+      "embed": "https://www.youtube.com/embed/YSpQiestvjk",
       "heading": "December Meetup",
       "meta": {
         "backgroundImage": "",
@@ -170,12 +173,11 @@
             5
           ]
         },
-        "name": "Half",
-        "type": "video"
+        "name": "Split_1_2",
+        "type": "section"
       },
       "subhead": "Hosted by XO Group",
-      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub.",
-      "video": "https://www.youtube.com/embed/YSpQiestvjk"
+      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
     },
     {
       "_id": 12,
@@ -211,11 +213,11 @@
           "link": 0,
           "text": 0
         },
-        "columns": [
-          1,
-          3
-        ],
         "layout": {
+          "columns": [
+            1,
+            3
+          ],
           "paddingBottom": [
             4
           ],
@@ -225,7 +227,13 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "type": "cards",
+        "typography": {
+          "h1": [
+            2,
+            3
+          ]
+        }
       },
       "subhead": "Slidedecks",
       "text": ""
@@ -247,7 +255,8 @@
           "_id": 39123241666723656,
           "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup",
           "icon": "",
-          "text": "Get involved"
+          "text": "Get involved",
+          "type": 2
         }
       ],
       "meta": {
@@ -319,11 +328,11 @@
           "button": {},
           "text": "white"
         },
-        "columns": [
-          1,
-          2
-        ],
         "layout": {
+          "columns": [
+            1,
+            2
+          ],
           "paddingBottom": [
             4
           ],
@@ -333,7 +342,12 @@
           ]
         },
         "name": "Basic",
-        "type": "profiles"
+        "type": "profiles",
+        "typography": {
+          "h1": [
+            3
+          ]
+        }
       },
       "subhead": "Organizers",
       "text": ""
@@ -468,6 +482,39 @@
       "weight": 700
     },
     "lineHeight": 1.5,
+    "links": [
+      {
+        "color": 1,
+        "hover": {
+          "color": 3,
+          "textDecoration": "underline"
+        },
+        "textDecoration": "none"
+      },
+      {
+        "color": "inherit",
+        "display": "inline-block",
+        "fontWeight": 700,
+        "paddingBottom": 8,
+        "paddingTop": 8,
+        "textDecoration": "none"
+      },
+      {
+        "backgroundColor": 0,
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": 3,
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingLeft": 24,
+        "paddingRight": 24
+      }
+    ],
     "maxWidth": 1024,
     "name": "Custom",
     "palette": [
@@ -503,31 +550,6 @@
       96,
       128
     ],
-    "ui": {
-      "button": {
-        "backgroundColor": 0,
-        "border": 0,
-        "borderColor": null,
-        "borderRadius": 0,
-        "color": 3,
-        "fontWeight": 700,
-        "hover": {
-          "backgroundColor": null,
-          "borderColor": null,
-          "color": "white"
-        },
-        "paddingLeft": 24,
-        "paddingRight": 24
-      },
-      "link": {
-        "color": 1,
-        "hover": {
-          "color": 3,
-          "textDecoration": "underline"
-        },
-        "textDecoration": "none"
-      }
-    },
     "white": "#fff"
   }
 }
