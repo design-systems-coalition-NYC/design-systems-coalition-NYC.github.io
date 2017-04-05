@@ -65,7 +65,7 @@
             5
           ]
         },
-        "name": "Center",
+        "name": "SplitRight_3_5",
         "type": "section"
       },
       "subhead": "March 23 @ Etsy HQ",
@@ -174,7 +174,12 @@
           ]
         },
         "name": "Split_1_2",
-        "type": "section"
+        "type": "section",
+        "typography": {
+          "h1": [
+            5
+          ]
+        }
       },
       "subhead": "Hosted by XO Group",
       "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
@@ -500,19 +505,25 @@
         "textDecoration": "none"
       },
       {
-        "backgroundColor": 0,
+        "backgroundColor": 3,
         "border": 0,
         "borderColor": null,
         "borderRadius": 0,
-        "color": 3,
+        "color": 0,
+        "display": "inline-block",
         "fontWeight": 700,
         "hover": {
           "backgroundColor": null,
           "borderColor": null,
           "color": "white"
         },
+        "paddingBottom": 8,
         "paddingLeft": 24,
-        "paddingRight": 24
+        "paddingRight": 24,
+        "paddingTop": 8,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
       }
     ],
     "maxWidth": 1024,
