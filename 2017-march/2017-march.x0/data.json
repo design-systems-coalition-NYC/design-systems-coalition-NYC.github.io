@@ -1,0 +1,593 @@
+{
+  "meta": {
+    "cssMode": "atomic",
+    "description": "A community for people who build design systems to share and learn from each other.",
+    "engine": "x0",
+    "favicon": "assets/favicon.png",
+    "icon": "assets/apple-touch-icon.png",
+    "image": "http://designsystems.nyc/assets/apple-touch-icon.png",
+    "letter": "A",
+    "title": "Design Systems Coalition NYC",
+    "twitterSite": "@nyc_dsc",
+    "version": "0.0.38",
+    "xicon": {
+      "backgroundColor": 3,
+      "color": 0,
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": 32,
+      "letter": "DS"
+    }
+  },
+  "content": [
+    {
+      "_id": 1,
+      "heading": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490056626,
+          "href": "http://designsystems.nyc",
+          "text": "Design Systems Coalition NYC",
+          "type": 1
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 3,
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ],
+          "paddingTop": [
+            1
+          ]
+        },
+        "name": "Basic",
+        "type": "header",
+        "typography": {
+          "h1": [
+            5
+          ],
+          "h2": [
+            2
+          ],
+          "text": [
+            1
+          ]
+        }
+      },
+      "subhead": "",
+      "text": ""
+    },
+    {
+      "_id": 5,
+      "embed": "",
+      "heading": "Brand design systems that scale",
+      "image": "assets/DSC-02Etsy-4469.jpg",
+      "links": [],
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "white",
+          "button": {
+            "background": 0,
+            "text": 3
+          },
+          "link": null,
+          "subhead": 3,
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            4
+          ],
+          "paddingTop": [
+            4
+          ]
+        },
+        "name": "Center",
+        "ratio": 0.5625,
+        "type": "section"
+      },
+      "subhead": "March 23 @ Etsy HQ",
+      "text": "Photos from our March meetup with Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub."
+    },
+    {
+      "_id": 291964490050510,
+      "images": [
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-4310.jpg"
+        },
+        {
+          "_id": 291964490050519,
+          "src": "assets/DSC-02Etsy-3933.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            1,
+            null,
+            null,
+            2
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490050570,
+      "images": [
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-3891.jpg"
+        },
+        {
+          "_id": 291964490050516,
+          "src": "assets/DSC-02Etsy-4165.jpg"
+        },
+        {
+          "_id": 291964490050517,
+          "src": "assets/DSC-02Etsy-4156.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490050906,
+      "images": [
+        {
+          "_id": 291964490050516,
+          "src": "assets/DSC-02Etsy-3586.jpg"
+        },
+        {
+          "_id": 291964490051171,
+          "src": "assets/dsc-5.jpg"
+        },
+        {
+          "_id": 291964490051581,
+          "src": "assets/DSC-02Etsy-4387-crop.jpg"
+        },
+        {
+          "_id": 291964490051134,
+          "src": "assets/DSC-02Etsy-3625.jpg"
+        },
+        {
+          "_id": 291964490050519,
+          "src": "assets/dsc-6-crop.jpg"
+        },
+        {
+          "_id": 291964490050517,
+          "src": "assets/DSC-02Etsy-4378-crop.jpg"
+        },
+        {
+          "_id": 291964490053019,
+          "src": "assets/dsc-2.jpg"
+        },
+        {
+          "_id": 291964490051436,
+          "src": "assets/DSC-02Etsy-4415.jpg"
+        }
+      ],
+      "meta": {
+        "name": "Full",
+        "ratio": 0.6666666666666666,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490050744,
+      "images": [
+        {
+          "_id": 291964490050516,
+          "src": "assets/DSC-02Etsy-3748.jpg"
+        },
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-3777.jpg"
+        },
+        {
+          "_id": 291964490050519,
+          "src": "assets/DSC-02Etsy-3809.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490051817,
+      "images": [
+        {
+          "_id": 291964490050516,
+          "src": "assets/DSC-02Etsy-3892.jpg"
+        },
+        {
+          "_id": 291964490050517,
+          "src": "assets/DSC-02Etsy-3898.jpg"
+        },
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-3916.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490051953,
+      "images": [
+        {
+          "_id": 291964490050517,
+          "src": "assets/DSC-02Etsy-3978.jpg"
+        },
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-3948.jpg"
+        },
+        {
+          "_id": 291964490052087,
+          "src": "assets/DSC-02Etsy-3984.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490052482,
+      "images": [
+        {
+          "_id": 291964490050518,
+          "src": "assets/DSC-02Etsy-4081.jpg"
+        },
+        {
+          "_id": 291964490052586,
+          "src": "assets/DSC-02Etsy-4119.jpg"
+        },
+        {
+          "_id": 291964490050516,
+          "src": "assets/DSC-02Etsy-4150.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490052894,
+      "images": [
+        {
+          "_id": 291964490052800,
+          "src": "assets/DSC-02Etsy-4237.jpg"
+        },
+        {
+          "_id": 291964490052801,
+          "src": "assets/DSC-02Etsy-4261.jpg"
+        },
+        {
+          "_id": 291964490052802,
+          "src": "assets/DSC-02Etsy-4269.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490053552,
+      "images": [
+        {
+          "_id": 291964490053568,
+          "src": "assets/DSC-02Etsy-4202.jpg"
+        },
+        {
+          "_id": 291964490053569,
+          "src": "assets/DSC-02Etsy-4248.jpg"
+        },
+        {
+          "_id": 291964490053566,
+          "src": "assets/DSC-02Etsy-4341-crop.jpg"
+        },
+        {
+          "_id": 291964490053567,
+          "src": "assets/DSC-02Etsy-4176.jpg"
+        }
+      ],
+      "meta": {
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490057927,
+      "heading": "Header",
+      "kicker": "Hello",
+      "meta": {
+        "layout": {
+          "paddingBottom": [
+            4
+          ]
+        },
+        "name": "Centered",
+        "type": "textSection"
+      },
+      "text": "Photography by Tom Takigayama and Henry Bayuzick."
+    },
+    {
+      "_id": 21,
+      "cta": [
+        {
+          "_id": 415089277328390000000,
+          "href": "http://designsystems.herokuapp.com/",
+          "text": "Slack"
+        }
+      ],
+      "iconLinks": [
+        {
+          "_id": 2.6744482064160775e+28,
+          "href": "",
+          "icon": "twitter",
+          "text": "Hello"
+        },
+        {
+          "_id": 4.0116723096241574e+29,
+          "href": "",
+          "icon": "medium",
+          "text": "Hello"
+        },
+        {
+          "_id": 5.964019500307916e+30,
+          "href": "",
+          "icon": "github",
+          "text": "Hello"
+        }
+      ],
+      "links": [
+        {
+          "_id": 23,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        },
+        {
+          "_id": 415088109470429800000,
+          "href": "https://medium.com/design-systems-nyc",
+          "icon": "",
+          "text": "Medium"
+        },
+        {
+          "_id": 24,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490057932,
+          "type": "separator"
+        },
+        {
+          "_id": 291964490057947,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Join us on Meetup",
+          "type": 2
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "layout": {
+          "paddingBottom": [
+            null,
+            4
+          ],
+          "paddingTop": [
+            null,
+            4
+          ]
+        },
+        "name": "Basic",
+        "type": "footer"
+      },
+      "small": "",
+      "text": ""
+    },
+    {
+      "_id": 291964490050085,
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 0
+        },
+        "name": "PromoBadge",
+        "type": "styleguide"
+      }
+    }
+  ],
+  "theme": {
+    "bold": 700,
+    "breakpoints": [
+      "@media screen and (min-width:32em)",
+      "@media screen and (min-width:48em)",
+      "@media screen and (min-width:64em)",
+      "@media screen and (min-width:96em)"
+    ],
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "h1": {
+      "fontSizes": [
+        5,
+        null,
+        6,
+        null,
+        6
+      ],
+      "lineHeight": 1.125,
+      "weight": 700
+    },
+    "h2": {
+      "caps": true,
+      "fontSizes": [
+        3,
+        null,
+        3,
+        null,
+        3
+      ],
+      "lineHeight": 1.125,
+      "tracking": 0.125,
+      "weight": 700
+    },
+    "h3": {
+      "fontSizes": [
+        2,
+        null,
+        3
+      ],
+      "lineHeight": 1.125,
+      "weight": 700
+    },
+    "lineHeight": 1.5,
+    "links": [
+      {
+        "color": 1,
+        "hover": {
+          "color": 3,
+          "textDecoration": "underline"
+        },
+        "textDecoration": "none"
+      },
+      {
+        "color": "inherit",
+        "display": "inline-block",
+        "fontWeight": 700,
+        "paddingBottom": 8,
+        "paddingTop": 8,
+        "textDecoration": "none"
+      },
+      {
+        "backgroundColor": 3,
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": 0,
+        "display": "inline-block",
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingBottom": 8,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 8,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
+      }
+    ],
+    "maxWidth": 1024,
+    "name": "Custom",
+    "palette": [
+      "#222",
+      "#09a",
+      "#444",
+      "tomato",
+      "#ccc",
+      "#eee",
+      "#111"
+    ],
+    "radius": 2,
+    "space": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "typeScale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "white": "#fff"
+  }
+}
