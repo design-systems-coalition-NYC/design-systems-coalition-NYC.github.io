@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.37",
+    "version": "0.0.38",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -265,7 +265,7 @@
         }
       ],
       "meta": {
-        "backgroundImage": "assets/dark-bg-4.9175079171789114e+32.png",
+        "backgroundImage": "assets/join-us-bg-4.jpg",
         "colors": {
           "background": "white",
           "button": {
@@ -393,11 +393,6 @@
           "text": "Twitter"
         },
         {
-          "_id": 22,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
-          "text": "Meetup"
-        },
-        {
           "_id": 415088109470429800000,
           "href": "https://medium.com/design-systems-nyc",
           "icon": "",
@@ -407,6 +402,16 @@
           "_id": 24,
           "href": "https://github.com/design-systems-coalition-NYC/meetup",
           "text": "GitHub"
+        },
+        {
+          "_id": 291964490050097,
+          "type": "separator"
+        },
+        {
+          "_id": 291964490050107,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Join us on Meetup",
+          "type": 2
         }
       ],
       "meta": {
