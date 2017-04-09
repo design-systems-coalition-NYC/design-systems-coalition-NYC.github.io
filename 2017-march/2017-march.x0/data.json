@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.38",
+    "version": "0.0.40",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -59,6 +59,7 @@
           ]
         }
       },
+      "styles": {},
       "subhead": "",
       "text": ""
     },
@@ -92,6 +93,7 @@
         "ratio": 0.5625,
         "type": "section"
       },
+      "styles": {},
       "subhead": "March 23 @ Etsy HQ",
       "text": "Photos from our March meetup with Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub."
     },
@@ -121,7 +123,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490050570,
@@ -150,7 +153,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490050906,
@@ -192,7 +196,8 @@
         "name": "Full",
         "ratio": 0.6666666666666666,
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490050744,
@@ -221,7 +226,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490051817,
@@ -250,7 +256,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490051953,
@@ -279,7 +286,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490052482,
@@ -308,7 +316,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490052894,
@@ -337,7 +346,8 @@
         },
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490053552,
@@ -362,7 +372,8 @@
       "meta": {
         "name": "Full",
         "type": "gallery"
-      }
+      },
+      "styles": {}
     },
     {
       "_id": 291964490057927,
@@ -377,6 +388,7 @@
         "name": "Centered",
         "type": "textSection"
       },
+      "styles": {},
       "text": "Photography by Tom Takigayama and Henry Bayuzick."
     },
     {
@@ -456,6 +468,7 @@
         "type": "footer"
       },
       "small": "",
+      "styles": {},
       "text": ""
     },
     {
@@ -468,7 +481,8 @@
         },
         "name": "PromoBadge",
         "type": "styleguide"
-      }
+      },
+      "styles": {}
     }
   ],
   "theme": {
@@ -481,37 +495,37 @@
     ],
     "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "h1": {
-      "fontSizes": [
+      "fontSize": [
         5,
         null,
         6,
         null,
         6
       ],
-      "lineHeight": 1.125,
-      "weight": 700
+      "fontWeight": 700,
+      "lineHeight": 1.125
     },
     "h2": {
-      "caps": true,
-      "fontSizes": [
+      "fontSize": [
         3,
         null,
         3,
         null,
         3
       ],
+      "fontWeight": 700,
+      "letterSpacing": 0.125,
       "lineHeight": 1.125,
-      "tracking": 0.125,
-      "weight": 700
+      "textTransform": "uppercase"
     },
     "h3": {
-      "fontSizes": [
+      "fontSize": [
         2,
         null,
         3
       ],
-      "lineHeight": 1.125,
-      "weight": 700
+      "fontWeight": 700,
+      "lineHeight": 1.125
     },
     "lineHeight": 1.5,
     "links": [
@@ -527,8 +541,8 @@
         "color": "inherit",
         "display": "inline-block",
         "fontWeight": 700,
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 2,
+        "paddingTop": 2,
         "textDecoration": "none"
       },
       {
@@ -544,10 +558,10 @@
           "borderColor": null,
           "color": "white"
         },
-        "paddingBottom": 8,
+        "paddingBottom": 2,
         "paddingLeft": 24,
         "paddingRight": 24,
-        "paddingTop": 8,
+        "paddingTop": 2,
         "textAlign": "center",
         "textDecoration": "none",
         "whiteSpace": "nowrap"
