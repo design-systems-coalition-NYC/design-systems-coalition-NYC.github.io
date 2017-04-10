@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.40",
+    "version": "0.0.41",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -46,7 +46,15 @@
       "embed": "https://www.youtube.com/embed/7w457gzzN5A",
       "heading": "March Meetup",
       "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
-      "links": [],
+      "links": [
+        {
+          "_id": 291964490050148,
+          "href": "/2017-march",
+          "icon": "",
+          "text": "View photo gallery",
+          "type": 2
+        }
+      ],
       "meta": {
         "colors": {
           "background": "white",
@@ -54,6 +62,8 @@
             "background": 0,
             "text": 3
           },
+          "heading": 0,
+          "kicker": 0,
           "link": null,
           "subhead": 3,
           "text": 0
@@ -518,7 +528,10 @@
         "textDecoration": "none"
       },
       {
-        "color": "inherit",
+        ":hover": {
+          "color": 3
+        },
+        "color": 3,
         "display": "inline-block",
         "fontWeight": 700,
         "paddingBottom": 2,
