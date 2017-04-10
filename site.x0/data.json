@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.37",
+    "version": "0.0.41",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -37,6 +37,7 @@
         "name": "Bold",
         "type": "header"
       },
+      "styles": {},
       "subhead": "NYC",
       "text": "A community for people who build design systems to share and learn from each other."
     },
@@ -45,7 +46,15 @@
       "embed": "https://www.youtube.com/embed/7w457gzzN5A",
       "heading": "March Meetup",
       "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
-      "links": [],
+      "links": [
+        {
+          "_id": 291964490050148,
+          "href": "/2017-march",
+          "icon": "",
+          "text": "View photo gallery",
+          "type": 2
+        }
+      ],
       "meta": {
         "colors": {
           "background": "white",
@@ -53,6 +62,8 @@
             "background": 0,
             "text": 3
           },
+          "heading": 0,
+          "kicker": 0,
           "link": null,
           "subhead": 3,
           "text": 0
@@ -68,6 +79,7 @@
         "name": "SplitRight_3_5",
         "type": "section"
       },
+      "styles": {},
       "subhead": "March 23 @ Etsy HQ",
       "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale."
     },
@@ -122,6 +134,13 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {
+          "image": {
+            "borderColor": "#eee",
+            "borderStyle": "solid",
+            "borderWidth": 1
+          }
+        },
         "type": "cards",
         "typography": {
           "h1": [
@@ -130,6 +149,7 @@
           ]
         }
       },
+      "styles": {},
       "subhead": "Slidedecks"
     },
     {
@@ -181,6 +201,7 @@
           ]
         }
       },
+      "styles": {},
       "subhead": "Hosted by XO Group",
       "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
     },
@@ -240,6 +261,7 @@
           ]
         }
       },
+      "styles": {},
       "subhead": "Slidedecks",
       "text": ""
     },
@@ -265,7 +287,7 @@
         }
       ],
       "meta": {
-        "backgroundImage": "assets/dark-bg-4.9175079171789114e+32.png",
+        "backgroundImage": "assets/join-us-bg-4.jpg",
         "colors": {
           "background": "white",
           "button": {
@@ -291,6 +313,7 @@
         "ratio": 0,
         "type": "section"
       },
+      "styles": {},
       "subhead": "",
       "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, we'd love to hear from you."
     },
@@ -354,6 +377,7 @@
           ]
         }
       },
+      "styles": {},
       "subhead": "Organizers",
       "text": ""
     },
@@ -393,11 +417,6 @@
           "text": "Twitter"
         },
         {
-          "_id": 22,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
-          "text": "Meetup"
-        },
-        {
           "_id": 415088109470429800000,
           "href": "https://medium.com/design-systems-nyc",
           "icon": "",
@@ -407,6 +426,16 @@
           "_id": 24,
           "href": "https://github.com/design-systems-coalition-NYC/meetup",
           "text": "GitHub"
+        },
+        {
+          "_id": 291964490050097,
+          "type": "separator"
+        },
+        {
+          "_id": 291964490050107,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Join us on Meetup",
+          "type": 2
         }
       ],
       "meta": {
@@ -429,6 +458,7 @@
         "type": "footer"
       },
       "small": "",
+      "styles": {},
       "text": ""
     },
     {
@@ -441,7 +471,8 @@
         },
         "name": "PromoBadge",
         "type": "styleguide"
-      }
+      },
+      "styles": {}
     }
   ],
   "theme": {
@@ -454,37 +485,37 @@
     ],
     "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
     "h1": {
-      "fontSizes": [
+      "fontSize": [
         5,
         null,
         6,
         null,
         6
       ],
-      "lineHeight": 1.125,
-      "weight": 700
+      "fontWeight": 700,
+      "lineHeight": 1.125
     },
     "h2": {
-      "caps": true,
-      "fontSizes": [
+      "fontSize": [
         3,
         null,
         3,
         null,
         3
       ],
+      "fontWeight": 700,
+      "letterSpacing": 0.125,
       "lineHeight": 1.125,
-      "tracking": 0.125,
-      "weight": 700
+      "textTransform": "uppercase"
     },
     "h3": {
-      "fontSizes": [
+      "fontSize": [
         2,
         null,
         3
       ],
-      "lineHeight": 1.125,
-      "weight": 700
+      "fontWeight": 700,
+      "lineHeight": 1.125
     },
     "lineHeight": 1.5,
     "links": [
@@ -497,11 +528,14 @@
         "textDecoration": "none"
       },
       {
-        "color": "inherit",
+        ":hover": {
+          "color": 3
+        },
+        "color": 3,
         "display": "inline-block",
         "fontWeight": 700,
-        "paddingBottom": 8,
-        "paddingTop": 8,
+        "paddingBottom": 2,
+        "paddingTop": 2,
         "textDecoration": "none"
       },
       {
@@ -517,10 +551,10 @@
           "borderColor": null,
           "color": "white"
         },
-        "paddingBottom": 8,
+        "paddingBottom": 2,
         "paddingLeft": 24,
         "paddingRight": 24,
-        "paddingTop": 8,
+        "paddingTop": 2,
         "textAlign": "center",
         "textDecoration": "none",
         "whiteSpace": "nowrap"
