@@ -42,6 +42,43 @@
       "text": "A community for people who build design systems to share and learn from each other."
     },
     {
+      "_id": 291964490057941,
+      "heading": "Documenting Design Systems",
+      "image": "",
+      "kicker": "Next meetup:",
+      "links": [
+        {
+          "_id": 291964490058812,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/238762916/",
+          "icon": "",
+          "text": "RSVP now!",
+          "type": 2
+        }
+      ],
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "",
+          "border": "",
+          "button": {},
+          "subhead": 3,
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            6
+          ],
+          "paddingTop": [
+            6
+          ]
+        },
+        "name": "SplitRight_1_4",
+        "type": "section"
+      },
+      "subhead": "May 11th @ JustWorks",
+      "text": ""
+    },
+    {
       "_id": 5,
       "embed": "https://www.youtube.com/embed/7w457gzzN5A",
       "heading": "March Meetup",
@@ -52,12 +89,12 @@
           "href": "/2017-march",
           "icon": "",
           "text": "View photo gallery",
-          "type": 2
+          "type": 4
         }
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": 5,
           "button": {
             "background": 0,
             "text": 3
@@ -76,7 +113,7 @@
             5
           ]
         },
-        "name": "SplitRight_3_5",
+        "name": "SplitRight_1_2",
         "type": "section"
       },
       "styles": {},
@@ -111,7 +148,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": 5,
           "border": 2,
           "button": {},
           "subhead": 0,
@@ -544,6 +581,51 @@
         "borderColor": null,
         "borderRadius": 0,
         "color": 0,
+        "display": "inline-block",
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingBottom": 2,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
+      },
+      {
+        ":hover": {
+          "color": ""
+        },
+        "backgroundColor": "white",
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": 0,
+        "display": "inline-block",
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingBottom": 2,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "backgroundColor": 0,
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": "white",
         "display": "inline-block",
         "fontWeight": 700,
         "hover": {
