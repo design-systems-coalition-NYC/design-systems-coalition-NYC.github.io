@@ -64,12 +64,13 @@
           "subhead": 3,
           "text": 0
         },
+        "id": "next-meetup",
         "layout": {
           "paddingBottom": [
-            6
+            2
           ],
           "paddingTop": [
-            6
+            5
           ]
         },
         "name": "SplitRight_1_4",
@@ -79,9 +80,45 @@
       "text": ""
     },
     {
+      "_id": 291964490057952,
+      "items": [
+        {
+          "_id": 291964490057964,
+          "heading": "Amélie Lamont",
+          "href": "https://twitter.com/amelielamont",
+          "image": "assets/amelie-wide.jpg",
+          "subhead": "",
+          "text": "Amélie Lamont is a product designer(d) and writer based in Brooklyn, NY. She is currently employed at The New York Times and specializes in using cultural studies and design anthropology to inform her design process and to build the Customer Product Design System."
+        },
+        {
+          "_id": 291964490057965,
+          "heading": "Tom Takigayama",
+          "href": "https://twitter.com/tomtaki",
+          "image": "https://pbs.twimg.com/profile_images/746829844026114049/N-gpR7I4_400x400.jpg",
+          "text": "Tom Takigayama is a Product Design Lead at Justworks. He works on nurturing MILO, the Justworks design system, and other product features. Prior to Justworks, he worked as a Senior Product Designer at Etsy."
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ],
+          "paddingBottom": [
+            5
+          ]
+        },
+        "name": "Basic",
+        "type": "cards"
+      },
+      "subhead": "Speakers"
+    },
+    {
       "_id": 5,
       "embed": "https://www.youtube.com/embed/7w457gzzN5A",
-      "heading": "March Meetup",
+      "heading": "Brand design systems that scale",
       "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
       "links": [
         {
@@ -105,6 +142,7 @@
           "subhead": 3,
           "text": 0
         },
+        "id": "march-meetup",
         "layout": {
           "paddingBottom": [
             5
@@ -214,7 +252,7 @@
         }
       ],
       "embed": "https://www.youtube.com/embed/YSpQiestvjk",
-      "heading": "December Meetup",
+      "heading": "Sharing design systems journeys",
       "meta": {
         "backgroundImage": "",
         "colors": {
@@ -222,6 +260,7 @@
           "button": {},
           "text": 0
         },
+        "id": "december-meetup",
         "layout": {
           "paddingBottom": [
             4
@@ -239,7 +278,7 @@
         }
       },
       "styles": {},
-      "subhead": "Hosted by XO Group",
+      "subhead": "December 15 @ XO Group",
       "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
     },
     {
