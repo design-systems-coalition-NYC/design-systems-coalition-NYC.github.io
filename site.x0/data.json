@@ -377,11 +377,9 @@
         },
         "layout": {
           "paddingBottom": [
-            null,
             6
           ],
           "paddingTop": [
-            null,
             6
           ]
         },
@@ -441,7 +439,6 @@
             4
           ],
           "paddingTop": [
-            null,
             5
           ]
         },
@@ -522,11 +519,9 @@
         },
         "layout": {
           "paddingBottom": [
-            null,
             4
           ],
           "paddingTop": [
-            null,
             4
           ]
         },
