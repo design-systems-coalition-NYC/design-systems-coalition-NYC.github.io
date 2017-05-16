@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.41",
+    "version": "0.0.44",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -43,105 +43,198 @@
     },
     {
       "_id": 291964490057941,
-      "heading": "Documenting Design Systems",
+      "heading": "Save the date! Next meetup July 20th @ Spotify",
       "image": "",
-      "kicker": "Next meetup:",
+      "kicker": "",
       "links": [
         {
           "_id": 291964490058812,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/238762916/",
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
           "icon": "",
-          "text": "RSVP now!",
-          "type": 2
+          "text": "Join us",
+          "type": 3
         }
       ],
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "",
-          "border": "",
+          "background": 0,
+          "border": 0,
           "button": {},
+          "heading": 3,
+          "kicker": 3,
           "subhead": 3,
           "text": 0
         },
         "id": "next-meetup",
         "layout": {
           "paddingBottom": [
-            2
+            0
           ],
           "paddingTop": [
-            5
+            0
           ]
         },
-        "name": "SplitRight_1_4",
-        "type": "section"
+        "name": "TitleBar",
+        "type": "section",
+        "typography": {
+          "h1": [
+            4
+          ]
+        }
       },
-      "subhead": "May 11th @ JustWorks",
+      "subhead": "",
       "text": ""
+    },
+    {
+      "_id": 291964490058876,
+      "embed": "https://www.youtube.com/embed/YnxG4RZWQf8",
+      "heading": "Documenting Design Systems",
+      "image": "file:///Applications/X0.app/Contents/Resources/app.asar/renderer/config/images/006.jpg",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {}
+        },
+        "layout": {
+          "paddingTop": [
+            6
+          ]
+        },
+        "name": "SplitRight_3_5",
+        "type": "section",
+        "typography": {
+          "h1": null
+        }
+      },
+      "subhead": "May 11 @ Justworks",
+      "text": "Our third meetup focused on documenting design systems, featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
     },
     {
       "_id": 291964490057952,
       "items": [
         {
-          "_id": 291964490057964,
-          "heading": "Amélie Lamont",
-          "href": "https://twitter.com/amelielamont",
-          "image": "assets/amelie-wide.jpg",
-          "subhead": "",
-          "text": "Amélie Lamont is a product designer(d) and writer based in Brooklyn, NY. She is currently employed at The New York Times and specializes in using cultural studies and design anthropology to inform her design process and to build the Customer Product Design System."
-        },
-        {
           "_id": 291964490057965,
-          "heading": "Tom Takigayama",
-          "href": "https://twitter.com/tomtaki",
-          "image": "https://pbs.twimg.com/profile_images/746829844026114049/N-gpR7I4_400x400.jpg",
-          "text": "Tom Takigayama is a Product Design Lead at Justworks. He works on nurturing MILO, the Justworks design system, and other product features. Prior to Justworks, he worked as a Senior Product Designer at Etsy."
+          "heading": "Tom Takigayama from Justworks",
+          "href": "https://speakerdeck.com/tomtaki/i-have-no-idea-what-im-doing",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/0efefada37044def9072beeb22e4db36/slide_0.jpg",
+          "text": ""
         },
         {
           "_id": 291964490057963,
           "cta": "",
-          "heading": "Adekunle Oduye",
-          "href": "https://twitter.com/adekunleoduye",
-          "image": "https://pbs.twimg.com/profile_images/726577195506913280/KDlpzODD.jpg",
+          "heading": "Adekunle Oduye from Nasdaq",
+          "href": "https://speakerdeck.com/adekunleoduye/the-evolution-of-documentation-in-nasdaq",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/808e90c80b3f43578e5e38013cf1724c/slide_0.jpg",
           "kicker": "",
           "subhead": "",
-          "text": "Adekunle Oduye is a Product Designer at NASDAQ where he is building web-based products for investor relations professionals. In addition, he is a co-organizer for SassConf, a national front-end development conference and GothamSass Meetup, a local NYC meetup that serves front-end developers and designers."
+          "text": ""
+        },
+        {
+          "_id": 291964490057964,
+          "heading": "Amélie Lamont from The New York Times",
+          "href": "https://speakerdeck.com/amelie/the-broader-implications-of-language-in-design-systems",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/1cc58c5cacb54147885d32a2bd95165a/slide_0.jpg",
+          "subhead": "",
+          "text": ""
         }
       ],
       "meta": {
+        "colors": {
+          "background": "white",
+          "button": {}
+        },
         "layout": {
           "columns": [
-            null,
-            null,
-            null,
+            1,
+            2,
+            3,
             3
           ],
           "paddingBottom": [
             5
+          ],
+          "paddingTop": [
+            3
           ]
         },
         "name": "Basic",
+        "ratio": 0.5625,
         "type": "cards"
       },
-      "subhead": "Speakers"
+      "subhead": "Slidedecks"
+    },
+    {
+      "_id": 291964490058888,
+      "embed": "",
+      "heading": "Interview with Emily Brick",
+      "image": "https://cdn-images-1.medium.com/max/1600/1*xb8yNsFWvDAGKp0f-WWiJw.jpeg",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490060241,
+          "href": "https://medium.com/design-systems-nyc/interview-with-emily-brick-cce8a776a006",
+          "icon": {},
+          "text": "Read on Medium",
+          "type": 3
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": "white"
+        },
+        "name": "Split",
+        "type": "section",
+        "typography": {
+          "text": [
+            2
+          ]
+        }
+      },
+      "subhead": "",
+      "text": "Senior Product Designer at Buzzfeed, where she focuses on the site experience and their CSS framework, Solid."
+    },
+    {
+      "_id": 291964490060645,
+      "heading": "Previous meetups",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {}
+        },
+        "layout": {
+          "paddingBottom": [
+            3
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Basic",
+        "type": "header"
+      },
+      "text": ""
     },
     {
       "_id": 5,
-      "embed": "https://www.youtube.com/embed/7w457gzzN5A",
+      "embed": "",
       "heading": "Brand design systems that scale",
-      "image": "https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/8/1/5/6/600_458373110.jpeg",
+      "image": "assets/DSC-02Etsy-4469.jpg",
       "links": [
         {
           "_id": 291964490050148,
           "href": "/2017-march",
           "icon": "",
-          "text": "View photo gallery",
+          "text": "View photos & videos",
           "type": 4
         }
       ],
       "meta": {
         "colors": {
-          "background": 5,
+          "background": "white",
           "button": {
             "background": 0,
             "text": 3
@@ -155,87 +248,23 @@
         "id": "march-meetup",
         "layout": {
           "paddingBottom": [
-            5
+            4
           ],
           "paddingTop": [
-            5
+            4
           ]
         },
-        "name": "SplitRight_1_2",
-        "type": "section"
+        "name": "Split_2_5",
+        "type": "section",
+        "typography": {
+          "h1": [
+            5
+          ]
+        }
       },
       "styles": {},
       "subhead": "March 23 @ Etsy HQ",
-      "text": "Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale."
-    },
-    {
-      "_id": 291964490050088,
-      "heading": "",
-      "items": [
-        {
-          "_id": 291964490050476,
-          "heading": "Sophie Shepherd from GitHub",
-          "href": "https://speakerdeck.com/sophshep/wrangling-githubs-brand",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/67aa611689e0413dbdcd20de9f3e52b6/slide_0.jpg",
-          "text": ""
-        },
-        {
-          "_id": 291964490050477,
-          "heading": "Will Miner from 2U",
-          "href": "https://speakerdeck.com/wgminer/branding-at-scale",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/33a8d38622244e999dfb6ce1d1721c79/slide_0.jpg",
-          "text": ""
-        },
-        {
-          "_id": 291964490050478,
-          "heading": "Marco Suarez from Etsy",
-          "href": "https://speakerdeck.com/marcosuarez/new-york-design-systems-coalition",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/e6b3d71e7c8f483aad619d3e615cc9e2/slide_0.jpg",
-          "text": ""
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": 5,
-          "border": 2,
-          "button": {},
-          "subhead": 0,
-          "text": 0
-        },
-        "layout": {
-          "columns": [
-            1,
-            3,
-            3
-          ],
-          "paddingBottom": [
-            null,
-            null,
-            3
-          ],
-          "paddingTop": [
-            1
-          ]
-        },
-        "name": "Basic",
-        "ratio": 0.5625,
-        "styles": {
-          "image": {
-            "borderColor": "#eee",
-            "borderStyle": "solid",
-            "borderWidth": 1
-          }
-        },
-        "type": "cards",
-        "typography": {
-          "h1": [
-            2,
-            3
-          ]
-        }
-      },
-      "styles": {},
-      "subhead": "Slidedecks"
+      "text": "Featuring Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale."
     },
     {
       "_id": 7,
@@ -261,25 +290,35 @@
           "text": "Primer"
         }
       ],
-      "embed": "https://www.youtube.com/embed/YSpQiestvjk",
+      "embed": "",
       "heading": "Sharing design systems journeys",
+      "image": "assets/video-thumbnail.jpg",
+      "links": [
+        {
+          "_id": 291964490060835,
+          "href": "/2016-december",
+          "icon": "",
+          "text": "View video & slides",
+          "type": 4
+        }
+      ],
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": 5,
+          "background": "white",
           "button": {},
           "text": 0
         },
         "id": "december-meetup",
         "layout": {
           "paddingBottom": [
-            4
+            5
           ],
           "paddingTop": [
-            5
+            4
           ]
         },
-        "name": "Split_1_2",
+        "name": "Split_2_5",
         "type": "section",
         "typography": {
           "h1": [
@@ -289,67 +328,7 @@
       },
       "styles": {},
       "subhead": "December 15 @ XO Group",
-      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
-    },
-    {
-      "_id": 12,
-      "heading": "",
-      "items": [
-        {
-          "_id": 13,
-          "heading": "Silvia Tueros-Cossio and Philip Kelly from The Knot",
-          "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg",
-          "subhead": "",
-          "text": ""
-        },
-        {
-          "_id": 14,
-          "heading": "Emily Brick from Buzzfeed",
-          "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg",
-          "text": ""
-        },
-        {
-          "_id": 15,
-          "heading": "Diana Mounter from GitHub",
-          "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg",
-          "text": ""
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": 5,
-          "button": {},
-          "link": 0,
-          "text": 0
-        },
-        "layout": {
-          "columns": [
-            1,
-            3
-          ],
-          "paddingBottom": [
-            4
-          ],
-          "paddingTop": [
-            0
-          ]
-        },
-        "name": "Basic",
-        "ratio": 0.5625,
-        "type": "cards",
-        "typography": {
-          "h1": [
-            2,
-            3
-          ]
-        }
-      },
-      "styles": {},
-      "subhead": "Slidedecks",
-      "text": ""
+      "text": "Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
     },
     {
       "_id": 291964490050080,

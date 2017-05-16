@@ -14,23 +14,19 @@
 .PromoBadge-styleguide-xp7h0p6{font-family:-apple-system, Roboto, Helvetica, sans-serif}
 .align-items-baseline{align-items:baseline}
 .align-items-center{align-items:center}
+.align-self-center{align-self:center}
 .background-repeat-no-repeat{background-repeat:no-repeat}
 .bg-cover{background-size:cover}
 .bg-gray1{background-color:#444}
-.bg-gray3{background-color:#eee}
 .bg-gray{background-color:#222}
 .bg-tomato{background-color:tomato}
 .bg-white{background-color:white}
-.bg{background-color:}
 .bi-urlassets-join-us-bg-4pjpg{background-image:url(assets/join-us-bg-4.jpg)}
 .border-0{border:0}
-.border-color-gray3{border-color:#eee}
-.border-style-solid{border-style:solid}
 .bottom-0{bottom:0}
 .bp-center{background-position:center}
 .br-99999px{border-radius:99999px}
 .br0{border-radius:0}
-.bw-1px{border-width:1px}
 .c-inherit{color:inherit}
 .c-tomato{color:tomato}
 .c-white{color:white}
@@ -39,9 +35,9 @@
 .dib{display:inline-block}
 .flex-wrap-wrap{flex-wrap:wrap}
 .fs-8px{font-size:8px}
-.fs1{font-size:14px}
 .fs2{font-size:16px}
 .fs3{font-size:20px}
+.fs4{font-size:24px}
 .fs5{font-size:32px}
 .fs7{font-size:64px}
 .fw-700{font-weight:700}
@@ -50,14 +46,17 @@
 .h-auto{height:auto}
 .h0{height:0}
 .hover-c-tomato:hover{color:tomato}
+.hover-c:hover{color:}
 .left-0{left:0}
 .letter-spacing-0p125em{letter-spacing:0.125em}
 .letter-spacing-p2em{letter-spacing:.2em}
 .lh-1p125{line-height:1.125}
 .m0{margin:0}
+.m2{margin:8px}
 .mauto{margin:auto}
 .max-width-100P{max-width:100%}
 .max-width-1024px{max-width:1024px}
+.max-width-512px{max-width:512px}
 .mb1{margin-bottom:4px}
 .mb2{margin-bottom:8px}
 .mb3{margin-bottom:16px}
@@ -78,12 +77,14 @@
 .overflow-hidden{overflow:hidden}
 .p0{padding:0}
 .p2{padding:8px}
+.p3{padding:16px}
+.pb0{padding-bottom:0}
 .pb2{padding-bottom:8px}
+.pb3{padding-bottom:16px}
 .pb4{padding-bottom:32px}
 .pb56p25P{padding-bottom:56.25%}
 .pb5{padding-bottom:64px}
 .pb6{padding-bottom:128px}
-.pb75P{padding-bottom:75%}
 .pl24px{padding-left:24px}
 .pl3{padding-left:16px}
 .pl4{padding-left:32px}
@@ -93,8 +94,8 @@
 .pr3{padding-right:16px}
 .pr4{padding-right:32px}
 .pt0{padding-top:0}
-.pt1{padding-top:4px}
 .pt2{padding-top:8px}
+.pt3{padding-top:16px}
 .pt4{padding-top:32px}
 .pt5{padding-top:64px}
 .pt6{padding-top:128px}
@@ -103,22 +104,25 @@
 .text-transform-uppercase{text-transform:uppercase}
 .top-0{top:0}
 .w-100P{width:100%}
-.w-Infinitypx{width:Infinitypx}
 .white-space-nowrap{white-space:nowrap}
+.white{color:#fff}
 @media screen and (min-width:32em){.sm-fs3{font-size:20px}}
 @media screen and (min-width:32em){.sm-order-2{order:2}}
-@media screen and (min-width:32em){.sm-w-33p33333333333333P{width:33.33333333333333%}}
+@media screen and (min-width:32em){.sm-pl4{padding-left:32px}}
+@media screen and (min-width:32em){.sm-pr4{padding-right:32px}}
+@media screen and (min-width:32em){.sm-w-40P{width:40%}}
 @media screen and (min-width:32em){.sm-w-50P{width:50%}}
+@media screen and (min-width:32em){.sm-w-60P{width:60%}}
 @media screen and (min-width:32em){.sm-w-66p66666666666666P{width:66.66666666666666%}}
-@media screen and (min-width:32em){.sm-w-75P{width:75%}}
-@media screen and (min-width:32em){.sm-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:48em){.md-fs3{font-size:20px}}
 @media screen and (min-width:48em){.md-fs6{font-size:48px}}
 @media screen and (min-width:48em){.md-fs8{font-size:96px}}
-@media screen and (min-width:48em){.md-pb3{padding-bottom:16px}}
+@media screen and (min-width:48em){.md-pb7{padding-bottom:256px}}
+@media screen and (min-width:48em){.md-pt7{padding-top:256px}}
 @media screen and (min-width:48em){.md-w-33p33333333333333P{width:33.33333333333333%}}
+@media screen and (min-width:48em){.md-w-40P{width:40%}}
 @media screen and (min-width:48em){.md-w-60P{width:60%}}
-@media screen and (min-width:48em){.md-w-Infinitypx{width:Infinitypx}}
+@media screen and (min-width:48em){.md-w-66p66666666666666P{width:66.66666666666666%}}
 @media screen and (min-width:64em){.lg-fs9{font-size:128px}}
 @media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}
 @media screen and (min-width:96em){.xl-fs3{font-size:20px}}
@@ -133,140 +137,96 @@
     <p class="m0 mt5 mb5 fs2 sm-fs3">A community for people who build design systems to share and learn from each other.</p>
   </div>
 </header>
-<section class="SplitRight_1_4-section gray bg pt5 pb2" id="next-meetup">
+<section class="TitleBar-section gray bg-gray pt0 pb0" id="next-meetup">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <div class="df flex-wrap-wrap align-items-center">
+      <div class="mt3 mb3 w-100P md-w-66p66666666666666P pl3 sm-pl4 sm-pr4 pr3">
+        <h2 class="m0 lh-1p125 fw-700 p3 mt2 mb2 dib white bg-gray fs4">Save the date! Next meetup July 20th @ Spotify</h2>
+      </div>
+      <div class="ml-8px mr-8px mt3 mb3 w-100P md-w-33p33333333333333P pl3 sm-pl4 sm-pr4 pr3"><a class="hover-c bg-white border-0 br0 gray dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap m2" href="https://www.meetup.com/NYC-Design-Systems-Coalition/">Join us</a></div>
+    </div>
+  </div>
+</section>
+<section class="SplitRight_3_5-section pb5 bg-white pt6">
   <div class="mauto pl4 pr4 max-width-1024px">
     <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-75P">
-        <h4 class="m0 lh-1p125 fw-700 mb2 fs2 md-fs3">Next meetup:</h4>
+      <div class="pl3 pr3 pt2 pb2 sm-order-2 w-100P md-w-60P">
+        <div class="position-relative h0 p0 pb56p25P overflow-hidden"><iframe class="position-absolute w-100P h-100P top-0 bottom-0 left-0 border-0" src="https://www.youtube.com/embed/YnxG4RZWQf8"></iframe></div>
+      </div>
+      <div class="pl3 pr3 pt2 pb2 w-100P md-w-40P">
         <h2 class="m0 lh-1p125 fw-700 mb3 fs5 md-fs6 xl-fs6">Documenting Design Systems</h2>
-        <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">May 11th @ JustWorks</h3><a class="bg-tomato border-0 br0 gray dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap mt2 mb2 mr3" href="https://www.meetup.com/NYC-Design-Systems-Coalition/events/238762916/">RSVP now!</a></div>
-    </div>
-  </div>
-</section>
-<section class="Basic-cards pt5 pb5">
-  <div class="mauto pl4 pr4 max-width-1024px">
-    <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb1 fs3 md-fs3 xl-fs3">Speakers</h3>
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-Infinitypx sm-w-Infinitypx md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://twitter.com/amelielamont">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb75P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(assets/amelie-wide.jpg)"></div>
-            <h2 class="m0 fs3 lh-1p125 fw-700">Amélie Lamont</h2>
-            <p class="m0 fs1">Amélie Lamont is a product designer(d) and writer based in Brooklyn, NY. She is currently employed at The New York Times and specializes in using cultural studies and design anthropology to inform her design process and to build the Customer
-              Product Design System.</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-Infinitypx sm-w-Infinitypx md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://twitter.com/tomtaki">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb75P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://pbs.twimg.com/profile_images/746829844026114049/N-gpR7I4_400x400.jpg)"></div>
-            <h2 class="m0 fs3 lh-1p125 fw-700">Tom Takigayama</h2>
-            <p class="m0 fs1">Tom Takigayama is a Product Design Lead at Justworks. He works on nurturing MILO, the Justworks design system, and other product features. Prior to Justworks, he worked as a Senior Product Designer at Etsy.</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-Infinitypx sm-w-Infinitypx md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://twitter.com/adekunleoduye">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb75P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://pbs.twimg.com/profile_images/726577195506913280/KDlpzODD.jpg)"></div>
-            <h2 class="m0 fs3 lh-1p125 fw-700">Adekunle Oduye</h2>
-            <p class="m0 fs1">Adekunle Oduye is a Product Designer at NASDAQ where he is building web-based products for investor relations professionals. In addition, he is a co-organizer for SassConf, a national front-end development conference and GothamSass Meetup,
-              a local NYC meetup that serves front-end developers and designers.</p>
-          </div>
-        </a>
+        <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">May 11 @ Justworks</h3>
+        <p class="m0">Our third meetup focused on documenting design systems, featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times.</p>
       </div>
     </div>
   </div>
 </section>
-<section class="SplitRight_1_2-section gray bg-gray3 pt5 pb5" id="march-meetup">
-  <div class="mauto pl4 pr4 max-width-1024px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 sm-order-2 sm-w-50P w-100P">
-        <div class="position-relative h0 p0 pb56p25P overflow-hidden"><iframe class="position-absolute w-100P h-100P top-0 bottom-0 left-0 border-0" src="https://www.youtube.com/embed/7w457gzzN5A"></iframe></div>
-      </div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-700 mb3 fs5 md-fs6 xl-fs6">Brand design systems that scale</h2>
-        <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">March 23 @ Etsy HQ</h3>
-        <p class="m0">Watch the video from our March meetup hosted at Etsy. Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale.</p><a class="bg-gray border-0 br0 c-white dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap mt2 mb2 mr3"
-          href="/2017-march">View photo gallery</a></div>
-    </div>
-  </div>
-</section>
-<section class="Basic-cards gray bg-gray3 pt1 md-pb3">
+<section class="Basic-cards bg-white pt3 pb5">
   <div class="mauto pl4 pr4 max-width-1024px">
     <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb1 fs3 md-fs3 xl-fs3">Slidedecks</h3>
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P md-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/sophshep/wrangling-githubs-brand">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/tomtaki/i-have-no-idea-what-im-doing">
           <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2 border-color-gray3 border-style-solid bw-1px" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/67aa611689e0413dbdcd20de9f3e52b6/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Sophie Shepherd from GitHub</h2>
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/0efefada37044def9072beeb22e4db36/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Tom Takigayama from Justworks</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P md-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/wgminer/branding-at-scale">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/adekunleoduye/the-evolution-of-documentation-in-nasdaq">
           <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2 border-color-gray3 border-style-solid bw-1px" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/33a8d38622244e999dfb6ce1d1721c79/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Will Miner from 2U</h2>
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/808e90c80b3f43578e5e38013cf1724c/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Adekunle Oduye from Nasdaq</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P md-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/marcosuarez/new-york-design-systems-coalition">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/amelie/the-broader-implications-of-language-in-design-systems">
           <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2 border-color-gray3 border-style-solid bw-1px" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/e6b3d71e7c8f483aad619d3e615cc9e2/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Marco Suarez from Etsy</h2>
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/1cc58c5cacb54147885d32a2bd95165a/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Amélie Lamont from The New York Times</h2>
           </div>
         </a>
       </div>
     </div>
   </div>
 </section>
-<section class="Split_1_2-section gray bg-gray3 pt5 pb4" id="december-meetup">
+<section class="Split-section c-white bg-gray">
+  <div class="df flex-wrap-wrap">
+    <div class="db h0 background-repeat-no-repeat bg-cover bp-center pl4 pr4 w-100P sm-w-50P pb6 md-pb7 md-pt7 pt6" style="background-image:url(https://cdn-images-1.medium.com/max/1600/1*xb8yNsFWvDAGKp0f-WWiJw.jpeg)"></div>
+    <div class="pl4 pr4 pt4 pb4 align-self-center max-width-512px w-100P sm-w-50P">
+      <h2 class="m0 lh-1p125 fw-700 mb2 fs5 md-fs6 xl-fs6">Interview with Emily Brick</h2>
+      <p class="m0 fs2">Senior Product Designer at Buzzfeed, where she focuses on the site experience and their CSS framework, Solid.</p><a class="hover-c bg-white border-0 br0 gray dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap mt2 mb2 mr3"
+        href="https://medium.com/design-systems-nyc/interview-with-emily-brick-cce8a776a006">Read on Medium</a></div>
+  </div>
+</section>
+<header class="Basic-header bg-white pt5 pb3">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <h2 class="m0 lh-1p125 fw-700 fs5 md-fs6 xl-fs6">Previous meetups</h2>
+  </div>
+</header>
+<section class="Split_2_5-section gray bg-white pt4 pb4" id="march-meetup">
   <div class="mauto pl4 pr4 max-width-1024px">
     <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <div class="position-relative h0 p0 pb56p25P overflow-hidden"><iframe class="position-absolute w-100P h-100P top-0 bottom-0 left-0 border-0" src="https://www.youtube.com/embed/YSpQiestvjk"></iframe></div>
-      </div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-40P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-4469.jpg" /></div>
+      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-60P">
+        <h2 class="m0 lh-1p125 fw-700 mb3 fs5">Brand design systems that scale</h2>
+        <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">March 23 @ Etsy HQ</h3>
+        <p class="m0">Featuring Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale.</p><a class="bg-gray border-0 br0 c-white dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap mt2 mb2 mr3"
+          href="/2017-march">View photos & videos</a></div>
+    </div>
+  </div>
+</section>
+<section class="Split_2_5-section gray bg-white pt4 pb5" id="december-meetup">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
+      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-40P"><img class="db max-width-100P h-auto w-100P" src="assets/video-thumbnail.jpg" /></div>
+      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-60P">
         <h2 class="m0 lh-1p125 fw-700 mb3 fs5">Sharing design systems journeys</h2>
         <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">December 15 @ XO Group</h3>
-        <p class="m0">Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana
-          Mounter from GitHub.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="Basic-cards gray bg-gray3 pt0 pb4">
-  <div class="mauto pl4 pr4 max-width-1024px">
-    <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb1 fs3 md-fs3 xl-fs3">Slidedecks</h3>
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Silvia Tueros-Cossio and Philip Kelly from The Knot</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Emily Brick from Buzzfeed</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/broccolini/building-design-systems-at-github">
-          <div class="w-100P">
-            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg)"></div>
-            <h2 class="m0 lh-1p125 fw-700 fs2 sm-fs3">Diana Mounter from GitHub</h2>
-          </div>
-        </a>
-      </div>
+        <p class="m0">Featuring Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub.</p><a class="bg-gray border-0 br0 c-white dib fw-700 pb2 pl24px pr24px pt2 text-align-center text-decoration-none white-space-nowrap mt2 mb2 mr3"
+          href="/2016-december">View video & slides</a></div>
     </div>
   </div>
 </section>
