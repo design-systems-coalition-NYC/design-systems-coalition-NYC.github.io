@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.41",
+    "version": "0.0.44",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -49,14 +49,15 @@
         "type": "header",
         "typography": {
           "h1": [
-            5
+            6
           ],
           "h2": [
+            5
+          ],
+          "h3": [
             2
           ],
-          "text": [
-            1
-          ]
+          "text": null
         }
       },
       "styles": {},
@@ -64,10 +65,103 @@
       "text": ""
     },
     {
+      "_id": 291964490058012,
+      "embed": "https://www.youtube.com/embed/7w457gzzN5A",
+      "heading": "Brand design systems that scale",
+      "image": "file:///Applications/X0.app/Contents/Resources/app.asar/renderer/config/images/006.jpg",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {}
+        },
+        "layout": {
+          "paddingBottom": [
+            3
+          ]
+        },
+        "name": "Split_3_5",
+        "type": "section"
+      },
+      "subhead": "March 23 @ Etsy HQ",
+      "text": ""
+    },
+    {
+      "_id": 291964490058988,
+      "heading": "Header",
+      "kicker": "Hello",
+      "meta": {
+        "layout": {
+          "paddingTop": [
+            3
+          ]
+        },
+        "name": "Medium",
+        "type": "textSection",
+        "typography": {
+          "text": [
+            3
+          ]
+        }
+      },
+      "text": "Our second meetup hosted at Etsy focussed on how companies use methodologies and technology to build brand design systems that scale. Thanks to our speakers Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub."
+    },
+    {
+      "_id": 291964490057996,
+      "items": [
+        {
+          "_id": 291964490057948,
+          "heading": "Sophie Shepherd from GitHub",
+          "href": "https://speakerdeck.com/sophshep/wrangling-githubs-brand",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/67aa611689e0413dbdcd20de9f3e52b6/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057949,
+          "heading": "Will Miner from 2U",
+          "href": "https://speakerdeck.com/wgminer/branding-at-scale",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/33a8d38622244e999dfb6ce1d1721c79/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057950,
+          "heading": "Marco Suarez from Etsy",
+          "href": "https://speakerdeck.com/marcosuarez/new-york-design-systems-coalition",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/e6b3d71e7c8f483aad619d3e615cc9e2/slide_0.jpg",
+          "text": ""
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 5,
+          "button": {}
+        },
+        "layout": {
+          "columns": [
+            1,
+            1,
+            null,
+            3
+          ],
+          "paddingBottom": [
+            2
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      },
+      "subhead": "Slidedecks"
+    },
+    {
       "_id": 5,
       "embed": "",
-      "heading": "Brand design systems that scale",
+      "heading": "",
       "image": "assets/DSC-02Etsy-4469.jpg",
+      "kicker": "",
       "links": [],
       "meta": {
         "backgroundImage": "",
@@ -83,19 +177,24 @@
         },
         "layout": {
           "paddingBottom": [
-            4
+            0
           ],
           "paddingTop": [
-            4
+            5
           ]
         },
         "name": "Center",
         "ratio": 0.5625,
-        "type": "section"
+        "type": "section",
+        "typography": {
+          "h1": [
+            6
+          ]
+        }
       },
       "styles": {},
-      "subhead": "March 23 @ Etsy HQ",
-      "text": "Photos from our March meetup with Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub."
+      "subhead": "",
+      "text": "Photography by Tom Takigayama and Henry Bayuzick."
     },
     {
       "_id": 291964490050510,
@@ -118,7 +217,7 @@
             2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Full",
@@ -374,22 +473,6 @@
         "type": "gallery"
       },
       "styles": {}
-    },
-    {
-      "_id": 291964490057927,
-      "heading": "Header",
-      "kicker": "Hello",
-      "meta": {
-        "layout": {
-          "paddingBottom": [
-            4
-          ]
-        },
-        "name": "Centered",
-        "type": "textSection"
-      },
-      "styles": {},
-      "text": "Photography by Tom Takigayama and Henry Bayuzick."
     },
     {
       "_id": 21,

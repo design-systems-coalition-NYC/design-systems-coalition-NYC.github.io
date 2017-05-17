@@ -17,10 +17,12 @@
 .background-repeat-no-repeat{background-repeat:no-repeat}
 .bg-cover{background-size:cover}
 .bg-gray1{background-color:#444}
+.bg-gray3{background-color:#eee}
 .bg-gray{background-color:#222}
 .bg-tomato{background-color:tomato}
 .bg-white{background-color:white}
 .border-0{border:0}
+.bottom-0{bottom:0}
 .bp-center{background-position:center}
 .br0{border-radius:0}
 .c-inherit{color:inherit}
@@ -34,8 +36,10 @@
 .fs5{font-size:32px}
 .fw-700{font-weight:700}
 .gray{color:#222}
+.h-100P{height:100%}
 .h-auto{height:auto}
 .h0{height:0}
+.left-0{left:0}
 .letter-spacing-0p125em{letter-spacing:0.125em}
 .letter-spacing-p2em{letter-spacing:.2em}
 .lh-1p125{line-height:1.125}
@@ -47,49 +51,61 @@
 .mb1{margin-bottom:4px}
 .mb2{margin-bottom:8px}
 .mb3{margin-bottom:16px}
+.mb4{margin-bottom:32px}
+.ml-16px{margin-left:-16px}
 .ml-8px{margin-left:-8px}
 .ml2{margin-left:8px}
 .mlauto{margin-left:auto}
+.mr-16px{margin-right:-16px}
 .mr-8px{margin-right:-8px}
 .mr2{margin-right:8px}
 .mr3{margin-right:16px}
 .mrauto{margin-right:auto}
 .mt1{margin-top:4px}
 .mt2{margin-top:8px}
+.mt3{margin-top:16px}
+.overflow-hidden{overflow:hidden}
+.p0{padding:0}
 .p2{padding:8px}
+.pb0{padding-bottom:0}
 .pb1{padding-bottom:4px}
 .pb2{padding-bottom:8px}
 .pb3{padding-bottom:16px}
-.pb4{padding-bottom:32px}
 .pb56p25P{padding-bottom:56.25%}
+.pb5{padding-bottom:64px}
 .pb66p66666666666666P{padding-bottom:66.66666666666666%}
 .pl24px{padding-left:24px}
 .pl2{padding-left:8px}
 .pl3{padding-left:16px}
 .pl4{padding-left:32px}
+.position-absolute{position:absolute}
+.position-relative{position:relative}
 .pr24px{padding-right:24px}
 .pr2{padding-right:8px}
 .pr3{padding-right:16px}
 .pr4{padding-right:32px}
-.pt0{padding-top:0}
 .pt1{padding-top:4px}
 .pt2{padding-top:8px}
 .pt3{padding-top:16px}
-.pt4{padding-top:32px}
+.pt5{padding-top:64px}
 .text-align-center{text-align:center}
 .text-decoration-none{text-decoration:none}
 .text-transform-uppercase{text-transform:uppercase}
+.top-0{top:0}
 .w-100P{width:100%}
 .w-50P{width:50%}
 .w-Infinitypx{width:Infinitypx}
 .white-space-nowrap{white-space:nowrap}
 @media screen and (min-width:32em){.sm-pb4{padding-bottom:32px}}
 @media screen and (min-width:32em){.sm-pt4{padding-top:32px}}
+@media screen and (min-width:32em){.sm-w-100P{width:100%}}
 @media screen and (min-width:32em){.sm-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:48em){.md-fs3{font-size:20px}}
 @media screen and (min-width:48em){.md-fs6{font-size:48px}}
 @media screen and (min-width:48em){.md-order-2{order:2}}
 @media screen and (min-width:48em){.md-w-25P{width:25%}}
+@media screen and (min-width:48em){.md-w-40P{width:40%}}
+@media screen and (min-width:48em){.md-w-60P{width:60%}}
 @media screen and (min-width:48em){.md-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}
 @media screen and (min-width:64em){.lg-w-50P{width:50%}}
@@ -105,19 +121,66 @@
     </div>
   </div>
 </header>
-<section class="Center-section gray bg-white pt4 pb4">
+<section class="Split_3_5-section pt5 bg-white pb3">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
+      <div class="pl3 pr3 pt2 pb2 w-100P md-w-60P">
+        <div class="position-relative h0 p0 pb56p25P overflow-hidden"><iframe class="position-absolute w-100P h-100P top-0 bottom-0 left-0 border-0" src="https://www.youtube.com/embed/7w457gzzN5A"></iframe></div>
+      </div>
+      <div class="pl3 pr3 pt2 pb2 w-100P md-w-40P">
+        <h2 class="m0 lh-1p125 fw-700 mb3 fs5 md-fs6 xl-fs6">Brand design systems that scale</h2>
+        <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 fs3 md-fs3 xl-fs3">March 23 @ Etsy HQ</h3>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Medium-textSection pb5 pt3">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <p class="m0 mb3 max-width-30em fs3">Our second meetup hosted at Etsy focussed on how companies use methodologies and technology to build brand design systems that scale. Thanks to our speakers Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub.</p>
+  </div>
+</section>
+<section class="Basic-cards bg-gray3 pt5 pb2">
+  <div class="mauto pl4 pr4 max-width-1024px">
+    <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb1 fs3 md-fs3 xl-fs3">Slidedecks</h3>
+    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
+      <div class="pl3 pr3 mb4 w-100P sm-w-100P md-w-Infinitypx lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/sophshep/wrangling-githubs-brand">
+          <div class="w-100P">
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/67aa611689e0413dbdcd20de9f3e52b6/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Sophie Shepherd from GitHub</h2>
+          </div>
+        </a>
+      </div>
+      <div class="pl3 pr3 mb4 w-100P sm-w-100P md-w-Infinitypx lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/wgminer/branding-at-scale">
+          <div class="w-100P">
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/33a8d38622244e999dfb6ce1d1721c79/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Will Miner from 2U</h2>
+          </div>
+        </a>
+      </div>
+      <div class="pl3 pr3 mb4 w-100P sm-w-100P md-w-Infinitypx lg-w-33p33333333333333P">
+        <a class="db text-decoration-none c-inherit" href="https://speakerdeck.com/marcosuarez/new-york-design-systems-coalition">
+          <div class="w-100P">
+            <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mb2" style="background-image:url(https://speakerd.s3.amazonaws.com/presentations/e6b3d71e7c8f483aad619d3e615cc9e2/slide_0.jpg)"></div>
+            <h2 class="m0 fs3 lh-1p125 fw-700">Marco Suarez from Etsy</h2>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="Center-section gray bg-white pt5 pb0">
   <div class="mauto pl4 pr4 max-width-1024px">
     <div class="pb3 text-align-center md-order-2">
       <div class="db w-100P h0 pb56p25P background-repeat-no-repeat bg-cover bp-center mauto" style="background-image:url(assets/DSC-02Etsy-4469.jpg)"></div>
     </div>
     <div class="pl3 pr3 text-align-center">
-      <h2 class="m0 lh-1p125 fw-700 mb3 text-align-center fs5 md-fs6 xl-fs6">Brand design systems that scale</h2>
-      <h3 class="m0 lh-1p125 fw-700 letter-spacing-0p125em text-transform-uppercase mb3 text-align-center fs3 md-fs3 xl-fs3">March 23 @ Etsy HQ</h3>
-      <p class="m0 mb3">Photos from our March meetup with Marco Suarez from Etsy, Will Miner from 2U, and Sophie Shepherd from GitHub.</p>
+      <p class="m0 mb3">Photography by Tom Takigayama and Henry Bayuzick.</p>
     </div>
   </div>
 </section>
-<section class="Full-gallery pt0">
+<section class="Full-gallery pt2">
   <div class="df flex-wrap-wrap pl2 pr2">
     <div class="pl2 pr2 mb3 w-100P sm-w-Infinitypx md-w-Infinitypx lg-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-4310.jpg" /></div>
     <div class="pl2 pr2 mb3 w-100P sm-w-Infinitypx md-w-Infinitypx lg-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-3933.jpg" /></div>
@@ -199,11 +262,6 @@
     <div class="pl2 pr2 mb3 w-50P md-w-25P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-4248.jpg" /></div>
     <div class="pl2 pr2 mb3 w-50P md-w-25P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-4341-crop.jpg" /></div>
     <div class="pl2 pr2 mb3 w-50P md-w-25P"><img class="db max-width-100P h-auto w-100P" src="assets/DSC-02Etsy-4176.jpg" /></div>
-  </div>
-</section>
-<section class="Centered-textSection pt3 pb4">
-  <div class="mauto pl4 pr4 max-width-1024px">
-    <p class="mauto text-align-center max-width-30em">Photography by Tom Takigayama and Henry Bayuzick.</p>
   </div>
 </section>
 <footer class="Basic-footer c-tomato bg-gray sm-pt4 sm-pb4">

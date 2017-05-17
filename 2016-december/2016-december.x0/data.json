@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "cssMode": "atomic",
+    "description": "A community for people who build design systems to share and learn from each other.",
+    "engine": "x0",
+    "favicon": "assets/favicon.png",
+    "icon": "assets/apple-touch-icon.png",
+    "image": "http://designsystems.nyc/assets/apple-touch-icon.png",
+    "letter": "A",
+    "title": "Design Systems Coalition NYC",
+    "twitterSite": "@nyc_dsc",
+    "version": "0.0.44",
+    "xicon": {
+      "backgroundColor": 3,
+      "color": 0,
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": 32,
+      "letter": "DS"
+    }
+  },
+  "content": [
+    {
+      "_id": 1,
+      "heading": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490056626,
+          "href": "http://designsystems.nyc",
+          "text": "Design Systems Coalition NYC",
+          "type": 1
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 3,
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ],
+          "paddingTop": [
+            1
+          ]
+        },
+        "name": "Basic",
+        "type": "header",
+        "typography": {
+          "h1": [
+            6
+          ],
+          "h2": [
+            5
+          ],
+          "h3": [
+            2
+          ],
+          "text": null
+        }
+      },
+      "styles": {},
+      "subhead": "",
+      "text": ""
+    },
+    {
+      "_id": 291964490058012,
+      "embed": "https://www.youtube.com/embed/YSpQiestvjk",
+      "heading": "Sharing design systems journeys",
+      "image": "file:///Applications/X0.app/Contents/Resources/app.asar/renderer/config/images/006.jpg",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {}
+        },
+        "layout": {
+          "paddingBottom": [
+            4
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Split_3_5",
+        "type": "section",
+        "typography": {
+          "h1": null
+        }
+      },
+      "subhead": "December 15 @ XO Group",
+      "text": ""
+    },
+    {
+      "_id": 291964490059436,
+      "heading": "Header",
+      "kicker": "Hello",
+      "meta": {
+        "layout": {
+          "paddingBottom": [
+            5
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "type": "textSection",
+        "typography": {
+          "h1": null,
+          "text": [
+            3
+          ]
+        }
+      },
+      "text": "Our first meetup focussed on where companies started with their design systems, what that journey looked like, and what they planned to do next. Thanks to our speakers Emily Brick from Buzzfeed, Silvia Tueros-Cossio and Philip Kelly from XO Group, and Diana Mounter from GitHub."
+    },
+    {
+      "_id": 291964490057996,
+      "items": [
+        {
+          "_id": 291964490057948,
+          "heading": "Silvia Tueros-Cossio and Phil Kelly from The Knot",
+          "href": "https://speakerdeck.com/silviatc/nydsc-meetup-dec-2016-union-the-knots-new-design-system",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/d71f3618037e46e5af5c3bd01e57609c/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057949,
+          "heading": "Emily Brick from Buzzfeed",
+          "href": "https://speakerdeck.com/emilybrick/solid-design-systems-lightning-talk",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/2051d137129c4354a78818fef7a284e9/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057950,
+          "heading": "Diana Mounter from GitHub",
+          "href": "https://speakerdeck.com/broccolini/building-design-systems-at-github",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/622120f663854c1f882837169670889a/slide_0.jpg",
+          "text": ""
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 5,
+          "button": {}
+        },
+        "layout": {
+          "columns": [
+            1,
+            1,
+            null,
+            3
+          ],
+          "paddingBottom": [
+            3
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      },
+      "subhead": "Slidedecks"
+    },
+    {
+      "_id": 21,
+      "cta": [
+        {
+          "_id": 415089277328390000000,
+          "href": "http://designsystems.herokuapp.com/",
+          "text": "Slack"
+        }
+      ],
+      "iconLinks": [
+        {
+          "_id": 2.6744482064160775e+28,
+          "href": "",
+          "icon": "twitter",
+          "text": "Hello"
+        },
+        {
+          "_id": 4.0116723096241574e+29,
+          "href": "",
+          "icon": "medium",
+          "text": "Hello"
+        },
+        {
+          "_id": 5.964019500307916e+30,
+          "href": "",
+          "icon": "github",
+          "text": "Hello"
+        }
+      ],
+      "links": [
+        {
+          "_id": 23,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        },
+        {
+          "_id": 415088109470429800000,
+          "href": "https://medium.com/design-systems-nyc",
+          "icon": "",
+          "text": "Medium"
+        },
+        {
+          "_id": 24,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490057932,
+          "type": "separator"
+        },
+        {
+          "_id": 291964490057947,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Join us on Meetup",
+          "type": 2
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "layout": {
+          "paddingBottom": [
+            null,
+            4
+          ],
+          "paddingTop": [
+            null,
+            4
+          ]
+        },
+        "name": "Basic",
+        "type": "footer"
+      },
+      "small": "",
+      "styles": {},
+      "text": ""
+    },
+    {
+      "_id": 291964490050085,
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 0
+        },
+        "name": "PromoBadge",
+        "type": "styleguide"
+      },
+      "styles": {}
+    }
+  ],
+  "theme": {
+    "bold": 700,
+    "breakpoints": [
+      "@media screen and (min-width:32em)",
+      "@media screen and (min-width:48em)",
+      "@media screen and (min-width:64em)",
+      "@media screen and (min-width:96em)"
+    ],
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "h1": {
+      "fontSize": [
+        5,
+        null,
+        6,
+        null,
+        6
+      ],
+      "fontWeight": 700,
+      "lineHeight": 1.125
+    },
+    "h2": {
+      "fontSize": [
+        3,
+        null,
+        3,
+        null,
+        3
+      ],
+      "fontWeight": 700,
+      "letterSpacing": 0.125,
+      "lineHeight": 1.125,
+      "textTransform": "uppercase"
+    },
+    "h3": {
+      "fontSize": [
+        2,
+        null,
+        3
+      ],
+      "fontWeight": 700,
+      "lineHeight": 1.125
+    },
+    "lineHeight": 1.5,
+    "links": [
+      {
+        "color": 1,
+        "hover": {
+          "color": 3,
+          "textDecoration": "underline"
+        },
+        "textDecoration": "none"
+      },
+      {
+        "color": "inherit",
+        "display": "inline-block",
+        "fontWeight": 700,
+        "paddingBottom": 2,
+        "paddingTop": 2,
+        "textDecoration": "none"
+      },
+      {
+        "backgroundColor": 3,
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": 0,
+        "display": "inline-block",
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingBottom": 2,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
+      }
+    ],
+    "maxWidth": 1024,
+    "name": "Custom",
+    "palette": [
+      "#222",
+      "#09a",
+      "#444",
+      "tomato",
+      "#ccc",
+      "#eee",
+      "#111"
+    ],
+    "radius": 2,
+    "space": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "typeScale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "white": "#fff"
+  }
+}
