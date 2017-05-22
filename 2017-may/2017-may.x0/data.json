@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "cssMode": "atomic",
+    "description": "A community for people who build design systems to share and learn from each other.",
+    "engine": "x0",
+    "favicon": "assets/favicon.png",
+    "icon": "assets/apple-touch-icon.png",
+    "image": "assets/may-speaker-photo2.jpg",
+    "letter": "A",
+    "title": "Design Systems Coalition NYC",
+    "twitterSite": "@nyc_dsc",
+    "version": "0.0.44",
+    "xicon": {
+      "backgroundColor": 3,
+      "color": 0,
+      "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": 32,
+      "letter": "DS"
+    }
+  },
+  "content": [
+    {
+      "_id": 1,
+      "heading": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490056626,
+          "href": "http://designsystems.nyc",
+          "text": "Design Systems Coalition NYC",
+          "type": 1
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 3,
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ],
+          "paddingTop": [
+            1
+          ]
+        },
+        "name": "Basic",
+        "type": "header",
+        "typography": {
+          "h1": [
+            6
+          ],
+          "h2": [
+            5
+          ],
+          "h3": [
+            2
+          ],
+          "text": null
+        }
+      },
+      "styles": {},
+      "subhead": "",
+      "text": ""
+    },
+    {
+      "_id": 291964490058012,
+      "embed": "https://www.youtube.com/embed/b_lH4YLIgpE",
+      "heading": "Documenting design systems",
+      "image": "assets/may-speaker-photo2.jpg",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "border": 5,
+          "button": {}
+        },
+        "layout": {
+          "paddingBottom": [
+            5
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "SplitRight_3_5",
+        "ratio": 0.6,
+        "type": "section",
+        "typography": {
+          "h1": null,
+          "text": [
+            3
+          ]
+        }
+      },
+      "subhead": "May 11 @ Justworks",
+      "text": "Featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
+    },
+    {
+      "_id": 291964490057996,
+      "items": [
+        {
+          "_id": 291964490057948,
+          "heading": "Tom Takigayama from Justworks",
+          "href": "https://speakerdeck.com/tomtaki/i-have-no-idea-what-im-doing",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/0efefada37044def9072beeb22e4db36/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057949,
+          "heading": "Adekunle Oduye from Nasdaq",
+          "href": "https://speakerdeck.com/adekunleoduye/the-evolution-of-documentation-in-nasdaq",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/808e90c80b3f43578e5e38013cf1724c/slide_0.jpg",
+          "text": ""
+        },
+        {
+          "_id": 291964490057950,
+          "heading": "Amélie Lamont from The New York Times",
+          "href": "https://speakerdeck.com/amelie/the-broader-implications-of-language-in-design-systems",
+          "image": "https://speakerd.s3.amazonaws.com/presentations/1cc58c5cacb54147885d32a2bd95165a/slide_0.jpg",
+          "text": ""
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 5,
+          "border": 5,
+          "button": {}
+        },
+        "layout": {
+          "columns": [
+            1,
+            1,
+            null,
+            3
+          ],
+          "paddingBottom": [
+            3
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      },
+      "subhead": "Slidedecks"
+    },
+    {
+      "_id": 291964490059794,
+      "heading": "",
+      "image": "assets/may-speaker-photo2.jpg",
+      "meta": {
+        "id": "photos",
+        "layout": {
+          "paddingBottom": [
+            2
+          ],
+          "paddingTop": [
+            5
+          ]
+        },
+        "name": "Center",
+        "ratio": 0.6,
+        "type": "section",
+        "typography": {
+          "h1": [
+            6
+          ]
+        }
+      },
+      "subhead": "",
+      "text": "Photography by Henry Bayuzick"
+    },
+    {
+      "_id": 291964490061398,
+      "images": [
+        {
+          "_id": 291964490061585,
+          "src": "assets/dsc-meetup-30.jpg"
+        },
+        {
+          "_id": 291964490061607,
+          "src": "assets/dsc-meetup-31.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            0,
+            null,
+            2
+          ],
+          "paddingBottom": [
+            null
+          ],
+          "paddingTop": [
+            null
+          ]
+        },
+        "name": "Full",
+        "ratio": 0.75,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490061629,
+      "images": [
+        {
+          "_id": 291964490061408,
+          "src": "assets/dsc-meetup-32.jpg"
+        },
+        {
+          "_id": 291964490061406,
+          "src": "assets/dsc-meetup-38.jpg"
+        },
+        {
+          "_id": 291964490061407,
+          "src": "assets/dsc-meetup-24.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "ratio": 0.7142857142857143,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490061846,
+      "images": [
+        {
+          "_id": 291964490061407,
+          "src": "assets/dsc-meetup-5.jpg"
+        },
+        {
+          "_id": 291964490061406,
+          "src": "assets/dsc-meetup-17.jpg"
+        },
+        {
+          "_id": 291964490061409,
+          "src": "assets/dsc-meetup-18.jpg"
+        },
+        {
+          "_id": 291964490061408,
+          "src": "assets/dsc-meetup-11.jpg"
+        }
+      ],
+      "meta": {
+        "name": "Full",
+        "ratio": 0.8,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490062154,
+      "images": [
+        {
+          "_id": 291964490061863,
+          "src": "assets/dsc-meetup-22.jpg"
+        },
+        {
+          "_id": 291964490061862,
+          "src": "assets/dsc-meetup-57.jpg"
+        },
+        {
+          "_id": 291964490061864,
+          "src": "assets/dsc-meetup-19.jpg"
+        },
+        {
+          "_id": 291964490061865,
+          "src": "assets/dsc-meetup-9.jpg"
+        }
+      ],
+      "meta": {
+        "name": "Full",
+        "ratio": 0.8,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490061851,
+      "images": [
+        {
+          "_id": 291964490061863,
+          "src": "assets/dsc-meetup-28.jpg"
+        },
+        {
+          "_id": 291964490061864,
+          "src": "assets/dsc-meetup-25a.jpg"
+        },
+        {
+          "_id": 291964490061862,
+          "src": "assets/dsc-meetup-23a.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "ratio": 0.7142857142857143,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490061956,
+      "images": [
+        {
+          "_id": 291964490061862,
+          "src": "assets/dsc-meetup-33.jpg"
+        },
+        {
+          "_id": 291964490061863,
+          "src": "assets/dsc-meetup-34.jpg"
+        },
+        {
+          "_id": 291964490061864,
+          "src": "assets/dsc-meetup-35.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490062045,
+      "images": [
+        {
+          "_id": 291964490061862,
+          "src": "assets/dsc-meetup-37.jpg"
+        },
+        {
+          "_id": 291964490061863,
+          "src": "assets/dsc-meetup-39.jpg"
+        },
+        {
+          "_id": 291964490061864,
+          "src": "assets/dsc-meetup-43.jpg"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            null,
+            null,
+            null,
+            3
+          ]
+        },
+        "name": "Full",
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 291964490062337,
+      "images": [
+        {
+          "_id": 291964490061865,
+          "src": "assets/dsc-meetup-50.jpg"
+        },
+        {
+          "_id": 291964490061864,
+          "src": "assets/dsc-meetup-29.jpg"
+        },
+        {
+          "_id": 291964490061863,
+          "src": "assets/dsc-meetup-54.jpg"
+        },
+        {
+          "_id": 291964490061862,
+          "src": "assets/dsc-meetup-52.jpg"
+        }
+      ],
+      "meta": {
+        "name": "Full",
+        "ratio": 0.8,
+        "type": "gallery"
+      }
+    },
+    {
+      "_id": 21,
+      "cta": [
+        {
+          "_id": 415089277328390000000,
+          "href": "http://designsystems.herokuapp.com/",
+          "text": "Slack"
+        }
+      ],
+      "iconLinks": [
+        {
+          "_id": 2.6744482064160775e+28,
+          "href": "",
+          "icon": "twitter",
+          "text": "Hello"
+        },
+        {
+          "_id": 4.0116723096241574e+29,
+          "href": "",
+          "icon": "medium",
+          "text": "Hello"
+        },
+        {
+          "_id": 5.964019500307916e+30,
+          "href": "",
+          "icon": "github",
+          "text": "Hello"
+        }
+      ],
+      "links": [
+        {
+          "_id": 23,
+          "href": "https://twitter.com/nyc_dsc",
+          "text": "Twitter"
+        },
+        {
+          "_id": 415088109470429800000,
+          "href": "https://medium.com/design-systems-nyc",
+          "icon": "",
+          "text": "Medium"
+        },
+        {
+          "_id": 24,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490057932,
+          "type": "separator"
+        },
+        {
+          "_id": 291964490057947,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
+          "text": "Join us on Meetup",
+          "type": 2
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "layout": {
+          "paddingBottom": [
+            null,
+            4
+          ],
+          "paddingTop": [
+            null,
+            4
+          ]
+        },
+        "name": "Basic",
+        "type": "footer"
+      },
+      "small": "",
+      "styles": {},
+      "text": ""
+    },
+    {
+      "_id": 291964490050085,
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 0
+        },
+        "name": "PromoBadge",
+        "type": "styleguide"
+      },
+      "styles": {}
+    }
+  ],
+  "theme": {
+    "bold": 700,
+    "breakpoints": [
+      "@media screen and (min-width:32em)",
+      "@media screen and (min-width:48em)",
+      "@media screen and (min-width:64em)",
+      "@media screen and (min-width:96em)"
+    ],
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "h1": {
+      "fontSize": [
+        5,
+        null,
+        6,
+        null,
+        6
+      ],
+      "fontWeight": 700,
+      "lineHeight": 1.125
+    },
+    "h2": {
+      "fontSize": [
+        3,
+        null,
+        3,
+        null,
+        3
+      ],
+      "fontWeight": 700,
+      "letterSpacing": 0.125,
+      "lineHeight": 1.125,
+      "textTransform": "uppercase"
+    },
+    "h3": {
+      "fontSize": [
+        2,
+        null,
+        3
+      ],
+      "fontWeight": 700,
+      "lineHeight": 1.125
+    },
+    "lineHeight": 1.5,
+    "links": [
+      {
+        "color": 1,
+        "hover": {
+          "color": 3,
+          "textDecoration": "underline"
+        },
+        "textDecoration": "none"
+      },
+      {
+        "color": "inherit",
+        "display": "inline-block",
+        "fontWeight": 700,
+        "paddingBottom": 2,
+        "paddingTop": 2,
+        "textDecoration": "none"
+      },
+      {
+        "backgroundColor": 3,
+        "border": 0,
+        "borderColor": null,
+        "borderRadius": 0,
+        "color": 0,
+        "display": "inline-block",
+        "fontWeight": 700,
+        "hover": {
+          "backgroundColor": null,
+          "borderColor": null,
+          "color": "white"
+        },
+        "paddingBottom": 2,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "whiteSpace": "nowrap"
+      }
+    ],
+    "maxWidth": 1024,
+    "name": "Custom",
+    "palette": [
+      "#222",
+      "#09a",
+      "#444",
+      "tomato",
+      "#ccc",
+      "#eee",
+      "#111"
+    ],
+    "radius": 2,
+    "space": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "typeScale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "white": "#fff"
+  }
+}

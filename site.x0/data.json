@@ -91,6 +91,16 @@
       "embed": "https://www.youtube.com/embed/b_lH4YLIgpE",
       "heading": "Documenting Design Systems",
       "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490060654,
+          "href": "/2017-may",
+          "icon": "",
+          "text": "View photos",
+          "type": 4
+        }
+      ],
       "meta": {
         "colors": {
           "background": "white",
@@ -108,7 +118,7 @@
         }
       },
       "subhead": "May 11 @ Justworks",
-      "text": "Our third meetup focused on documenting design systems, featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
+      "text": "Watch the video from our third meetup featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
     },
     {
       "_id": 291964490057952,
