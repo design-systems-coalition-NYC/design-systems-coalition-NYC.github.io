@@ -189,8 +189,9 @@
       "meta": {
         "layout": {
           "columns": [
-            0,
-            null,
+            1,
+            1,
+            2,
             2
           ],
           "paddingBottom": [
@@ -224,9 +225,9 @@
       "meta": {
         "layout": {
           "columns": [
-            null,
-            null,
-            null,
+            1,
+            1,
+            3,
             3
           ]
         },
@@ -282,38 +283,14 @@
         }
       ],
       "meta": {
-        "name": "Full",
-        "ratio": 0.8,
-        "type": "gallery"
-      }
-    },
-    {
-      "_id": 291964490061851,
-      "images": [
-        {
-          "_id": 291964490061863,
-          "src": "assets/dsc-meetup-28.jpg"
-        },
-        {
-          "_id": 291964490061864,
-          "src": "assets/dsc-meetup-25a.jpg"
-        },
-        {
-          "_id": 291964490061862,
-          "src": "assets/dsc-meetup-23a.jpg"
-        }
-      ],
-      "meta": {
         "layout": {
-          "columns": [
+          "paddingBottom": [
             null,
-            null,
-            null,
-            3
+            null
           ]
         },
         "name": "Full",
-        "ratio": 0.7142857142857143,
+        "ratio": 0.8,
         "type": "gallery"
       }
     },
