@@ -443,12 +443,16 @@
         },
         "layout": {
           "paddingBottom": [
+            4,
             null,
-            4
+            null,
+            null
           ],
           "paddingTop": [
+            4,
             null,
-            4
+            null,
+            null
           ]
         },
         "name": "Basic",
