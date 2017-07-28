@@ -186,6 +186,40 @@
       "text": ""
     },
     {
+      "_id": 291964490061083,
+      "heading": "Documenting design systems",
+      "image": "assets/may-speaker-photo2.jpg",
+      "links": [
+        {
+          "_id": 291964490063340,
+          "href": "/2017-may",
+          "icon": "",
+          "text": "View photos & videos",
+          "type": 4
+        }
+      ],
+      "meta": {
+        "layout": {
+          "paddingBottom": [
+            4
+          ],
+          "paddingTop": [
+            4
+          ]
+        },
+        "name": "Split_2_5",
+        "ratio": 0.6,
+        "type": "section",
+        "typography": {
+          "h1": [
+            5
+          ]
+        }
+      },
+      "subhead": "May 11 @ Justworks",
+      "text": "Featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
+    },
+    {
       "_id": 5,
       "embed": "",
       "heading": "Brand design systems that scale",
@@ -222,6 +256,7 @@
           ]
         },
         "name": "Split_2_5",
+        "ratio": 0.6,
         "type": "section",
         "typography": {
           "h1": [
@@ -231,7 +266,7 @@
       },
       "styles": {},
       "subhead": "March 23 @ Etsy HQ",
-      "text": "Featuring Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy, gave talks on brand design systems that scale."
+      "text": "Featuring talks by Sophie Shepherd from GitHub, Will Miner from 2U, and Marco Suarez from Etsy."
     },
     {
       "_id": 7,
@@ -286,6 +321,7 @@
           ]
         },
         "name": "Split_2_5",
+        "ratio": 0,
         "type": "section",
         "typography": {
           "h1": [
