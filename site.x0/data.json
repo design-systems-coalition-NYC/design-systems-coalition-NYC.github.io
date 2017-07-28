@@ -9,7 +9,7 @@
     "letter": "A",
     "title": "Design Systems Coalition NYC",
     "twitterSite": "@nyc_dsc",
-    "version": "0.0.44",
+    "version": "0.0.45",
     "xicon": {
       "backgroundColor": 3,
       "color": 0,
@@ -42,63 +42,18 @@
       "text": "A community for people who build design systems to share and learn from each other."
     },
     {
-      "_id": 291964490057941,
-      "heading": "Save the date! Next meetup July 20th @ Spotify",
-      "image": "",
-      "kicker": "",
-      "links": [
-        {
-          "_id": 291964490058812,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/",
-          "icon": "",
-          "text": "Join us",
-          "type": 3
-        }
-      ],
-      "meta": {
-        "backgroundImage": "",
-        "colors": {
-          "background": 0,
-          "border": 0,
-          "button": {},
-          "heading": 3,
-          "kicker": 3,
-          "subhead": 3,
-          "text": 0
-        },
-        "id": "next-meetup",
-        "layout": {
-          "paddingBottom": [
-            0
-          ],
-          "paddingTop": [
-            0
-          ]
-        },
-        "name": "TitleBar",
-        "type": "section",
-        "typography": {
-          "h1": [
-            4
-          ]
-        }
-      },
-      "subhead": "",
-      "text": ""
-    },
-    {
       "_id": 291964490058876,
-      "embed": "https://www.youtube.com/embed/b_lH4YLIgpE",
-      "heading": "Documenting Design Systems",
+      "embed": "",
+      "heading": "Empowering product growth with design systems",
       "image": "",
       "kicker": "",
       "links": [
         {
           "_id": 291964490060654,
-          "href": "/2017-may",
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/241892347/",
           "icon": "",
-          "text": "View photos",
-          "type": 4
+          "text": "RSVP",
+          "type": 2
         }
       ],
       "meta": {
@@ -108,45 +63,47 @@
         },
         "layout": {
           "paddingTop": [
-            6
+            5
           ]
         },
-        "name": "SplitRight_3_5",
+        "name": "SplitRight_1_4",
         "type": "section",
         "typography": {
           "h1": null
         }
       },
-      "subhead": "May 11 @ Justworks",
-      "text": "Watch the video from our third meetup featuring talks by Tom Takigayama from Justworks, Adekunle Oduye from Nasdaq, and Amélie Lamont from The New York Times."
+      "subhead": "Aug 17 @ DoSomething",
+      "text": "Join us and hear from a wide range of experiences on design systems with our three amazing speakers!"
     },
     {
       "_id": 291964490057952,
       "items": [
         {
-          "_id": 291964490057965,
-          "heading": "Tom Takigayama from Justworks",
-          "href": "https://speakerdeck.com/tomtaki/i-have-no-idea-what-im-doing",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/0efefada37044def9072beeb22e4db36/slide_0.jpg",
-          "text": ""
+          "_id": 291964490057964,
+          "heading": "Jina Anne",
+          "href": "https://speakerdeck.com/amelie/the-broader-implications-of-language-in-design-systems",
+          "image": "https://user-images.githubusercontent.com/334891/28708396-fb712e8c-7330-11e7-9501-dd36c56aef70.png",
+          "subhead": "",
+          "text": "Jina is a consultant, community builder, and advocate focused on design systems.  She organizes Clarity, the first Design Systems conference. She founded the San Francisco Design Systems Coaltion (which now has chapters in New York and London). She created and moderates the Design Systems Slack. She maintains the design and website for Sass. She organizes The Mixin (a Sass and front end meet up). She also curates Sass News. At Salesforce, Jina was lead designer on the Lightning Design System."
         },
         {
           "_id": 291964490057963,
           "cta": "",
-          "heading": "Adekunle Oduye from Nasdaq",
-          "href": "https://speakerdeck.com/adekunleoduye/the-evolution-of-documentation-in-nasdaq",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/808e90c80b3f43578e5e38013cf1724c/slide_0.jpg",
+          "heading": "Una Kravets",
+          "href": "",
+          "image": "https://user-images.githubusercontent.com/334891/28708358-d6dd8c1e-7330-11e7-8404-b7942a8c93fc.png",
           "kicker": "",
           "subhead": "",
-          "text": ""
+          "text": "Una Kravets is a technical writer, open source advocate, and UI Engineer building the design system at DigitalOcean. She’s written for various online publications such as A List Apart, Smashing Magazine, and Sitepoint. Una also co-hosts the Toolsday podcast and started both the DC and Austin Sass Meetups. She’s a performance nerd and listens to way too many audio books."
         },
         {
-          "_id": 291964490057964,
-          "heading": "Amélie Lamont from The New York Times",
-          "href": "https://speakerdeck.com/amelie/the-broader-implications-of-language-in-design-systems",
-          "image": "https://speakerd.s3.amazonaws.com/presentations/1cc58c5cacb54147885d32a2bd95165a/slide_0.jpg",
+          "_id": 291964490057965,
+          "heading": "Luke Patton",
+          "href": "",
+          "image": "https://user-images.githubusercontent.com/334891/28708431-1ad4815c-7331-11e7-974c-4466b4361bc3.jpg",
+          "kicker": "",
           "subhead": "",
-          "text": ""
+          "text": "Luke Patton is a product designer building flexible technology and trying to bring human touches to large systems. At DoSomething.org, he helps build digital products and features to encourage social action. Luke spends his free time maintaining a healthy selection of side projects and volunteering with civic tech initiatives. He is a proud cat-dad, avid game player, and sci-fi nerd."
         }
       ],
       "meta": {
@@ -172,7 +129,7 @@
         "ratio": 0.5625,
         "type": "cards"
       },
-      "subhead": "Slidedecks"
+      "subhead": "Speakers"
     },
     {
       "_id": 291964490058888,
