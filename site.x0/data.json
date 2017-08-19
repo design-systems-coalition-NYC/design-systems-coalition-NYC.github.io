@@ -422,6 +422,32 @@
       "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, we'd love to hear from you."
     },
     {
+      "_id": 291964490064229,
+      "heading": "Host or speak at our next meetup!",
+      "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490064566,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup",
+          "icon": "",
+          "text": "Get involved",
+          "type": 3
+        }
+      ],
+      "meta": {
+        "backgroundImage": "assets/join-us-bg-4.jpg",
+        "colors": {
+          "button": {},
+          "text": "white"
+        },
+        "name": "Basic",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": ""
+    },
+    {
       "_id": 16,
       "buttons": [
         {
@@ -443,7 +469,7 @@
           "image": "https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg",
           "links": "",
           "subhead": "",
-          "text": "Design Systems Lead at GitHub"
+          "text": "Design Systems Manager at GitHub"
         },
         {
           "_id": 20,
@@ -529,6 +555,12 @@
           "_id": 24,
           "href": "https://github.com/design-systems-coalition-NYC/meetup",
           "text": "GitHub"
+        },
+        {
+          "_id": 291964490065029,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/CODE_OF_CONDUCT.md",
+          "icon": "",
+          "text": "Code of Conduct"
         },
         {
           "_id": 291964490050097,
