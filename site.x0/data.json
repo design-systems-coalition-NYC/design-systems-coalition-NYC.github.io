@@ -42,6 +42,40 @@
       "text": "A community for people who build design systems to share and learn from each other."
     },
     {
+      "_id": 291964490061092,
+      "heading": "",
+      "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490062016,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/242645527/",
+          "icon": "",
+          "text": "Save the date! Next meetup October 4th @ The New York Times",
+          "type": 5
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "layout": {
+          "paddingBottom": [
+            3
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "SplitRight_1_4",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": ""
+    },
+    {
       "_id": 291964490058876,
       "embed": "",
       "heading": "Empowering product growth with design systems",
@@ -49,17 +83,21 @@
       "kicker": "",
       "links": [
         {
-          "_id": 291964490060654,
+          "_id": 291964490062369,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/241892347/",
           "icon": "",
-          "text": "RSVP",
+          "text": "See who went",
           "type": 2
         }
       ],
       "meta": {
         "colors": {
           "background": "white",
-          "button": {}
+          "button": {},
+          "heading": 0,
+          "kicker": 0,
+          "subhead": 0,
+          "text": 0
         },
         "layout": {
           "paddingTop": [
@@ -165,7 +203,7 @@
     },
     {
       "_id": 291964490060645,
-      "heading": "Previous meetups",
+      "heading": "Past meetups",
       "kicker": "",
       "meta": {
         "colors": {
@@ -174,7 +212,7 @@
         },
         "layout": {
           "paddingBottom": [
-            3
+            0
           ],
           "paddingTop": [
             5
@@ -384,6 +422,32 @@
       "text": "If you'd like to host a future meetup, are interested in speaking, or have ideas for topics you'd like to see covered, we'd love to hear from you."
     },
     {
+      "_id": 291964490064229,
+      "heading": "Host or speak at our next meetup!",
+      "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490064566,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup",
+          "icon": "",
+          "text": "Get involved",
+          "type": 3
+        }
+      ],
+      "meta": {
+        "backgroundImage": "assets/join-us-bg-4.jpg",
+        "colors": {
+          "button": {},
+          "text": "white"
+        },
+        "name": "Basic",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": ""
+    },
+    {
       "_id": 16,
       "buttons": [
         {
@@ -405,7 +469,7 @@
           "image": "https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg",
           "links": "",
           "subhead": "",
-          "text": "Design Systems Lead at GitHub"
+          "text": "Design Systems Manager at GitHub"
         },
         {
           "_id": 20,
@@ -491,6 +555,12 @@
           "_id": 24,
           "href": "https://github.com/design-systems-coalition-NYC/meetup",
           "text": "GitHub"
+        },
+        {
+          "_id": 291964490065029,
+          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/CODE_OF_CONDUCT.md",
+          "icon": "",
+          "text": "Code of Conduct"
         },
         {
           "_id": 291964490050097,
@@ -666,6 +736,18 @@
         "textAlign": "center",
         "textDecoration": "none",
         "whiteSpace": "nowrap"
+      },
+      {
+        ":hover": {
+          "color": 3
+        },
+        "color": 3,
+        "display": "inline-block",
+        "fontSize": 3,
+        "fontWeight": 700,
+        "paddingBottom": 2,
+        "paddingTop": 2,
+        "textDecoration": "none"
       }
     ],
     "maxWidth": 1024,
