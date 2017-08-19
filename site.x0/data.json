@@ -42,6 +42,40 @@
       "text": "A community for people who build design systems to share and learn from each other."
     },
     {
+      "_id": 291964490061092,
+      "heading": "",
+      "image": "",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490062016,
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/242645527/",
+          "icon": "",
+          "text": "Save the date! Next meetup October 4th @ The New York Times",
+          "type": 5
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": 0,
+          "button": {},
+          "text": 3
+        },
+        "layout": {
+          "paddingBottom": [
+            3
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "SplitRight_1_4",
+        "type": "section"
+      },
+      "subhead": "",
+      "text": ""
+    },
+    {
       "_id": 291964490058876,
       "embed": "",
       "heading": "Empowering product growth with design systems",
@@ -49,17 +83,21 @@
       "kicker": "",
       "links": [
         {
-          "_id": 291964490060654,
+          "_id": 291964490062369,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/241892347/",
           "icon": "",
-          "text": "RSVP",
+          "text": "See who went",
           "type": 2
         }
       ],
       "meta": {
         "colors": {
           "background": "white",
-          "button": {}
+          "button": {},
+          "heading": 0,
+          "kicker": 0,
+          "subhead": 0,
+          "text": 0
         },
         "layout": {
           "paddingTop": [
@@ -165,7 +203,7 @@
     },
     {
       "_id": 291964490060645,
-      "heading": "Previous meetups",
+      "heading": "Past meetups",
       "kicker": "",
       "meta": {
         "colors": {
@@ -174,7 +212,7 @@
         },
         "layout": {
           "paddingBottom": [
-            3
+            0
           ],
           "paddingTop": [
             5
@@ -666,6 +704,18 @@
         "textAlign": "center",
         "textDecoration": "none",
         "whiteSpace": "nowrap"
+      },
+      {
+        ":hover": {
+          "color": 3
+        },
+        "color": 3,
+        "display": "inline-block",
+        "fontSize": 3,
+        "fontWeight": 700,
+        "paddingBottom": 2,
+        "paddingTop": 2,
+        "textDecoration": "none"
       }
     ],
     "maxWidth": 1024,
