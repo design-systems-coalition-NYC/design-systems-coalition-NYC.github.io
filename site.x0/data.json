@@ -42,51 +42,17 @@
       "text": "A community for people who build design systems to share and learn from each other."
     },
     {
-      "_id": 291964490061092,
-      "heading": "",
-      "image": "",
-      "kicker": "",
-      "links": [
-        {
-          "_id": 291964490062016,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/242645527/",
-          "icon": "",
-          "text": "Save the date! Next meetup October 4th @ The New York Times",
-          "type": 5
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": 0,
-          "button": {},
-          "text": 3
-        },
-        "layout": {
-          "paddingBottom": [
-            3
-          ],
-          "paddingTop": [
-            0
-          ]
-        },
-        "name": "SplitRight_1_4",
-        "type": "section"
-      },
-      "subhead": "",
-      "text": ""
-    },
-    {
       "_id": 291964490058876,
       "embed": "",
-      "heading": "Empowering product growth with design systems",
+      "heading": "Defining design principles",
       "image": "",
       "kicker": "",
       "links": [
         {
           "_id": 291964490062369,
-          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/241892347/",
+          "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/242645527/",
           "icon": "",
-          "text": "See who went",
+          "text": "RSVP",
           "type": 2
         }
       ],
@@ -110,7 +76,7 @@
           "h1": null
         }
       },
-      "subhead": "Aug 17 @ DoSomething",
+      "subhead": "Oct 4 @ The New York Times",
       "text": ""
     },
     {
@@ -118,30 +84,30 @@
       "items": [
         {
           "_id": 291964490057964,
-          "heading": "Jina Anne",
+          "heading": "Orr Shtuhl ",
           "href": "https://twitter.com/jina",
-          "image": "https://user-images.githubusercontent.com/334891/28708396-fb712e8c-7330-11e7-9501-dd36c56aef70.png",
+          "image": "assets/orrshtuhl.jpg",
           "subhead": "",
-          "text": "Jina is a consultant, community builder, and advocate focused on design systems.  She organizes Clarity, the first Design Systems conference. She founded the San Francisco Design Systems Coaltion (which now has chapters in New York and London). She created and moderates the Design Systems Slack. She maintains the design and website for Sass. She organizes The Mixin (a Sass and front end meet up). She also curates Sass News. At Salesforce, Jina was lead designer on the Lightning Design System."
+          "text": "Orr is senior product designer at Wirecutter, where he helps bring trust to reviews on the internet. Previously, he was director of UX at the interactive agency Blenderbox. He has written for A List Apart, and appeared at SXSW and in Fast Company. Orr is also a beer and cheese instructor, and gives beer tours as The Bestest. He has opinions about yeast."
+        },
+        {
+          "_id": 291964490057965,
+          "heading": "Michael Jovel",
+          "href": "https://twitter.com/friendofpixels",
+          "image": "assets/michael.jpg",
+          "kicker": "",
+          "subhead": "",
+          "text": "Michael is a Front-end Developer at the U.S. Food and Drug Administration. He is also the past organizer Bmoresponsive, a conference dedicated to creating things for the multi-device web. Prior to joining the FDA Michael worked for the Department of Defense."
         },
         {
           "_id": 291964490057963,
           "cta": "",
-          "heading": "Una Kravets",
+          "heading": "Caitlin Osbahr",
           "href": "https://twitter.com/una",
-          "image": "https://user-images.githubusercontent.com/334891/28708358-d6dd8c1e-7330-11e7-8404-b7942a8c93fc.png",
+          "image": "assets/caitlin.jpg",
           "kicker": "",
           "subhead": "",
-          "text": "Una Kravets is a technical writer, open source advocate, and UI Engineer building the design system at DigitalOcean. She’s written for various online publications such as A List Apart, Smashing Magazine, and Sitepoint. Una also co-hosts the Toolsday podcast and started both the DC and Austin Sass Meetups. She’s a performance nerd and listens to way too many audio books."
-        },
-        {
-          "_id": 291964490057965,
-          "heading": "Luke Patton",
-          "href": "https://twitter.com/friendofpixels",
-          "image": "https://user-images.githubusercontent.com/334891/28708431-1ad4815c-7331-11e7-974c-4466b4361bc3.jpg",
-          "kicker": "",
-          "subhead": "",
-          "text": "Luke Patton is a product designer building flexible technology and trying to bring human touches to large systems. At DoSomething.org, he helps build digital products and features to encourage social action. Luke spends his free time maintaining a healthy selection of side projects and volunteering with civic tech initiatives. He is a proud cat-dad, avid game player, and sci-fi nerd."
+          "text": "Caitlin is a senior product designer at BuzzFeed. She's currently helping build cross-platform digital products for Tasty, including the recently-launched Tasty app for iOS."
         }
       ],
       "meta": {
@@ -164,7 +130,7 @@
           ]
         },
         "name": "Basic",
-        "ratio": 0.5625,
+        "ratio": 1.4,
         "type": "cards"
       },
       "subhead": "Speakers"
@@ -222,6 +188,32 @@
         "type": "header"
       },
       "text": ""
+    },
+    {
+      "_id": 291964490064263,
+      "heading": "Empowering product growth with design systems",
+      "image": "assets/2017-08-DSC-covershot-7586--1-.jpg",
+      "links": [],
+      "meta": {
+        "layout": {
+          "paddingBottom": [
+            4
+          ],
+          "paddingTop": [
+            4
+          ]
+        },
+        "name": "Split_2_5",
+        "ratio": 0.6,
+        "type": "section",
+        "typography": {
+          "h1": [
+            5
+          ]
+        }
+      },
+      "subhead": "Aug 17 @ DoSomething",
+      "text": "Featuring talks by Una Kravets from Digital Ocean, Luke Patton from DoSomething, and Jina Anne—consultant and community builder."
     },
     {
       "_id": 291964490061083,
@@ -558,7 +550,7 @@
         },
         {
           "_id": 291964490065029,
-          "href": "https://github.com/design-systems-coalition-NYC/meetup/blob/master/CODE_OF_CONDUCT.md",
+          "href": "/meetup/code-of-conduct",
           "icon": "",
           "text": "Code of Conduct"
         },
