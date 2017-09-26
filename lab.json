@@ -1,0 +1,247 @@
+{
+  "name": "DSC NYC",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "Box",
+      "type": "div",
+      "props": {},
+      "style": {},
+      "examples": [
+        {
+          "children": "Box"
+        }
+      ]
+    },
+    {
+      "name": "Text",
+      "type": "div",
+      "props": {},
+      "style": {},
+      "examples": [
+        {
+          "children": "Text"
+        }
+      ]
+    },
+    {
+      "name": "Heading",
+      "type": "h2",
+      "props": {
+        "fontSize": 4,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        {
+          "children": "Heading"
+        }
+      ]
+    },
+    {
+      "name": "Subhead",
+      "type": "h3",
+      "props": {
+        "fontSize": 2,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "600",
+        "lineHeight": 1.25,
+        "textTransform": "uppercase",
+        "letterSpacing": "0.125em"
+      },
+      "examples": [
+        {
+          "children": "Subhead"
+        }
+      ]
+    },
+    {
+      "name": "Button",
+      "type": "button",
+      "props": {
+        "fontSize": 2,
+        "py": 12,
+        "color": "black",
+        "bg": "tomato",
+        "px": 24
+      },
+      "style": {
+        "display": "inline-block",
+        "fontFamily": "inherit",
+        "borderWidth": 0,
+        "borderRadius": "3px",
+        "appearance": "none",
+        "fontWeight": "600"
+      },
+      "examples": [
+        {
+          "children": "Beep"
+        }
+      ]
+    },
+    {
+      "name": "NavLink",
+      "type": "a",
+      "props": {
+        "color": "inherit",
+        "fontSize": 1
+      },
+      "style": {
+        "fontWeight": "600"
+      },
+      "examples": [
+        {
+          "children": "NavLink"
+        }
+      ]
+    },
+    {
+      "name": "Image",
+      "type": "img",
+      "props": {},
+      "style": {
+        "display": "block",
+        "maxWidth": "100%",
+        "height": "auto"
+      },
+      "examples": [
+        {
+          "src": "http://jxnblk.com/avatar/avatar-640.png",
+          "width": 128,
+          "height": 128
+        }
+      ]
+    },
+    {
+      "name": "Avatar",
+      "type": "Image",
+      "props": {},
+      "style": {
+        "borderRadius": "99999px"
+      },
+      "examples": [
+        {
+          "src": "http://jxnblk.com/avatar/avatar-640.png",
+          "width": 64,
+          "height": 64
+        }
+      ]
+    },
+    {
+      "name": "BannerHeader",
+      "imports": [
+        "Box",
+        "Heading",
+        "Subhead",
+        "Text",
+        "Container"
+      ],
+      "jsx": "<header>\n<Box bg='tomato'>\n  <Container mx='auto' py={6}>\n    <Heading fontSize={[6, 7, 8, 9]} mb={3}>{props.heading}</Heading>\n    <Subhead mb={4}>{props.subhead}</Subhead>\n    <Text fontSize={3}>{props.text}</Text>\n  </Container>\n</Box>\n</header>",
+      "examples": [
+        {
+          "heading": "Design Systems Coalition",
+          "subhead": "NYC",
+          "text": "A community for people who build design systems to share and learn from each other."
+        }
+      ]
+    },
+    {
+      "name": "Container",
+      "type": "Box",
+      "props": {
+        "px": 4
+      },
+      "style": {
+        "maxWidth": "1024px"
+      },
+      "examples": [
+        {
+          "children": "Container"
+        }
+      ]
+    },
+    {
+      "name": "Section",
+      "imports": [
+        "Box",
+        "Heading",
+        "Text",
+        "Button",
+        "Subhead",
+        "Container"
+      ],
+      "jsx": "<section id={props.id}>\n  <Box color={props.color} bg={props.bg}>\n  <Container py={5}>\n    <Heading mb={2}>{props.heading}</Heading>\n    {props.subhead && (\n      <Subhead mb={2}>\n      {props.subhead}\n      </Subhead>\n      )}\n    <Text mb={3}>{props.text}</Text>\n    <Button href={props.href}>\n      {props.button}\n    </Button>\n  </Container>\n  </Box>\n</section>",
+      "examples": [
+        {
+          "heading": "Hello Section",
+          "subhead": "Oct 4",
+          "text": "This is a little bit of text to go with this section",
+          "button": "Beep Boop"
+        }
+      ]
+    },
+    {
+      "name": "Card",
+      "imports": [
+        "Box",
+        "Image",
+        "Subhead",
+        "Text"
+      ],
+      "jsx": "<Box width={props.width}>\n  <Image width={1}\n    mb={3}\n  src={props.image}\n  />\n  <Subhead mb={2}>{props.heading}</Subhead>\n  <Text>{props.text}</Text>\n</Box>",
+      "examples": [
+        {
+          "width": [
+            1,
+            0.5,
+            0.3333333333333333
+          ],
+          "image": "http://placehold.it/256",
+          "heading": "Jane Doe",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+        }
+      ]
+    },
+    {
+      "name": "Flex",
+      "type": "Box",
+      "props": {},
+      "style": {
+        "display": "flex",
+        "flexWrap": "${props.wrap ? \"wrap\" : null}",
+        "align": "${props.align}",
+        "justify": "${props.justify}"
+      },
+      "examples": [
+        {
+          "children": "Box"
+        }
+      ]
+    },
+    {
+      "name": "Grid",
+      "imports": [
+        "Flex",
+        "Box"
+      ],
+      "jsx": "<Flex wrap mx={-3}>\n  {React.Children.map(props.children, (child, i) => (\n    <Box key={i}\n      px={3}\n      width={props.width}\n      children={child}\n    />\n  ))}\n</Flex>",
+      "examples": [
+        {
+          "width": [
+            1,
+            0.5
+          ],
+          "children": [
+            "hello",
+            "hi"
+          ]
+        }
+      ]
+    }
+  ]
+}
