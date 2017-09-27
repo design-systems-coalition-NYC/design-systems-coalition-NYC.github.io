@@ -157,6 +157,8 @@
         "px": 4
       },
       "style": {
+        "marginLeft": "auto",
+        "marginRight": "auto",
         "maxWidth": "1024px"
       },
       "examples": [

@@ -1,0 +1,10 @@
+{
+  "name": "design-systems-coalition-NYC.github.io",
+  "private": true,
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.0.0",
+    "styled-components": "^2.1.2"
+  }
+}
