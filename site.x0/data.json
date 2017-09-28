@@ -91,6 +91,16 @@
           "text": "Orr is senior product designer at Wirecutter, where he helps bring trust to reviews on the internet. Previously, he was director of UX at the interactive agency Blenderbox. He has written for A List Apart, and appeared at SXSW and in Fast Company. Orr is also a beer and cheese instructor, and gives beer tours as The Bestest. He has opinions about yeast."
         },
         {
+          "_id": 291964490064274,
+          "cta": "",
+          "heading": "Magera Holton",
+          "href": "https://twitter.com/mageramoon",
+          "image": "assets/magera.jpg",
+          "kicker": "",
+          "subhead": "",
+          "text": "Magera is a co-founder at Related Works, focused on helping to build tools for cultural institutions to manage, store, and showcase their digital collections. Prior to founding Related Works, she managed the Design Systems team at Etsy. "
+        },
+        {
           "_id": 291964490057965,
           "heading": "Michael Jovel",
           "href": "https://twitter.com/mjovel?lang=en",
@@ -119,8 +129,8 @@
           "columns": [
             1,
             2,
-            3,
-            3
+            2,
+            4
           ],
           "paddingBottom": [
             5
