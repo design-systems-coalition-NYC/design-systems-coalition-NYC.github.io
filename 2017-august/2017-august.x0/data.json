@@ -112,6 +112,7 @@
         },
         {
           "_id": 291964490057949,
+          "cta": "",
           "heading": "Una Kravets",
           "href": "https://youtu.be/yPQrcYDXS1o",
           "image": "assets/2017-08-DSC-DoSomething-7013.jpg",
@@ -120,22 +121,23 @@
         },
         {
           "_id": 291964490057950,
+          "cta": "",
           "heading": "Jina Anne",
           "href": "https://youtu.be/xlxqbf4s8Tk",
-          "image": "assets/2017-08-DSC-DoSomething-7230.jpg",
+          "image": "assets/2017-08-DSC-DoSomething-7198.jpg",
           "kicker": "Design Systems Are For People",
           "text": ""
         }
       ],
       "meta": {
         "colors": {
-          "background": 5,
-          "border": 5,
+          "background": 0,
+          "border": "",
           "button": {},
-          "heading": 0,
-          "kicker": 0,
-          "subhead": 0,
-          "text": 0
+          "heading": "white",
+          "kicker": "white",
+          "subhead": "white",
+          "text": "white"
         },
         "layout": {
           "columns": [
