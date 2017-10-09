@@ -52,7 +52,7 @@
           "_id": 291964490062369,
           "href": "https://www.meetup.com/NYC-Design-Systems-Coalition/events/242645527/",
           "icon": "",
-          "text": "RSVP",
+          "text": "See who went",
           "type": 2
         }
       ],
@@ -202,15 +202,23 @@
     {
       "_id": 291964490064263,
       "heading": "Empowering product growth with design systems",
-      "image": "assets/2017-08-DSC-covershot-7586--1-.jpg",
-      "links": [],
+      "image": "assets/2017-08-DSC-DoSomething-7739.jpg",
+      "links": [
+        {
+          "_id": 291964490064274,
+          "href": "/2017-august",
+          "icon": "",
+          "text": "View photos & videos",
+          "type": 4
+        }
+      ],
       "meta": {
         "layout": {
           "paddingBottom": [
             4
           ],
           "paddingTop": [
-            4
+            3
           ]
         },
         "name": "Split_2_5",
