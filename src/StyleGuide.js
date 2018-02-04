@@ -9,6 +9,7 @@ import Button from './Button'
 import NavLink from './NavLink'
 import Image from './Image'
 import BackgroundImage from './BackgroundImage'
+import Avatar from './Avatar'
 
 const Section = ({ title, children }) => (
   <Box py={4}>
@@ -56,7 +57,10 @@ const StyleGuide = props => (
           src='http://designsystems.nyc/assets/join-us-bg-4.jpg'
         />
       </Section>
-      <Section title=''>
+      <Section title='Avatar'>
+        <Avatar
+          src='https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg'
+        />
       </Section>
     </Container>
   </Page>
