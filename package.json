@@ -1,0 +1,33 @@
+{
+  "name": "design-systems-coalition-NYC.github.io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@compositor/x0": "^3.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.2.0",
+    "styled-components": "^2.4.0",
+    "styled-system": "^1.1.4",
+    "system-components": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "x0 dev src/Index.js -op 8888",
+    "styleguide": "x0 dev src/StyleGuide.js -op 8899",
+    "build": "x0 build src/Index.js -d --static --cssLibrary='styled-components'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io.git"
+  },
+  "keywords": [],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io/issues"
+  },
+  "homepage": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io#readme"
+}
