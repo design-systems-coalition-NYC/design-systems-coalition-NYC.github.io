@@ -22,6 +22,14 @@ const StyleGuide = props => (
   <Page>
     <Container py={6}>
       <Heading.h1 fontSize={5}>Style Guide</Heading.h1>
+      <Section title='Colors'>
+        <Box color='text' bg='tomato' p={4}><Text fontSize={4}>tomato</Text></Box>
+        <Box color='text' bg='white' p={4}><Text fontSize={4}>text &#35;222</Text></Box>
+        <Box color='white' bg='black' p={4}><Text fontSize={4}>black &#35;111</Text></Box>
+        <Box color='white' bg='darkgray' p={4}><Text fontSize={4}>darkgray &#35;444</Text></Box>
+        <Box color='text' bg='gray' p={4}><Text fontSize={4}>gray &#35;ccc</Text></Box>
+        <Box color='text' bg='lightgray' p={4}><Text fontSize={4}>lightgray &#35;eee</Text></Box>
+      </Section>
       <Section title='Heading'>
         <Heading fontSize={7}>Font Size 7</Heading>
         <Heading fontSize={6}>Font Size 6</Heading>
