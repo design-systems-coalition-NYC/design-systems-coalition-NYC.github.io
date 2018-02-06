@@ -43,6 +43,10 @@ const Footer = ({
 Footer.defaultProps = {
   links: [
     {
+      href: 'http://design.systems/coalition/',
+      text: 'DSC'
+    },
+    {
       href: 'https://twitter.com/nyc_dsc',
       text: 'Twitter'
     },

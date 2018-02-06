@@ -26,7 +26,7 @@ const PastEventCard = ({
       <BackgroundImage
         src={image}
         bg='gray'
-        ratio={9/16}
+        ratio={3/5}
       />
     </Box>
     <Box px={3} my={3} width={[ 1, 1/2, 3/5 ]}>

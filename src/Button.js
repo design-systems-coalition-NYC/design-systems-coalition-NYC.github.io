@@ -37,7 +37,7 @@ Button.defaultProps = {
   m: 0,
   px: 3,
   py: 2,
-  borderRadius: 1,
+  borderRadius: 0,
   bg: 'tomato',
   color: 'text'
 }

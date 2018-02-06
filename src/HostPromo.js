@@ -14,7 +14,7 @@ const HostPromo = ({
     <BackgroundImage
       src={image}
       color='white'
-      bg='darkgray'>
+      bg='black'>
       <Container py={6}>
         <Box width={[ 1, 1/2 ]}>
           <Heading
