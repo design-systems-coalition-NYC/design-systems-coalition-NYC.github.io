@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    title: 'Defining Design Principles',
+    date: 'Oct 4',
+    location: 'The New York Times',
+    description: 'Featuring talks by Orr Shtuhl from Wirecutter, Caitlin Osbahr from Buzzfeed, Michael Jovel from the F.D.A., and Magera Holton from Related Works.',
+    image: 'https://user-images.githubusercontent.com/334891/35812571-627904d6-0a5f-11e8-942a-8e0f7e28af58.jpg',
+    permalink: 'https://youtu.be/VtTbIXnq24k'
+  },
+  {
     title: 'Empowering product growth with design systems',
     date: 'Aug 17',
     location: 'DoSomething',
