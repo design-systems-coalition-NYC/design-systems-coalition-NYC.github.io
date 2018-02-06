@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Flex from './Flex'
 import Box from './Box'
 import Container from './Container'
 import NavLink from './NavLink'
 import Button from './Button'
+
+// this functionality can be wrapped up into its own component
+const RouterLink = NavLink.withComponent(Link)
 
 const Footer = ({
   links = [],
@@ -25,6 +29,9 @@ const Footer = ({
               {link.text}
             </NavLink>
           ))}
+          <RouterLink to='/about'>
+            About
+          </RouterLink>
           <Box mx='auto' />
           {buttons.map(button => (
             <Button.a

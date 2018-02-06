@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import Index from './Index'
 import StyleGuide from './StyleGuide'
+import About from './About'
 
 const Router = typeof document === 'undefined'
   ? StaticRouter
@@ -18,7 +19,6 @@ class App extends React.Component {
       basename,
       pathname
     } = this.props
-    console.log(pathname)
 
     return (
       <Router
@@ -27,6 +27,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/' component={Index} />
           <Route path='/style-guide' component={StyleGuide} />
+          <Route path='/about' component={About} />
         </Switch>
       </Router>
     )
