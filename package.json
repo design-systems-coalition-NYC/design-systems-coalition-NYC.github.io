@@ -17,7 +17,7 @@
   "scripts": {
     "start": "x0 dev src/Index.js -op 8888",
     "styleguide": "x0 dev src/StyleGuide.js -op 8899",
-    "build": "x0 build src/Index.js -d --static --cssLibrary='styled-components'"
+    "build": "x0 build src/Index.js -d . --static --cssLibrary='styled-components'"
   },
   "repository": {
     "type": "git",
