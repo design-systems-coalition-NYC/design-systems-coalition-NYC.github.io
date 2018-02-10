@@ -26,7 +26,7 @@ class App extends React.Component {
         location={pathname}>
         <Switch>
           <Route exact path='/' component={Index} />
-          <Route path='/style-guide' component={StyleGuide} />
+          <Route path='/styleguide' component={StyleGuide} />
           <Route path='/about' component={About} />
         </Switch>
       </Router>
