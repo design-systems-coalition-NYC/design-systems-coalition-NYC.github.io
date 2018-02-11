@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Flex from './Flex'
 import Box from './Box'
 import Container from './Container'
 import NavLink from './NavLink'
 import Button from './Button'
+
+// this functionality can be wrapped up into its own component
+const RouterLink = NavLink.withComponent(Link)
 
 const Footer = ({
   links = [],
@@ -43,7 +47,7 @@ const Footer = ({
 Footer.defaultProps = {
   links: [
     {
-      href: 'http://design.systems/coalition/',
+      href: 'http://design.systems/coalition',
       text: 'DSC'
     },
     {
@@ -59,8 +63,16 @@ Footer.defaultProps = {
       text: 'GitHub'
     },
     {
+      href: 'http://designsystems.herokuapp.com/',
+      text: 'Slack'
+    },
+    {
       href: '/meetup/code-of-conduct',
       text: 'Code of Conduct'
+    },
+    {
+      href: '/styleguide',
+      text: 'Style guide'
     },
   ],
   buttons: [

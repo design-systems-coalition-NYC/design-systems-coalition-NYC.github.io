@@ -49,29 +49,24 @@ const SpeakerSection = ({
 SpeakerSection.defaultProps = {
   speakers: [
     {
-      href: 'https://twitter.com/orrshtuhl?lang=en',
-      image: 'http://designsystems.nyc/assets/orrshtuhl.jpg',
-      name: 'Orr Shtuhl',
-      bio: 'Orr is senior product designer at Wirecutter, where he helps bring trust to reviews on the internet. Previously, he was director of UX at the interactive agency Blenderbox. He has written for A List Apart, and appeared at SXSW and in Fast Company. Orr is also a beer and cheese instructor, and gives beer tours as The Bestest. He has opinions about yeast.'
+      href: 'https://twitter.com/nlevin',
+      image: 'https://user-images.githubusercontent.com/334891/36067595-f2227ebe-0e8d-11e8-9f08-d01885672214.jpg',
+      name: 'Noah Levin',
+      bio: 'Noah Levin is the Design Manager at Figma, and occasionally enjoys the struggle-bus that is design systems. He recently moved back to SF after 2 years in NYC, where he previously led the design team at ClassPass. Before that, he spent 4.5 years designing iOS apps at Google, where he observed Material Design’s birth and development.'
     },
     {
-      href: 'https://twitter.com/mageramoon',
-      image: 'http://designsystems.nyc/assets/magera.jpg',
-      name: 'Magera Holton',
-      bio: 'Magera is a co-founder at Related Works, focused on helping to build tools for cultural institutions to manage, store, and showcase their digital collections. Prior to founding Related Works, she managed the Design Systems team at Etsy.'
+      href: 'https://twitter.com/jxnblk',
+      image: 'https://user-images.githubusercontent.com/334891/36067658-5eef9350-0e8f-11e8-8cd8-c975a0ac4339.jpg',
+      name: 'Brent Jackson',
+      bio: ''
 
     },
     {
-      href: 'https://twitter.com/mjovel?lang=en',
-      image: 'http://designsystems.nyc/assets/michael.jpg',
-      name: 'Michael Jovel',
-      bio: 'Michael is a Front-end Developer at the U.S. Food and Drug Administration. He is also the past organizer Bmoresponsive, a conference dedicated to creating things for the multi-device web. Prior to joining the FDA Michael worked for the Department of Defense.',
-    },
-    {
-      href: 'https://medium.com/@caitlinosbahr',
-      image: 'http://designsystems.nyc/assets/caitlin.jpg',
-      name: 'Caitlin Osbahr',
-      bio: 'Caitlin is a senior product designer at BuzzFeed. She‘s currently helping build cross-platform digital products for Tasty, including the recently-launched Tasty app for iOS.',
+      href: '',
+      image: 'https://user-images.githubusercontent.com/334891/36067791-f87c5fdc-0e92-11e8-9705-421e2d3d571c.png',
+      name: '',
+      bio:  'Final speaker to be announced.'
+
     },
   ]
 }

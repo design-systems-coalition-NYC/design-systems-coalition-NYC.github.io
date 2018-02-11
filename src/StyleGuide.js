@@ -1,5 +1,6 @@
 import React from 'react'
 import Page from './Page'
+import InnerHeader from './InnerHeader'
 import Box from './Box'
 import Container from './Container'
 import Heading from './Heading'
@@ -10,6 +11,7 @@ import NavLink from './NavLink'
 import Image from './Image'
 import BackgroundImage from './BackgroundImage'
 import Avatar from './Avatar'
+import Logos from './Logos'
 
 const Section = ({ title, children }) => (
   <Box py={4}>
@@ -20,6 +22,7 @@ const Section = ({ title, children }) => (
 
 const StyleGuide = props => (
   <Page>
+    <InnerHeader />
     <Container py={6}>
       <Heading.h1 fontSize={5}>Style Guide</Heading.h1>
       <Section title='Colors'>
@@ -69,6 +72,9 @@ const StyleGuide = props => (
         <Avatar
           src='https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg'
         />
+      </Section>
+      <Section title='Logo artwork'>
+        <Logos />
       </Section>
     </Container>
   </Page>

@@ -6,6 +6,7 @@ import Heading from './Heading'
 import Text from './Text'
 import Caps from './Caps'
 import Button from './Button'
+import Link from './Link'
 
 const PastEventCard = ({
   image,
@@ -30,22 +31,19 @@ const PastEventCard = ({
       />
     </Box>
     <Box px={3} my={3} width={[ 1, 1/2, 3/5 ]}>
+      <Link href={permalink}>
       <Heading
         fontSize={[ 4, 5 ]}
         mb={2}>
         {title}
       </Heading>
+      </Link>
       <Caps mb={3}>
         {date} @ {location}
       </Caps>
       <Text mb={3}>
         {description}
       </Text>
-      <Button.a href={permalink}
-        color='white'
-        bg='text'>
-        View photos & videos
-      </Button.a>
     </Box>
   </Flex>
 )

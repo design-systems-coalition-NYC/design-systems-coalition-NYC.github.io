@@ -6,7 +6,7 @@ import Text from './Text'
 import NavLink from './NavLink'
 
 const SaveDate = (props) => (
-    <Box color='white' bg='black' mb={5}>
+    <Box color='white' bg='black' my={5}>
       <Container>
         <Flex wrap
           align='baseline'
@@ -16,9 +16,9 @@ const SaveDate = (props) => (
             fontSize={5}
             m={2}
             href={props.href}>
-            {props.title}
+            Save the date!
           </NavLink>
-          <Text fontWeight={400} m={2} pl={[0,1]} fontSize={5}>Next meetup&#58;</Text>
+          <Text fontWeight={400} m={2} pl={[0,1]} fontSize={5}>Upcoming meetup&#58;</Text>
           <Text fontWeight={400} m={2} fontSize={5}>{props.desc}</Text>
         </Flex>
       </Container>

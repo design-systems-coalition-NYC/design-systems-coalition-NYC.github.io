@@ -5,24 +5,19 @@ import {
   fontSize,
   fontWeight
 } from 'styled-system'
-import { Link } from 'react-router-dom'
 
-const NavLink = styled.a`
+const Link = styled.a`
   text-decoration: none;
   display: inline-block;
+  &:hover { color: tomato; }
   ${space}
   ${color}
   ${fontSize}
   ${fontWeight}
 `
 
-NavLink.defaultProps = {
-  py: 2,
-  mx: 2,
-  fontWeight: 700,
+Link.defaultProps = {
   color: 'inherit',
 }
 
-NavLink.Router = NavLink.withComponent(Link)
-
-export default NavLink
+export default Link

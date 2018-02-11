@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    title: 'February Happy Hour',
+    date: 'Feb 7',
+    location: 'The Winslow',
+    description: 'A social event for us to chat over drinks and make new connections in the design systems community.',
+    image: 'https://user-images.githubusercontent.com/334891/36069622-7d3d42fe-0ebb-11e8-966e-7cd99aa1f925.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247261426/'
+  },
+  {
     title: 'Defining Design Principles',
     date: 'Oct 4',
     location: 'The New York Times',
