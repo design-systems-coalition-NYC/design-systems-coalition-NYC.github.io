@@ -32,7 +32,7 @@ const FigmaEventPromo = (props) => (
             <Box ml={-4}style={{ width:'80px' }}>
               <FigmaLogo />
             </Box>
-            <Text fontSize={3}>Sponsored by Figma</Text>
+            <Text fontSize={[2,3]} pl={[0,2]}>Sponsored by Figma</Text>
           </Flex>
         </Box>
     </Flex>
