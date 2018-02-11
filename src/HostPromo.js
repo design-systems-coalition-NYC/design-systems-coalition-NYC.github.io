@@ -37,7 +37,7 @@ HostPromo.defaultProps = {
   image: 'http://designsystems.nyc/assets/join-us-bg-4.jpg',
   heading: 'Host or speak at our next meetup!',
   button: {
-    href: 'https://github.com/design-systems-coalition-NYC/meetup/blob/master/README.md#how-to-get-involved-with-our-meetup',
+    href: 'http://designsystems.nyc/meetup/',
     text: 'Get Involved'
   }
 }
