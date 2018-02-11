@@ -11,7 +11,7 @@ import FigmaMap from './FigmaMap'
 import FigmaLogo from './FigmaLogo'
 
 const FigmaEventPromo = (props) => (
-  <Container my={6}>
+  <Container id='next-meetup' my={6}>
       <Flex wrap align='center'>
         <Box py={4} width={[ 1, 1, 3/5, 1/2 ]}>
           <Heading
