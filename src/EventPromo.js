@@ -9,7 +9,7 @@ import Box from './Box'
 import Text from './Text'
 
 const EventPromo = (props) => (
-  <Container py={6}>
+  <Container id='next-meetup' py={6}>
     <Flex wrap align='center'>
       <Box py={4} width={[ 1, 2/3, 1/2 ]}>
         <Heading

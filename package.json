@@ -5,6 +5,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@compositor/markdown": "0.0.23",
     "@compositor/x0": "^3.1.1",
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",

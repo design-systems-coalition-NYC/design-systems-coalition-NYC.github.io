@@ -29,9 +29,6 @@ const Footer = ({
               {link.text}
             </NavLink>
           ))}
-          <RouterLink to='/about'>
-            About
-          </RouterLink>
           <Box mx='auto' />
           {buttons.map(button => (
             <Button.a
@@ -50,7 +47,7 @@ const Footer = ({
 Footer.defaultProps = {
   links: [
     {
-      href: 'http://design.systems/coalition/',
+      href: 'http://design.systems/coalition',
       text: 'DSC'
     },
     {
@@ -66,8 +63,16 @@ Footer.defaultProps = {
       text: 'GitHub'
     },
     {
+      href: 'http://designsystems.herokuapp.com/',
+      text: 'Slack'
+    },
+    {
       href: '/meetup/code-of-conduct',
       text: 'Code of Conduct'
+    },
+    {
+      href: '/styleguide',
+      text: 'Style guide'
     },
   ],
   buttons: [
