@@ -16,21 +16,21 @@ const Card = ({
 }) => (
   <BlockLink href={href}>
     <BackgroundImage
-      mb={2}
+      mb={3}
       ratio={4/3}
       src={image}
     />
-    <Heading.h4 fontSize={3}>
+    <Heading.h4 fontSize={3} mb={2}>
       {name}
     </Heading.h4>
-    <Text fontSize={1}>{bio}</Text>
+    <Text fontSize={1} mb={[5, 4, 0]}>{bio}</Text>
   </BlockLink>
 )
 
 const SpeakerSection = ({
   speakers = []
 }) => (
-  <Container py={4}>
+  <Container pb={5}>
     <Caps mb={3}>Speakers</Caps>
     <Flex wrap mx={-3}>
       {speakers.map(speaker => (
