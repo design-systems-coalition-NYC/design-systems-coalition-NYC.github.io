@@ -25,9 +25,9 @@ const Index = props => (
       text='From design to development, team collaboration is essential for design systems adoption. Our speakers will share the tools and techniques that have helped them succeed.'
       button='RSVP'
     />
-    {/*
+
       <SpeakerSection />
-    */}
+    
     <SaveDate
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
       desc='April 19'
