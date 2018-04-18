@@ -6,7 +6,7 @@ import Box from './Box'
 import Heading from './Heading'
 import SaveDate from './SaveDate'
 import EventSection from './EventSection'
-import FigmaEventPromo from './FigmaEventPromo'
+import EventPromo from './EventPromo'
 import SpeakerSection from './SpeakerSection'
 import PastEventCard from './PastEventCard'
 import HostPromo from './HostPromo'
@@ -18,16 +18,18 @@ import { pastEvents } from './content'
 const Index = props => (
   <Page>
     <Hero />
-    <FigmaEventPromo
-      title='Tools for collaboration'
+    <EventPromo
+      title='Bridging the gap'
       date='March 8'
+      location='ustwo'
+      image='https://user-images.githubusercontent.com/30531428/28724847-72a707e4-7389-11e7-94d2-950944841032.jpg'
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247534331/'
-      text='From design to development, team collaboration is essential for design systems adoption. Our speakers will share the tools and techniques that have helped them succeed.'
+      text='Design systems help provide a unified language but the path to getting there can be challenging. Successful adoption is often due to the collaboration of a multi-disciplinary team. Our speakers will be sharing how they bridge the gap between design, development, content writers, and other stakeholders.'
       button='RSVP'
     />
 
       <SpeakerSection />
-    
+
     <SaveDate
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
       desc='April 19'
