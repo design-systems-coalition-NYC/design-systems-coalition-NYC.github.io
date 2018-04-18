@@ -31,8 +31,8 @@ const Index = props => (
       <SpeakerSection />
 
     <SaveDate
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
-      desc='April 19'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/249908974/'
+      desc='May 23'
     />
     <section id='past-meetups'>
       <Container py={5}>
