@@ -1,6 +1,14 @@
 export const pastEvents = [
   {
-    title: 'February Happy Hour',
+    title: 'Tools for collaboration',
+    date: 'March 8',
+    location: 'Meetup',
+    description: 'Featuring talks by Noah Levin from Figma, Natalya Shelburne from The New York Times, Brent Jackson from Priceline.com, and Chesley Andrews from Betterment.',
+    image: 'https://secure.meetupstatic.com/photos/event/c/7/5/c/600_468351036.jpeg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247534331/'
+  },
+  {
+    title: 'February happy hour',
     date: 'Feb 7',
     location: 'The Winslow',
     description: 'A social event for us to chat over drinks and make new connections in the design systems community.',
@@ -8,7 +16,7 @@ export const pastEvents = [
     permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247261426/'
   },
   {
-    title: 'Defining Design Principles',
+    title: 'Defining design principles',
     date: 'Oct 4',
     location: 'The New York Times',
     description: 'Featuring talks by Orr Shtuhl from Wirecutter, Caitlin Osbahr from Buzzfeed, Michael Jovel from the F.D.A., and Magera Holton from Related Works.',
