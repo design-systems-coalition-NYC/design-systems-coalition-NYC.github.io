@@ -49,30 +49,23 @@ const SpeakerSection = ({
 SpeakerSection.defaultProps = {
   speakers: [
     {
-      href: 'https://twitter.com/natalyathree',
-      image: 'https://user-images.githubusercontent.com/334891/36633305-0dfb71c6-1961-11e8-9cf8-ed0549de2ad0.jpg',
-      name: 'Natalya Shelburne',
-      bio:  'Natalya is a software engineer at The New York Times and an instructor at the Harvard Extension School where she teaches Modular Design Patterns with React. As a classically trained fine artist and designer, crossing disciplines and blurring the line between design and development is at the heart of much of her work.'
+      href: 'https://twitter.com/superpedro',
+      image: 'https://user-images.githubusercontent.com/334891/38943657-fb362a04-42ff-11e8-8641-6c32e4d73aac.jpg',
+      name: 'Pedro Sepulveda',
+      bio:  'Pedro Sepulveda is a product designer with 15 years experience in developing products across web & mobile as well as building effective multidisciplinary teams. Before moving to New York to join ustwo, he has worked in Los Angeles for continuum innovations and in London for livework studio - one of the first service design studios in the world - as a design director.'
 
     },
     {
-      href: 'https://twitter.com/nlevin',
-      image: 'http://designsystems.nyc/assets/noah-levin-bw.jpg',
-      name: 'Noah Levin',
-      bio: 'Noah is the Design Manager at Figma, and occasionally enjoys the struggle-bus that is design systems. He recently moved back to SF after 2 years in NYC, where he previously led the design team at ClassPass. Before that, he spent 4.5 years designing iOS apps at Google, where he observed Material Design’s birth and development.'
+      href: 'https://twitter.com/mperrotti',
+      image: 'https://user-images.githubusercontent.com/334891/38944185-3d1c882c-4301-11e8-84c8-1b3caecf1207.jpg',
+      name: 'Mike Perrotti',
+      bio: 'Mike Perrotti is one half of Meetups design systems team. He comes from an art and design background, and thrives working in the big exciting grey-area between aesthetics and technology.'
     },
     {
-      href: 'https://twitter.com/jxnblk',
-      image: 'http://designsystems.nyc/assets/brent-jackson.jpg',
-      name: 'Brent Jackson',
-      bio: 'Brent is a Principal UX Developer at Priceline.com and cofounder of Compositor, focusing on design systems, developer education, React architecture, and front-end design tooling. Previously at Kickstarter, Etsy, and The Grid, he has created and contributed to several open source projects, including Basscss, CSS Stats, Rebass, and Styled System.'
-
-    },
-    {
-      href: 'https://twitter.com/itschesley',
-      image: 'https://user-images.githubusercontent.com/334891/36644845-1035e674-1a2e-11e8-9a2b-3730cc2187dd.jpg',
-      name: 'Chesley Andrews',
-      bio:  'Chesley is a Senior Product Design Manager at Betterment where she leads their design systems working group. Previously a Product Designer and Manager at Etsy, she contributed to multiple style guide iterations. An experience designer at heart, Chesley cares about creating compelling, easily understandable interfaces that help people feel empowered and awesome.'
+      href: 'https://twitter.com/fabrahamlincoln',
+      image: 'https://user-images.githubusercontent.com/334891/38944069-f04c311e-4300-11e8-8311-04e6764e9db0.jpg',
+      name: 'Fabian Perez',
+      bio: 'Fabian Perez is a designer and advisor based in NYC. He currently serves as Director of Product Design at GitHub. He co-founded AppAction and previously led design teams at WeSpire, LevelUp, and SCVNGR.'
 
     },
   ]
