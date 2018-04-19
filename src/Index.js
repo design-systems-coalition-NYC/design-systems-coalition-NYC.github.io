@@ -20,7 +20,7 @@ const Index = props => (
     <Hero />
     <EventPromo
       title='Bridging the gap'
-      date='March 8'
+      date='April 19'
       location='ustwo'
       image='https://user-images.githubusercontent.com/30531428/28724847-72a707e4-7389-11e7-94d2-950944841032.jpg'
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
