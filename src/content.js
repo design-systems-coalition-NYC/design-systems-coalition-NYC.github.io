@@ -4,7 +4,7 @@ export const pastEvents = [
     date: 'March 8',
     location: 'Meetup',
     description: 'Featuring talks by Noah Levin from Figma, Natalya Shelburne from The New York Times, Brent Jackson from Priceline.com, and Chesley Andrews from Betterment.',
-    image: 'https://secure.meetupstatic.com/photos/event/c/7/5/c/600_468351036.jpeg',
+    image: 'https://user-images.githubusercontent.com/334891/38999259-66174c58-43bf-11e8-8ee2-4ec1a6fc136c.jpg',
     permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247534331/'
   },
   {
