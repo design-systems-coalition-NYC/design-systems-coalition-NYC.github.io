@@ -17,8 +17,8 @@ const Footer = ({
     <Box color='tomato' bg='text'>
       <Container>
         <Flex
-          wrap
-          align='center'
+          flexWrap='wrap'
+          alignItems='center'
           mx={-2}
           py={3}>
           {links.map(link => (

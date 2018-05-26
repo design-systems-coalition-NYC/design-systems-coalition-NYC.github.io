@@ -10,7 +10,7 @@ import Text from './Text'
 
 const EventPromo = (props) => (
   <Container id='next-meetup' py={6}>
-    <Flex wrap align='center'>
+    <Flex flexWrap='wrap' alignItems='center'>
       <Box py={4} width={[ 1, 2/3, 1/2 ]}>
         <Heading
           mb={3}

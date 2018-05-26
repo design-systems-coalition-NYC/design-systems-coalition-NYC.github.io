@@ -1,13 +1,9 @@
 import Box from './Box'
-import { style, responsiveStyle } from 'styled-system'
+import { height, ratio, style, responsiveStyle } from 'styled-system'
 
 const image = props => props.src ? ({
   backgroundImage: `url(${props.src})`
 }) : null
-
-const height = responsiveStyle({
-  prop: 'height'
-})
 
 const position = style({
   prop: 'position',
@@ -19,7 +15,7 @@ const size = style({
   cssProperty: 'backgroundSize'
 })
 
-const ratio = props => props.ratio ? ({
+const _ratio = props => props.ratio ? ({
   height: 0,
   paddingBottom: (props.ratio * 100) + '%'
 }) : null
