@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Page from './Page'
-import InnerHeader from './InnerHeader'
-import Container from './Container'
-import Heading from './Heading'
-import Text from './Text'
+import Page from '../src/Page'
+import InnerHeader from '../src/InnerHeader'
+import Container from '../src/Container'
+import Heading from '../src/Heading'
+import Text from '../src/Text'
 
 const About = props => (
   <Page>
