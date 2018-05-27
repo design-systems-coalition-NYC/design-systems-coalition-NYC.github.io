@@ -15,11 +15,6 @@ const size = style({
   cssProperty: 'backgroundSize'
 })
 
-const _ratio = props => props.ratio ? ({
-  height: 0,
-  paddingBottom: (props.ratio * 100) + '%'
-}) : null
-
 const BackgroundImage = Box.extend`
   ${image}
   ${position}
