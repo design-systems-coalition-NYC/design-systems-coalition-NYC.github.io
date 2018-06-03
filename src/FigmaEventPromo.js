@@ -12,7 +12,7 @@ import FigmaLogo from './FigmaLogo'
 
 const FigmaEventPromo = (props) => (
   <Container id='next-meetup' my={6}>
-      <Flex wrap align='center'>
+      <Flex flexWrap='wrap' alignItems='center'>
         <Box py={4} width={[ 1, 1, 3/5, 1/2 ]}>
           <Heading
             mb={3}
@@ -28,7 +28,7 @@ const FigmaEventPromo = (props) => (
         </Box>
         <Box width={[1, 1, 2/5, 1/2]} bg='black' color='gray' pb={2}>
           <FigmaMap />
-          <Flex align='center' justify='center'>
+          <Flex alignItems='center' justifyContent='center'>
             <Box ml={-4}style={{ width:'80px' }}>
               <FigmaLogo />
             </Box>

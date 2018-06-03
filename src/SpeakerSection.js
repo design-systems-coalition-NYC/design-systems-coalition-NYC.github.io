@@ -32,7 +32,7 @@ const SpeakerSection = ({
 }) => (
   <Container pb={6}>
     <Caps mb={3}>Speakers</Caps>
-    <Flex wrap mx={-3}>
+    <Flex flexWrap='wrap' mx={-3}>
       {speakers.map(speaker => (
         <Box
           key={speaker.name}

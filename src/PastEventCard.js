@@ -17,9 +17,9 @@ const PastEventCard = ({
   description,
 }) => (
   <Flex
-    wrap
+    flexWrap='wrap'
     mx={-3}
-    align='center'>
+    alignItems='center'>
     <Box
       px={3}
       flex='none'

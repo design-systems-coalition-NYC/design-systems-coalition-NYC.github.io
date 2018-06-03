@@ -8,8 +8,9 @@ import Link from './NavLink'
 const SaveDate = (props) => (
     <Box color='white' bg='black' mb={4}>
       <Container>
-        <Flex wrap
-          align='baseline'
+        <Flex
+          flexWrap='wrap'
+          alignItems='baseline'
           mx={-2}
           py={4}>
           <Link

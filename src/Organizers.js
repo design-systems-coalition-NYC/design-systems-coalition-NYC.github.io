@@ -12,7 +12,7 @@ const ProfileCard = ({
   name,
   bio
 }) => (
-  <Flex align='center'>
+  <Flex alignItems='center'>
     <Avatar
       src={image}
     />
@@ -30,7 +30,7 @@ const Organizers = ({
     <Box color='white' bg='darkgray'>
       <Container py={5}>
         <Caps>Organizers</Caps>
-        <Flex wrap mx={-3}>
+        <Flex flexWrap='wrap' mx={-3}>
           {profiles.map(profile => (
             <Box
               key={profile.name}

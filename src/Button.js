@@ -6,7 +6,7 @@ import {
   fontSize,
   fontWeight,
   borderRadius,
-  theme,
+  themeGet,
 } from 'styled-system'
 
 const Button = styled.button`
@@ -19,7 +19,7 @@ const Button = styled.button`
 
   &:focus {}
   &:hover {
-    box-shadow: inset 0 0 0 999px ${theme('colors.darken')};
+    box-shadow: inset 0 0 0 999px ${themeGet('colors.darken')};
   }
   &:active {}
 
