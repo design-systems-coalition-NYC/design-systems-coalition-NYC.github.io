@@ -49,23 +49,23 @@ const SpeakerSection = ({
 SpeakerSection.defaultProps = {
   speakers: [
     {
-      href: 'https://twitter.com/superpedro',
-      image: 'https://user-images.githubusercontent.com/334891/38943657-fb362a04-42ff-11e8-8641-6c32e4d73aac.jpg',
-      name: 'Pedro Sepulveda',
-      bio:  'Pedro Sepulveda is a product designer with 15 years experience in developing products across web & mobile as well as building effective multidisciplinary teams. Before moving to New York to join ustwo, he has worked in Los Angeles for continuum innovations and in London for livework studio - one of the first service design studios in the world - as a design director.'
+      href: 'https://twitter.com/gurlcode',
+      image: 'https://user-images.githubusercontent.com/334891/40892333-bb37ab20-6763-11e8-924a-2c868bf55b35.jpg',
+      name: 'Jenn Creighton',
+      bio:  'Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats, 1 dog & 13 succulents. Say hello to her @gurlcode!'
 
     },
     {
-      href: 'https://twitter.com/mperrotti',
-      image: 'https://user-images.githubusercontent.com/334891/38944185-3d1c882c-4301-11e8-84c8-1b3caecf1207.jpg',
-      name: 'Mike Perrotti',
-      bio: 'Mike Perrotti is one half of Meetups design systems team. He comes from an art and design background, and thrives working in the big exciting grey-area between aesthetics and technology.'
+      href: 'https://twitter.com/StephManwaring',
+      image: 'https://user-images.githubusercontent.com/334891/40892330-aeb318a8-6763-11e8-8f46-2ba3e50f4c93.png',
+      name: 'Stephanie Manwaring',
+      bio:  'Stephanie Manwaring is a software engineer at XO Group in NYC. She makes up 50% of the Core Front End squad which is the team of engineers responsible for optimizing all things related to the front end as well as maintaining XO Group’s robust UI pattern library.'
     },
     {
       href: 'https://twitter.com/fabrahamlincoln',
-      image: 'https://user-images.githubusercontent.com/334891/38944069-f04c311e-4300-11e8-8311-04e6764e9db0.jpg',
-      name: 'Fabian Perez',
-      bio: 'Fabian Perez is a designer and advisor based in NYC. He currently serves as Director of Product Design at GitHub. He co-founded AppAction and previously led design teams at WeSpire, LevelUp, and SCVNGR.'
+      image: 'http://designsystems.nyc/assets/mystery-avatar.png',
+      name: 'Arielle Sullivan & Connor McNabb',
+      bio: 'TBC'
 
     },
   ]
