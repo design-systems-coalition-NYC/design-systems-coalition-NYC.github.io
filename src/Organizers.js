@@ -57,6 +57,16 @@ Organizers.defaultProps = {
       image: 'https://pbs.twimg.com/profile_images/746829844026114049/N-gpR7I4_400x400.jpg',
       name: 'Tom Takigayama',
       bio: 'Product Design Lead at Justworks',
+    },
+    {
+      image: 'https://pbs.twimg.com/profile_images/854537128994275328/nVZX1MEh_400x400.jpg',
+      name: 'Brent Jackson',
+      bio: 'Principle UX Engineer at Priceline',
+    },
+    {
+      image: 'https://pbs.twimg.com/profile_images/807319789521825793/pVkgDhPm_400x400.jpg',
+      name: 'Chesley Andrews',
+      bio: 'Product Design Manager at Betterment',
     }
   ]
 }
