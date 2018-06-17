@@ -19,22 +19,22 @@ import { pastEvents } from '../src/content'
 const Index = props => (
   <Page>
     <Hero />
-    <SaveDate
-    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/249908974/'
-    desc='May 23'
-    />
     <EventPromo
-      title='Bridging the gap'
-      date='April 19'
-      location='ustwo'
-      image='https://user-images.githubusercontent.com/30531428/28724847-72a707e4-7389-11e7-94d2-950944841032.jpg'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
-      text='Design systems help provide a unified language but the path to getting there can be challenging. Successful adoption is often due to the collaboration of a multi-disciplinary team. Our speakers will be sharing how they bridge the gap between design, development, content writers, and other stakeholders.'
-      button='See who went'
+      title='Design system API’s and the developer experience'
+      date='June 20'
+      location='Betterment'
+      image='https://user-images.githubusercontent.com/334891/41511801-5043d1e2-724c-11e8-8d71-03beb292eb0e.jpg'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251191026/'
+      text='Whether you’re a designer or engineer, everyone interacts with the API of your design system so it’s important to make this a great experience. From tokens to components, and everything in between, we all have difficult decisions to make when designing systems. Our speakers will share their experiences from the early stages to large-scale, and how they work to design a great developer experience.'
+      button='RSVP'
     />
 
       <SpeakerSection />
 
+    <SaveDate
+    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
+    desc='July 12'
+    />
     <section id='past-meetups'>
       <Container py={5}>
         <Heading fontSize={[ 5, 6 ]}>

@@ -1,5 +1,21 @@
 export const pastEvents = [
   {
+    title: 'May happy hour',
+    date: 'May 23',
+    location: 'The Winslow',
+    description: 'A social event for us to chat over drinks and make new connections in the design systems community.',
+    image: 'https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/249908974/'
+  },
+  {
+    title: 'Bridging the gap',
+    date: 'April 19',
+    location: 'ustwo',
+    description: 'Featuring talks by Pedro Sepulveda from ustwo, Mike Perrotti from Meetup, and Fabian Perez from GitHub.',
+    image: 'https://user-images.githubusercontent.com/334891/41512087-51b08bb0-7251-11e8-958e-c5df24ef2b45.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
+  },
+  {
     title: 'Tools for collaboration',
     date: 'March 8',
     location: 'Meetup',
