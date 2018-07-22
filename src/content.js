@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    title: 'Design system APIs and the developer experience',
+    date: 'June 20',
+    location: 'Betterment',
+    description: 'Featuring talks by Arielle Sullivan & Connor McNabb from Betterment, Stephanie Manwaring from XO Group, and Jenn Creighton from ClassPass.',
+    image: 'https://user-images.githubusercontent.com/334891/43049316-62e7f4d0-8dc3-11e8-9a67-588147a71178.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/251191026/'
+  },
+  {
     title: 'May happy hour',
     date: 'May 23',
     location: 'The Winslow',
