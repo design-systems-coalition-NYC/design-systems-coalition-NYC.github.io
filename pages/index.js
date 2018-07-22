@@ -6,6 +6,7 @@ import Container from '../src/Container'
 import Box from '../src/Box'
 import Heading from '../src/Heading'
 import SaveDate from '../src/SaveDate'
+import Cfp from '../src/Cfp'
 import EventSection from '../src/EventSection'
 import EventPromo from '../src/EventPromo'
 import SpeakerSection from '../src/SpeakerSection'
@@ -30,9 +31,8 @@ const Index = props => (
       button='RSVP'
     />
 
-    <SaveDate
-    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
-    desc='July 12'
+    <Cfp
+    href='https://t.co/nWT3FMTXCy'
     />
     <section id='past-meetups'>
       <Container py={5}>
