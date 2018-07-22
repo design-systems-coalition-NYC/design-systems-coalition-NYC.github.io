@@ -21,7 +21,6 @@ const SaveDate = (props) => (
             href={props.href}>
             Submit a talk →
           </Link>
-
         </Flex>
       </Container>
     </Box>
