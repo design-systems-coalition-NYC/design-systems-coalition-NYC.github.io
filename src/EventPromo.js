@@ -7,11 +7,12 @@ import Image from './Image'
 import Flex from './Flex'
 import Box from './Box'
 import Text from './Text'
+import Link from './Link'
 
 const EventPromo = (props) => (
   <Container id='next-meetup' py={6}>
     <Flex flexWrap='wrap' alignItems='center'>
-      <Box py={4} width={[ 1, 2/3, 1/2 ]}>
+      <Box py={4} width={[1, 2/3]}>
         <Heading
           mb={3}
           fontSize={[ 5, 6]}>
@@ -23,7 +24,9 @@ const EventPromo = (props) => (
           {props.button}
         </Button.a>
       </Box>
-      <Image py={4} src={props.image} width={[ 1, 1/3, 1/2 ]} />
+      <Box width={[ 1/2, 1/3, 1/4]}>
+        <Link href={props.sponsorlink}><Image py={4} src={props.image}/></Link>
+      </Box>
     </Flex>
   </Container>
 )
