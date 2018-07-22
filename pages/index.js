@@ -6,6 +6,7 @@ import Container from '../src/Container'
 import Box from '../src/Box'
 import Heading from '../src/Heading'
 import SaveDate from '../src/SaveDate'
+import Cfp from '../src/Cfp'
 import EventSection from '../src/EventSection'
 import EventPromo from '../src/EventPromo'
 import SpeakerSection from '../src/SpeakerSection'
@@ -20,20 +21,18 @@ const Index = props => (
   <Page>
     <Hero />
     <EventPromo
-      title='Design system API’s and the developer experience'
-      date='June 20'
-      location='Betterment'
-      image='https://user-images.githubusercontent.com/334891/41511801-5043d1e2-724c-11e8-8d71-03beb292eb0e.jpg'
+      title='July Happy Hour'
+      date='July 26'
+      location='The Winslow'
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251191026/'
-      text='Whether you’re a designer or engineer, everyone interacts with the API of your design system so it’s important to make this a great experience. From tokens to components, and everything in between, we all have difficult decisions to make when designing systems. Our speakers will share their experiences from the early stages to large-scale, and how they work to design a great developer experience.'
+      image='https://user-images.githubusercontent.com/334891/43049357-6c22ea40-8dc4-11e8-91a1-d735493c689a.jpg'
+      sponsorlink='http://mongodb.design/#/'
+      text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting. This event is generously sponsored by MongoDB. Get there early to get a free drink before the tab runs out!'
       button='RSVP'
     />
 
-      <SpeakerSection />
-
-    <SaveDate
-    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
-    desc='July 12'
+    <Cfp
+    href='https://t.co/nWT3FMTXCy'
     />
     <section id='past-meetups'>
       <Container py={5}>
