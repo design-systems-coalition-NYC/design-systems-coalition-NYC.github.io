@@ -24,7 +24,7 @@ const Index = props => (
       title='July Happy Hour'
       date='July 26'
       location='The Winslow'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251191026/'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
       image='https://user-images.githubusercontent.com/334891/43049357-6c22ea40-8dc4-11e8-91a1-d735493c689a.jpg'
       sponsorlink='http://mongodb.design/#/'
       text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting. This event is generously sponsored by MongoDB. Get there early to get a free drink before the tab runs out!'
