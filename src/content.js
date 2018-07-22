@@ -20,7 +20,7 @@ export const pastEvents = [
     date: 'April 19',
     location: 'ustwo',
     description: 'Featuring talks by Pedro Sepulveda from ustwo, Mike Perrotti from Meetup, and Fabian Perez from GitHub.',
-    image: 'https://user-images.githubusercontent.com/334891/41512087-51b08bb0-7251-11e8-958e-c5df24ef2b45.jpg',
+    image: 'https://user-images.githubusercontent.com/334891/43049909-f3c894d2-8dcd-11e8-9722-298088313767.jpg',
     permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/247693556/'
   },
   {
