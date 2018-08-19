@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Page from '../src/Page'
 import Hero from '../src/Hero'
 import Container from '../src/Container'
 import Box from '../src/Box'
@@ -18,7 +17,7 @@ import { pastEvents } from '../src/content'
 
 // Homepage index.html
 const Index = props => (
-  <Page>
+  <React.Fragment>
     <Hero />
     <EventPromo
       title='July Happy Hour'
@@ -49,7 +48,7 @@ const Index = props => (
     <HostPromo />
     <Organizers />
     <Footer />
-  </Page>
+  </React.Fragment>
 )
 
 Index.defaultProps = {

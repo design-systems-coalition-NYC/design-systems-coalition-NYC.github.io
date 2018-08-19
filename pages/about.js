@@ -1,13 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Page from '../src/Page'
 import InnerHeader from '../src/InnerHeader'
 import Container from '../src/Container'
 import Heading from '../src/Heading'
 import Text from '../src/Text'
+import Footer from '../src/Footer'
+import TextLink from '../src/Link'
+import Cfp from '../src/Cfp'
 
 const About = props => (
-  <Page>
+  <div>
     <InnerHeader />
     <Container py={6}>
       <Heading mb={3}>
@@ -21,7 +23,7 @@ const About = props => (
       The NYC meetup is organized by Diana Mounter, Design Systems Manager at GitHub, Tom Takigayama, Design Lead at Justworks, and Brent Jackson, Principle UX developer at Priceline.com. The meetup first formed in San Francisco and has chapters popping up in cities around the globe. It was born out of the Design Systems slack community started by Jina Anne. Jina is a design systems advocate, former design lead on the Lightning Design System, and organizer of Clarity.
       </Text>
     </Container>
-  </Page>
+  </div>
 )
 
 export default About

@@ -1,5 +1,4 @@
 import React from 'react'
-import Page from '../src/Page'
 import InnerHeader from '../src/InnerHeader'
 import Box from '../src/Box'
 import Container from '../src/Container'
@@ -21,7 +20,7 @@ const Section = ({ title, children }) => (
 )
 
 const StyleGuide = props => (
-  <Page>
+  <div>
     <InnerHeader />
     <Container py={6}>
       <Heading.h1 fontSize={5}>Style Guide</Heading.h1>
@@ -77,7 +76,7 @@ const StyleGuide = props => (
         <Logos />
       </Section>
     </Container>
-  </Page>
+  </div>
 )
 
 export default StyleGuide
