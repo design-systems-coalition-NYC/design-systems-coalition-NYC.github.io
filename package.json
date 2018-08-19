@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io#readme",
   "x0": {
+    "template": "./src/html.js",
     "cssLibrary": "styled-components",
     "routes": [
       "/",

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Page from '../src/Page'
 import Hero from '../src/Hero'
 import Container from '../src/Container'
 import Box from '../src/Box'
@@ -18,7 +17,7 @@ import { pastEvents } from '../src/content'
 
 // Homepage index.html
 const Index = props => (
-  <Page>
+  <React.Fragment>
     <Hero />
     <EventPromo
       title='July Happy Hour'
@@ -28,7 +27,7 @@ const Index = props => (
       image='https://user-images.githubusercontent.com/334891/43049357-6c22ea40-8dc4-11e8-91a1-d735493c689a.jpg'
       sponsorlink='http://mongodb.design/#/'
       text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting. This event is generously sponsored by MongoDB. Get there early to get a free drink before the tab runs out!'
-      button='RSVP'
+      button='See who went'
     />
 
     <Cfp
@@ -49,7 +48,7 @@ const Index = props => (
     <HostPromo />
     <Organizers />
     <Footer />
-  </Page>
+  </React.Fragment>
 )
 
 Index.defaultProps = {
