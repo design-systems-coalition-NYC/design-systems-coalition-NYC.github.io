@@ -50,30 +50,23 @@ SpeakerSection.defaultProps = {
   speakers: [
     {
       href: 'https://twitter.com/gurlcode',
-      image: 'https://user-images.githubusercontent.com/334891/41511602-1ce7a7aa-7248-11e8-92cf-b6de7403d6dc.jpg',
-      name: 'Jenn Creighton',
-      bio:  'Jenn is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats, 1 dog & 13 succulents. Say hello to her @gurlcode!'
+      image: 'https://user-images.githubusercontent.com/334891/45930614-8ecdfd80-bf30-11e8-81b8-aa0874682796.jpg',
+      name: 'Deep Shah',
+      bio:  'Deep is a product designer at MongoDB, where he leads design for MongoDB Stitch. He’s previously designed for a myriad of different industries, and is drawn to supporting complex problem solving with design system thinking. He most recently attempted to bike from Amsterdam to London on a folding bike, but only got as far as Bruges before he needed to switch to traveling by train. He will probably try another route in the future.'
 
     },
     {
       href: 'https://betterment.engineering/@ariellesullivan',
-      image: 'https://user-images.githubusercontent.com/334891/41511573-6af14268-7247-11e8-9717-8063ce837760.jpg',
-      name: 'Arielle Sullivan',
-      bio: 'Arielle is a software engineer at Betterment where part of her focus is contributing to the team’s design system. She collaborates with designers every day to make powerful, easy to use tools and is excited to share some lessons learned along the way.'
+      image: 'https://user-images.githubusercontent.com/334891/45930615-8ecdfd80-bf30-11e8-83ec-d0866860c6e5.jpg',
+      name: 'Marissa Christy',
+      bio: 'Marissa is a Lead Product Designer at Paperless Post where she oversees the design within the e-commerce and native teams. She is especially interested in the intersection of brand and tech, and finding new ways of meaningfully connect these two aspects of product (including design systems).'
 
     },
     {
       href: 'https://www.linkedin.com/in/connormcnabb/',
-      image: 'https://user-images.githubusercontent.com/334891/41511578-99f0235e-7247-11e8-8b33-a23c8aafbbfe.jpg',
-      name: 'Connor McNabb',
-      bio: 'Connor is a product designer with past stints in copywriting, frontend engineering, and digital advertising. Currently a Staff Product Designer at Betterment, Connor laments the “good-old-days” when he could sell clients on the idea of a design system while remaining naive to the challenges of maintaining one.'
-
-    },
-    {
-      href: 'https://twitter.com/StephManwaring',
-      image: 'https://user-images.githubusercontent.com/334891/41511597-0ecb70f2-7248-11e8-9c1d-e93c009f9488.jpg',
-      name: 'Stephanie Manwaring',
-      bio:  'Stephanie is a software engineer at XO Group in NYC. She makes up 50% of the Core Front End squad which is the team of engineers responsible for optimizing all things related to the front end as well as maintaining XO Group’s robust UI pattern library.'
+      image: 'https://user-images.githubusercontent.com/334891/45934577-ef2f6000-bf6d-11e8-9ab6-18de2bafadca.jpg',
+      name: 'Laura Hahn',
+      bio: 'Laura is Head of Design at Priceline where she manages a team that works on flexible information architecture, modular design systems, and compelling customer experiences. She previously worked both in-house and as a consultant for companies in various industries including e-commerce, publishing, ad tech, supply chain logistics, and enterprise resource management. She’s keenly interested in the intersection between product design processes and organizational dynamics.'
     }
   ]
 }
