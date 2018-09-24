@@ -49,7 +49,7 @@ const Organizers = ({
 Organizers.defaultProps = {
   profiles: [
     {
-      image: 'https://pbs.twimg.com/profile_images/412413402749743107/jOnza-Eg_400x400.jpeg',
+      image: 'https://user-images.githubusercontent.com/334891/45935813-4852c000-bf7d-11e8-8e97-8ae77ab85086.jpg',
       name: 'Diana Mounter',
       bio: 'Design Operations Manager at GitHub'
     },
@@ -59,7 +59,7 @@ Organizers.defaultProps = {
       bio: 'Product Design Manager at Justworks',
     },
     {
-      image: 'https://pbs.twimg.com/profile_images/854537128994275328/nVZX1MEh_400x400.jpg',
+      image: 'https://user-images.githubusercontent.com/334891/45935737-6f5cc200-bf7c-11e8-8c59-d1b91ae43f70.jpg',
       name: 'Brent Jackson',
       bio: 'Front-end Architect at Priceline',
     },
