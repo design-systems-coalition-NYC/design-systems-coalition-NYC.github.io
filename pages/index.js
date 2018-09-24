@@ -28,7 +28,7 @@ const Index = props => (
       title='Putting your design system into practice'
       date='September 27'
       location='MongoDB'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254103852/'
       text='So you have built your design system, now what? Join us for our next meetup on putting design systems into practice, how they need to evolve alongside your product, and growing adoption.'
       button='RSVP'
     />
