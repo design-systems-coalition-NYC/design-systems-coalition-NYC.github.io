@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    title: 'July happy hour sponsored by MongoDB',
+    date: 'July 26',
+    location: 'The Winslow',
+    description: 'A social event for us to chat over drinks and make new connections in the design systems community.',
+    image: 'https://user-images.githubusercontent.com/334891/45930307-7c51c500-bf2c-11e8-97ce-0e1c2231c76f.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
+  },
+  {
     title: 'Design system APIs and the developer experience',
     date: 'June 20',
     location: 'Betterment',

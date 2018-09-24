@@ -19,20 +19,26 @@ import { pastEvents } from '../src/content'
 const Index = props => (
   <React.Fragment>
     <Hero />
-    <EventPromo
-      title='July Happy Hour'
-      date='July 26'
-      location='The Winslow'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
-      image='https://user-images.githubusercontent.com/334891/43049357-6c22ea40-8dc4-11e8-91a1-d735493c689a.jpg'
-      sponsorlink='http://mongodb.design/#/'
-      text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting. This event is generously sponsored by MongoDB. Get there early to get a free drink before the tab runs out!'
-      button='See who went'
+    <SaveDate
+    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/'
+    desc='Oct 25th @ The Winslow'
     />
+
+    <EventPromo
+      title='Putting your design system into practice'
+      date='September 27'
+      location='MongoDB'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/251864317/'
+      text='So you have built your design system, now what? Join us for our next meetup on putting design systems into practice, how they need to evolve alongside your product, and growing adoption.'
+      button='RSVP'
+    />
+
+    <SpeakerSection />
 
     <Cfp
     href='https://t.co/nWT3FMTXCy'
     />
+
     <section id='past-meetups'>
       <Container py={5}>
         <Heading fontSize={[ 5, 6 ]}>
