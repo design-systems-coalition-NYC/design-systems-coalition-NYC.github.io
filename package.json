@@ -6,15 +6,15 @@
   "main": "index.js",
   "dependencies": {
     "@compositor/x0": "^5.0.4",
-    "react": "^16.4.0",
-    "react-router-dom": "^4.2.2",
-    "styled-components": "^3.3.0",
-    "styled-system": "^2.2.5"
+    "react": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "styled-components": "^3.4.9",
+    "styled-system": "^2.3.6"
   },
   "devDependencies": {},
   "scripts": {
     "start": "x0 pages -op 8888",
-    "build": "x0 build pages -d . --static"
+    "build": "x0 build pages -d dist --static"
   },
   "repository": {
     "type": "git",
@@ -29,10 +29,6 @@
   "homepage": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io#readme",
   "x0": {
     "template": "./src/html.js",
-    "cssLibrary": "styled-components",
-    "routes": [
-      "/",
-      "/styleguide"
-    ]
+    "cssLibrary": "styled-components"
   }
 }
