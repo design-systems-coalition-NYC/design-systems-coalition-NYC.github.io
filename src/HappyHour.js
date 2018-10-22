@@ -10,7 +10,7 @@ import Text from './Text'
 import Link from './Link'
 
 const HappyHour = (props) => (
-  <Container id='next-meetup' py={[5,6,7]}>
+  <Container id='next-meetup' py={[5,6]}>
     <Flex flexWrap='wrap' alignItems='center'>
       <Box py={4} width={[1, 2/3]}>
         <Heading
