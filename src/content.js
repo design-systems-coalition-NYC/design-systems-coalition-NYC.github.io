@@ -1,5 +1,13 @@
 export const pastEvents = [
   {
+    title: 'Putting your design system into practice',
+    date: 'Sept 27',
+    location: 'MongoDB',
+    description: 'Feturing talks by Deep Shah from MongoDB, Marissa Christy from Paperless Post, and Laura Hahn from Priceline.',
+    image: 'https://user-images.githubusercontent.com/334891/47277051-0e7bd600-d58a-11e8-93ab-94857ada089e.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/254103852/'
+  },
+  {
     title: 'July happy hour sponsored by MongoDB',
     date: 'July 26',
     location: 'The Winslow',

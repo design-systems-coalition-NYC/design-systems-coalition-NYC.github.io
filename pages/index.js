@@ -11,6 +11,7 @@ import EventPromo from '../src/EventPromo'
 import SpeakerSection from '../src/SpeakerSection'
 import PastEventCard from '../src/PastEventCard'
 import HostPromo from '../src/HostPromo'
+import HappyHour from '../src/HappyHour'
 import Organizers from '../src/Organizers'
 import Footer from '../src/Footer'
 import { pastEvents } from '../src/content'
@@ -19,24 +20,22 @@ import { pastEvents } from '../src/content'
 const Index = props => (
   <React.Fragment>
     <Hero />
-    <SaveDate
-    href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/'
-    desc='Oct 25th @ The Winslow'
-    />
 
-    <EventPromo
-      title='Putting your design system into practice'
-      date='September 27'
-      location='MongoDB'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254103852/'
-      text='So you have built your design system, now what? Join us for our next meetup on putting design systems into practice, how they need to evolve alongside your product, and growing adoption.'
+    <HappyHour
+      title='Happy Hour sponsored by Reaktor'
+      date='October 25'
+      location='The Storehouse'
+      text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting.'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/'
       button='RSVP'
+      sponsorlink='https://www.reaktor.com/careers/'
+      image='https://user-images.githubusercontent.com/334891/47277602-d7102800-d58f-11e8-9926-2101c5879b5d.png'
     />
 
-    <SpeakerSection />
-
-    <Cfp
-    href='https://t.co/nWT3FMTXCy'
+    <SaveDate
+      title='Next meetup'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/'
+      desc='Nov 8th @ Datadog'
     />
 
     <section id='past-meetups'>
@@ -51,6 +50,13 @@ const Index = props => (
         ))}
       </Container>
     </section>
+
+    <Container pb={5}>
+    <Cfp
+    href='https://t.co/nWT3FMTXCy'
+    />
+    </Container>
+
     <HostPromo />
     <Organizers />
     <Footer />

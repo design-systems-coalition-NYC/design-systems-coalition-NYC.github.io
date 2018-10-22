@@ -7,7 +7,7 @@ import Link from './NavLink'
 
 const SaveDate = (props) => (
     <Box color='white' bg='black'>
-      <Container>
+      <Container mb={5}>
         <Flex
           flexWrap='wrap'
           alignItems='baseline'
@@ -19,7 +19,7 @@ const SaveDate = (props) => (
             color='tomato'
             href={props.href}>
             Save the date&#58;
-            <Text.span fontWeight={400} m={2} pl={[0,1]} fontSize={5}>Happy Hour!</Text.span>
+            <Text.span fontWeight={400} m={2} pl={[0,1]} fontSize={5}>{props.title}</Text.span>
             <Text.span fontWeight={400} m={2} fontSize={5}>{props.desc}</Text.span>
           </Link>
         </Flex>

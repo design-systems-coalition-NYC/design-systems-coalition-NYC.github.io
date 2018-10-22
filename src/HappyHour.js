@@ -10,7 +10,7 @@ import Text from './Text'
 import Link from './Link'
 
 const HappyHour = (props) => (
-  <Container id='next-meetup' py={6}>
+  <Container id='next-meetup' py={[5,6]}>
     <Flex flexWrap='wrap' alignItems='center'>
       <Box py={4} width={[1, 2/3]}>
         <Heading
@@ -24,7 +24,7 @@ const HappyHour = (props) => (
           {props.button}
         </Button.a>
       </Box>
-      <Box width={[ 1/2, 1/3, 1/4]}>
+      <Box width={[ 1, 1/3]}>
         <Link href={props.sponsorlink}><Image py={4} src={props.image}/></Link>
       </Box>
     </Flex>
