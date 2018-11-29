@@ -31,11 +31,7 @@ const Index = props => (
       sponsorlink='https://www.datadoghq.com/careers/'
       image='https://datadog-prod.imgix.net/img/dd_logo_70x75.png?fm=png&auto=format&lossless=1'
     />
-    <SaveDate
-      title='Next meetup'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/'
-      desc='Dec 5th @ Datadog'
-    />
+    <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
       <Container py={5}>
         <Heading fontSize={[ 5, 6 ]}>
@@ -48,11 +44,6 @@ const Index = props => (
         ))}
       </Container>
     </section>
-    <Container pb={5}>
-    <Cfp
-    href='https://t.co/nWT3FMTXCy'
-    />
-    </Container>
     <HostPromo />
     <Organizers />
     <Footer />

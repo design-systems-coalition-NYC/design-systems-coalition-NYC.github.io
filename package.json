@@ -13,7 +13,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "x0 pages -op 8888",
+    "start": "x0 pages -op 8080",
     "build": "x0 build pages -d . --static"
   },
   "repository": {
