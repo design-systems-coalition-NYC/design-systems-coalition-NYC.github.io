@@ -1,4 +1,14 @@
 export const pastEvents = [
+  /*
+  {
+    title: 'Happy Hour sponsored by Reaktor',
+    date: 'October 25',
+    location: 'The Storehouse',
+    description: 'TK Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting.',
+    image: 'https://user-images.githubusercontent.com/334891/47277602-d7102800-d58f-11e8-9926-2101c5879b5d.png',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/',
+  },
+  */
   {
     title: 'Putting your design system into practice',
     date: 'Sept 27',

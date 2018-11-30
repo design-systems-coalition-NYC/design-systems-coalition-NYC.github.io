@@ -21,23 +21,17 @@ const Index = props => (
   <React.Fragment>
     <Hero />
 
-    <HappyHour
-      title='Happy Hour sponsored by Reaktor'
-      date='October 25'
-      location='The Storehouse'
-      text='Join us for a happy hour and meet other design systems professionals and enthusiasts! This event will give folks the opportunity to meet up in a casual setting.'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/'
-      button='RSVP'
-      sponsorlink='https://www.reaktor.com/careers/'
-      image='https://user-images.githubusercontent.com/334891/47277602-d7102800-d58f-11e8-9926-2101c5879b5d.png'
-    />
-
-    <SaveDate
-      title='Next meetup'
+    <EventPromo
+      title='Meetup at Datadog'
+      date='December 5'
+      location='Datadog'
+      text='We’ll have 3 lightning talks followed by Q&A, with social time before and after talks. Snacks and drinks provided thanks to our hosts Datadog.'
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/'
-      desc='Nov 8th @ Datadog'
+      button='RSVP'
+      sponsorlink='https://www.datadoghq.com/careers/'
+      image='https://datadog-prod.imgix.net/img/presskit/DDlogo.jpg?dpr=2'
     />
-
+    <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
       <Container py={5}>
         <Heading fontSize={[ 5, 6 ]}>
@@ -50,13 +44,6 @@ const Index = props => (
         ))}
       </Container>
     </section>
-
-    <Container pb={5}>
-    <Cfp
-    href='https://t.co/nWT3FMTXCy'
-    />
-    </Container>
-
     <HostPromo />
     <Organizers />
     <Footer />
