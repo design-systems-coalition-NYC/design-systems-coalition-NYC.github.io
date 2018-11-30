@@ -1,4 +1,5 @@
 export const pastEvents = [
+  /*
   {
     title: 'Happy Hour sponsored by Reaktor',
     date: 'October 25',
@@ -7,6 +8,7 @@ export const pastEvents = [
     image: 'https://user-images.githubusercontent.com/334891/47277602-d7102800-d58f-11e8-9926-2101c5879b5d.png',
     permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/254919672/',
   },
+  */
   {
     title: 'Putting your design system into practice',
     date: 'Sept 27',
