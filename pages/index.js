@@ -29,7 +29,7 @@ const Index = props => (
       href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/'
       button='RSVP'
       sponsorlink='https://www.datadoghq.com/careers/'
-      image='https://datadog-prod.imgix.net/img/dd_logo_70x75.png?fm=png&auto=format&lossless=1'
+      image='https://datadog-prod.imgix.net/img/presskit/DDlogo.jpg?dpr=2'
     />
     <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
