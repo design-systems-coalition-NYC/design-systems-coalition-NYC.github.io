@@ -14,7 +14,7 @@ const Footer = ({
   buttons = []
 }) => (
   <footer>
-    <Box color='tomato' bg='text'>
+    <Box color='tomato' bg='black'>
       <Container>
         <Flex
           flexWrap='wrap'
@@ -34,6 +34,7 @@ const Footer = ({
             <Button.a
               key={button.href}
               m={2}
+              mt={[4,2]}
               href={button.href}>
               {button.text}
             </Button.a>
