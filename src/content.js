@@ -1,6 +1,14 @@
 export const pastEvents = [
   {
-    title: 'Happy Hour sponsored by Reaktor',
+    title: 'Shaping design systems',
+    date: 'December 5',
+    location: 'Datadog',
+    description: 'Featuring talks by Derek Howles from Datadog, Nicole Yeo from Artsy, and Carl Nelson.',
+    image: 'https://user-images.githubusercontent.com/334891/50564566-e16b4280-0cf3-11e9-8804-1a57fb157aa0.jpg',
+    permalink: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/',
+  },
+  {
+    title: 'October happy hour sponsored by Reaktor',
     date: 'October 25',
     location: 'The Storehouse',
     description: 'A social event for us to chat over drinks and make new connections in the design systems community.',
