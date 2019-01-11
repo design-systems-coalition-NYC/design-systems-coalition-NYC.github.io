@@ -56,7 +56,15 @@ Footer.defaultProps = {
       text: 'Twitter'
     },
     {
-      href: 'https://medium.com/design-systems-nyc',
+      href: 'https://www.flickr.com/people/158537588@N02/',
+      text: 'Flickr'
+    },
+    {
+      href: 'https://www.youtube.com/channel/UC0qWdJQb-hCUVp4ZfbPuPUQ',
+      text: 'YouTube'
+    },
+    {
+      href: 'https://publication.design.systems/',
       text: 'Medium'
     },
     {
