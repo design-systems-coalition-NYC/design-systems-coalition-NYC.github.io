@@ -6,7 +6,7 @@ import Text from './Text'
 import Link from './NavLink'
 
 const SaveDate = (props) => (
-    <Box color='black' bg='tomato' mb={4}>
+    <Box color='white' bg='black'>
       <Container>
         <Flex
           flexWrap='wrap'
@@ -17,7 +17,7 @@ const SaveDate = (props) => (
           <Link
             fontSize={5}
             mx={2}
-            color='black'
+            color='tomato'
             href={props.href}>
             Submit a talk →
           </Link>

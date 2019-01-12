@@ -34,7 +34,7 @@ const HostPromo = ({
 )
 
 HostPromo.defaultProps = {
-  image: 'http://designsystems.nyc/assets/join-us-bg-4.jpg',
+  image: 'https://user-images.githubusercontent.com/334891/50564896-162cc900-0cf7-11e9-8f67-1798bdb24c71.jpg',
   heading: 'Host or speak at our next meetup!',
   button: {
     href: 'http://designsystems.nyc/meetup/',

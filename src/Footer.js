@@ -14,7 +14,7 @@ const Footer = ({
   buttons = []
 }) => (
   <footer>
-    <Box color='tomato' bg='text'>
+    <Box color='tomato' bg='black'>
       <Container>
         <Flex
           flexWrap='wrap'
@@ -34,6 +34,7 @@ const Footer = ({
             <Button.a
               key={button.href}
               m={2}
+              mt={[4,2]}
               href={button.href}>
               {button.text}
             </Button.a>
@@ -55,7 +56,15 @@ Footer.defaultProps = {
       text: 'Twitter'
     },
     {
-      href: 'https://medium.com/design-systems-nyc',
+      href: 'https://www.flickr.com/people/158537588@N02/',
+      text: 'Flickr'
+    },
+    {
+      href: 'https://www.youtube.com/channel/UC0qWdJQb-hCUVp4ZfbPuPUQ',
+      text: 'YouTube'
+    },
+    {
+      href: 'https://publication.design.systems/',
       text: 'Medium'
     },
     {

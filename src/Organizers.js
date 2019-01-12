@@ -27,8 +27,8 @@ const Organizers = ({
   profiles = [],
 }) => (
   <section>
-    <Box color='white' bg='darkgray'>
-      <Container py={5}>
+    <Box color='white' bg='black'>
+      <Container pt={5} pb={4}>
         <Caps>Organizers</Caps>
         <Flex flexWrap='wrap' mx={-3}>
           {profiles.map(profile => (

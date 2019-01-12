@@ -22,18 +22,17 @@ const Index = props => (
     <Hero />
 
     <EventPromo
-      title='Meetup at Datadog'
-      date='December 5'
-      location='Datadog'
-      text='We’ll have 3 lightning talks followed by Q&A, with social time before and after talks. Snacks and drinks provided thanks to our hosts Datadog.'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/255728499/'
+      title='Happy Hour!'
+      date='Jan 23'
+      location='The Winslow'
+      text='Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.'
+      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/257976364/'
       button='RSVP'
-      sponsorlink='https://www.datadoghq.com/careers/'
-      image='https://datadog-prod.imgix.net/img/presskit/DDlogo.jpg?dpr=2'
+      image='https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG'
     />
     <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
-      <Container py={5}>
+      <Container py={6}>
         <Heading fontSize={[ 5, 6 ]}>
           Past Meetups
         </Heading>

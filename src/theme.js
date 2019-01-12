@@ -11,8 +11,8 @@ const theme = {
   ],
   lineHeight: 1.5,
   colors: {
-    black: '#111',
-    text: '#222',
+    black: '#000',
+    text: '#000',
     darkgray: '#444',
     gray: '#ccc',
     lightgray: '#eee',
