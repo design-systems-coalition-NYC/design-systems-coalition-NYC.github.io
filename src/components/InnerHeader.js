@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Box from './Box'
 import Container from './Container'
 import Heading from './Heading'

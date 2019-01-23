@@ -5,7 +5,7 @@ import {
   fontSize,
   fontWeight
 } from 'styled-system'
-import { Link } from 'react-router-dom'
+import { Link } from 'gatsby'
 
 const NavLink = styled.a`
   text-decoration: none;

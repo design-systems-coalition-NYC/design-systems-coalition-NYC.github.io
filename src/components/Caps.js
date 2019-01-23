@@ -1,7 +1,8 @@
-import Text from './Text'
+import styled from 'styled-components'
 import { letterSpacing } from 'styled-system'
+import Text from './Text'
 
-const Caps = Text.extend`
+const Caps = styled(Text)`
   text-transform: uppercase;
   ${letterSpacing}
 `

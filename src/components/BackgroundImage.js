@@ -1,5 +1,6 @@
-import Box from './Box'
+import styled from 'styled-components'
 import { height, ratio, style, responsiveStyle } from 'styled-system'
+import Box from './Box'
 
 const image = props => props.src ? ({
   backgroundImage: `url(${props.src})`
@@ -15,7 +16,7 @@ const size = style({
   cssProperty: 'backgroundSize'
 })
 
-const BackgroundImage = Box.extend`
+const BackgroundImage = styled(Box)`
   ${image}
   ${position}
   ${size}

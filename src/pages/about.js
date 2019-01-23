@@ -1,12 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import InnerHeader from '../src/InnerHeader'
-import Container from '../src/Container'
-import Heading from '../src/Heading'
-import Text from '../src/Text'
-import Footer from '../src/Footer'
-import TextLink from '../src/Link'
-import Cfp from '../src/Cfp'
+import InnerHeader from '../components/InnerHeader'
+import Container from '../components/Container'
+import Heading from '../components/Heading'
+import Text from '../components/Text'
+import Footer from '../components/Footer'
+import TextLink from '../components/Link'
+import Cfp from '../components/Cfp'
 
 const About = props => (
   <div>

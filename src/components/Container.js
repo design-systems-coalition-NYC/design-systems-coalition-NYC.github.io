@@ -1,6 +1,7 @@
+import styled from 'styled-components'
 import Box from './Box'
 
-const Container = Box.extend`
+const Container = styled(Box)`
   max-width: 1024px;
 `
 

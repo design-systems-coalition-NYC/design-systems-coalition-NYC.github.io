@@ -1,3 +1,4 @@
+import styled from 'styled-components'
 import Image from './Image'
 
 const size = props => ({
@@ -5,7 +6,7 @@ const size = props => ({
   height: props.size + 'px'
 })
 
-const Avatar = Image.extend`
+const Avatar = styled(Image)`
   border-radius: 99999px;
   ${size}
 `
