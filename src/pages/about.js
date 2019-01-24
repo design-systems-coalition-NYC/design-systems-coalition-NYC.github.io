@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import TextLink from '../components/Link'
 import Cfp from '../components/Cfp'
 
-const About = props => (
+const About = () => (
   <div>
     <InnerHeader />
     <Container py={6}>

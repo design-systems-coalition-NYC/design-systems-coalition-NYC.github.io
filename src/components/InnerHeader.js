@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Box from './Box'
 import Container from './Container'
 import Heading from './Heading'
@@ -11,9 +12,9 @@ const InnerHeader = (props) => (
       py={3}>
       <Container>
       <Heading>
-        <NavLink.Router fontSize={2} to='/'>
+        <NavLink as={Link} fontSize={2} to='/'>
           Design Systems Coalition NYC
-        </NavLink.Router>
+        </NavLink>
       </Heading>
       </Container>
     </Box>

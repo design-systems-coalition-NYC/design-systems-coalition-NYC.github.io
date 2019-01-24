@@ -19,7 +19,7 @@ const Section = ({ title, children }) => (
   </Box>
 )
 
-const StyleGuide = props => (
+const StyleGuide = () => (
   <div>
     <InnerHeader />
     <Container py={6}>
