@@ -22,9 +22,9 @@ const FigmaEventPromo = (props) => (
 
           <Caps mb={3}>March 8</Caps>
           <Text mb={3} pr={[0,4]}>{props.text}</Text>
-          <Button.a href={props.href}>
+          <Button as='a' href={props.href}>
             {props.button}
-          </Button.a>
+          </Button>
         </Box>
         <Box width={[1, 1, 2/5, 1/2]} bg='black' color='gray' pb={2}>
           <FigmaMap />

@@ -6,9 +6,6 @@ import Container from './Container'
 import NavLink from './NavLink'
 import Button from './Button'
 
-// this functionality can be wrapped up into its own component
-const RouterLink = NavLink.withComponent(Link)
-
 const Footer = ({
   links = [],
   buttons = []
@@ -31,13 +28,14 @@ const Footer = ({
           ))}
           <Box mx='auto' />
           {buttons.map(button => (
-            <Button.a
+            <Button
+              as='a'
               key={button.href}
               m={2}
               mt={[4,2]}
               href={button.href}>
               {button.text}
-            </Button.a>
+            </Button>
           ))}
         </Flex>
       </Container>

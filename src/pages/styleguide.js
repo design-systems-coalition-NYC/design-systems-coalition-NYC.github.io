@@ -23,7 +23,7 @@ const StyleGuide = props => (
   <div>
     <InnerHeader />
     <Container py={6}>
-      <Heading.h1 fontSize={5}>Style Guide</Heading.h1>
+      <Heading as='h1' fontSize={5}>Style Guide</Heading>
       <Section title='Colors'>
         <Box color='text' bg='tomato' p={4}><Text fontSize={4}>tomato</Text></Box>
         <Box color='text' bg='white' p={4}><Text fontSize={4}>text &#35;222</Text></Box>

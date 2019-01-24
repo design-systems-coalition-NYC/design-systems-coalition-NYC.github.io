@@ -7,8 +7,10 @@ import Box from '../components/Box'
 const Style = createGlobalStyle`
   body {
     margin: 0;
-    font-family: system-ui, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, system-ui, sans-serif;
+    line-height: 1.5;
   }
+  * { box-sizing: border-box }
 `
 
 const App = props => (

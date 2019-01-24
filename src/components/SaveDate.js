@@ -19,8 +19,8 @@ const SaveDate = (props) => (
             color='tomato'
             href={props.href}>
             Save the date&#58;
-            <Text.span fontWeight={400} m={2} pl={[0,1]} fontSize={5}>{props.title}</Text.span>
-            <Text.span fontWeight={400} m={2} fontSize={5}>{props.desc}</Text.span>
+            <Text as='span' fontWeight={400} m={2} pl={[0,1]} fontSize={5}>{props.title}</Text>
+            <Text as='span' fontWeight={400} m={2} fontSize={5}>{props.desc}</Text>
           </Link>
         </Flex>
       </Container>

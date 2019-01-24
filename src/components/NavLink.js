@@ -23,6 +23,4 @@ NavLink.defaultProps = {
   color: 'inherit',
 }
 
-NavLink.Router = NavLink.withComponent(Link)
-
 export default NavLink

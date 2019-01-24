@@ -20,9 +20,9 @@ const EventPromo = (props) => (
         </Heading>
         <Caps mb={3}>{props.date} @ {props.location}</Caps>
         <Text mb={3} pr={[0,4]}>{props.text}</Text>
-        <Button.a href={props.href}>
+        <Button as='a' href={props.href}>
           {props.button}
-        </Button.a>
+        </Button>
       </Box>
       <Image py={0} src={props.image} width={[ 1, 1/3, 1/2 ]} />
     </Flex>

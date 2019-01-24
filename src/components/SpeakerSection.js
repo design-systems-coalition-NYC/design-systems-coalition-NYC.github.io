@@ -20,9 +20,9 @@ const Card = ({
       ratio={4/3}
       src={image}
     />
-    <Heading.h4 fontSize={3} mb={2}>
+    <Heading as='h4' fontSize={3} mb={2}>
       {name}
-    </Heading.h4>
+    </Heading>
     <Text fontSize={1} mb={[5, 4, 0]}>{bio}</Text>
   </BlockLink>
 )

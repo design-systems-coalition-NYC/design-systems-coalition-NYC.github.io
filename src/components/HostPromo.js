@@ -22,11 +22,12 @@ const HostPromo = ({
             mb={4}>
             {heading}
           </Heading>
-          <Button.a
+          <Button
+            as='a'
             bg='white'
             href={button.href}>
             {button.text}
-          </Button.a>
+          </Button>
         </Box>
       </Container>
     </BackgroundImage>

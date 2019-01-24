@@ -18,9 +18,9 @@ const EventSection = ({
       {title}
     </Heading>
     <Caps mb={3}>{date} @ {location}</Caps>
-    <Button.a href={href}>
+    <Button as='a' href={href}>
       {button}
-    </Button.a>
+    </Button>
   </Container>
 )
 

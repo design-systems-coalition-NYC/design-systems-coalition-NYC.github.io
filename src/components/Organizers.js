@@ -17,7 +17,7 @@ const ProfileCard = ({
       src={image}
     />
     <Box pl={3} width={1}>
-      <Heading.h4>{name}</Heading.h4>
+      <Heading as='h4'>{name}</Heading>
       <Text>{bio}</Text>
     </Box>
   </Flex>

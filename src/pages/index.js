@@ -20,7 +20,6 @@ import { pastEvents } from '../components/content'
 const Index = props => (
   <React.Fragment>
     <Hero />
-
     <EventPromo
       title='Happy Hour!'
       date='Jan 23'

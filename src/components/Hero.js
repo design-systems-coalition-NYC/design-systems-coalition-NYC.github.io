@@ -17,11 +17,12 @@ const Hero = ({
       bg='tomato'
     >
       <Container>
-        <Heading.h1
+        <Heading
+          as='h1'
           fontSize={[ 7, 7, 8, 9 ]}
           mb={3}>
           {title}
-        </Heading.h1>
+        </Heading>
         <Caps mb={4}>{subhead}</Caps>
         <Text fontSize={3}>
           {description}

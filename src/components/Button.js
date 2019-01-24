@@ -42,6 +42,4 @@ Button.defaultProps = {
   color: 'text'
 }
 
-Button.a = Button.withComponent('a')
-
 export default Button
