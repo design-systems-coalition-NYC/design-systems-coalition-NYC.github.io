@@ -1,6 +1,6 @@
 const data = {
   title: 'Design Systems Coalition NYC',
-  description: '',
+  description: 'A community for people who build design systems to share and learn from each other.',
 }
 
 module.exports = {
@@ -13,7 +13,6 @@ module.exports = {
       resolve: 'gatsby-mdx',
       options: {
         extensions: ['.mdx', '.md'],
-        // defaultLayouts: {}
       }
     },
   ]

@@ -1,6 +1,12 @@
 import styled from 'styled-components'
-import { height, ratio, style, responsiveStyle } from 'styled-system'
+import { height, style } from 'styled-system'
 import Box from './Box'
+
+const ratio = props => ({
+  width: '100%',
+  height: 0,
+  paddingBottom: (props.ratio * 100) + '%'
+})
 
 const image = props => props.src ? ({
   backgroundImage: `url(${props.src})`

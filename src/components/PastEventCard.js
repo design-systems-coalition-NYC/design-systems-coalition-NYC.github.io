@@ -15,7 +15,7 @@ const PastEventCard = ({
   date,
   location,
   description,
-}) => (
+}) => console.log(image) || (
   <Flex
     flexWrap='wrap'
     mx={-3}
