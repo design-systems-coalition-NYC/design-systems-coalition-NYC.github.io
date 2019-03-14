@@ -1,41 +1,14 @@
-export const links = [
-  {
-    href: 'http://design.systems/coalition',
-    text: 'DSC'
-  },
-  {
-    href: 'https://twitter.com/nyc_dsc',
-    text: 'Twitter'
-  },
-  {
-    href: 'https://www.flickr.com/people/158537588@N02/',
-    text: 'Flickr'
-  },
-  {
-    href: 'https://www.youtube.com/channel/UC0qWdJQb-hCUVp4ZfbPuPUQ',
-    text: 'YouTube'
-  },
-  {
-    href: 'https://publication.design.systems/',
-    text: 'Medium'
-  },
-  {
-    href: 'https://github.com/design-systems-coalition-NYC/meetup',
-    text: 'GitHub'
-  },
-  {
-    href: 'http://designsystems.herokuapp.com/',
-    text: 'Slack'
-  },
-  {
-    href: '/meetup/code-of-conduct',
-    text: 'Code of Conduct'
-  },
-  {
-    href: '/styleguide',
-    text: 'Style guide'
-  },
-]
+export const description = 'A community for people who build design systems to share and learn from each other.'
+
+export const nextEvent = {
+  title: 'Happy Hour!',
+  date: 'Jan 23',
+  location: 'The Winslow',
+  text: 'Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.',
+  href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/257976364/',
+  button: 'RSVP',
+  image: 'https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG',
+}
 
 export const pastEvents = [
   {
@@ -152,7 +125,72 @@ export const pastEvents = [
   },
 ]
 
+export const organizers = [
+  {
+    image: 'https://user-images.githubusercontent.com/334891/45935813-4852c000-bf7d-11e8-8e97-8ae77ab85086.jpg',
+    name: 'Diana Mounter',
+    bio: 'Design Operations Manager at GitHub'
+  },
+  {
+    image: 'https://pbs.twimg.com/profile_images/746829844026114049/N-gpR7I4_400x400.jpg',
+    name: 'Tom Takigayama',
+    bio: 'Product Design Manager at Justworks',
+  },
+  {
+    image: 'https://user-images.githubusercontent.com/334891/45935737-6f5cc200-bf7c-11e8-8c59-d1b91ae43f70.jpg',
+    name: 'Brent Jackson',
+    bio: 'Front-end Architect at Priceline',
+  },
+  {
+    image: 'https://pbs.twimg.com/profile_images/807319789521825793/pVkgDhPm_400x400.jpg',
+    name: 'Chesley Andrews',
+    bio: 'Product Design Manager at Betterment',
+  }
+]
+
+export const links = [
+  {
+    href: 'http://design.systems/coalition',
+    text: 'DSC'
+  },
+  {
+    href: 'https://twitter.com/nyc_dsc',
+    text: 'Twitter'
+  },
+  {
+    href: 'https://www.flickr.com/people/158537588@N02/',
+    text: 'Flickr'
+  },
+  {
+    href: 'https://www.youtube.com/channel/UC0qWdJQb-hCUVp4ZfbPuPUQ',
+    text: 'YouTube'
+  },
+  {
+    href: 'https://publication.design.systems/',
+    text: 'Medium'
+  },
+  {
+    href: 'https://github.com/design-systems-coalition-NYC/meetup',
+    text: 'GitHub'
+  },
+  {
+    href: 'http://designsystems.herokuapp.com/',
+    text: 'Slack'
+  },
+  {
+    href: '/meetup/code-of-conduct',
+    text: 'Code of Conduct'
+  },
+  {
+    href: '/styleguide',
+    text: 'Style guide'
+  },
+]
+
 export default {
-  links,
+  description,
+  nextEvent,
   pastEvents,
+  organizers,
+  links,
 }

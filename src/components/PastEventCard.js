@@ -7,14 +7,14 @@ import Text from './Text'
 import Caps from './Caps'
 import Link from './Link'
 
-const PastEventCard = ({
+export default ({
   image,
   permalink,
   title,
   date,
   location,
   description,
-}) => console.log(image) || (
+}) => (
   <Flex
     flexWrap='wrap'
     mx={-3}
@@ -46,5 +46,3 @@ const PastEventCard = ({
     </Box>
   </Flex>
 )
-
-export default PastEventCard

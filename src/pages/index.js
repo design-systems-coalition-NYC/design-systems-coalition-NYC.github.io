@@ -11,26 +11,15 @@ import HostPromo from '../components/HostPromo'
 import Organizers from '../components/Organizers'
 import Footer from '../components/Footer'
 
-import { pastEvents } from '../content'
+import {
+  nextEvent,
+  pastEvents
+} from '../content'
 
-// import SaveDate from '../components/SaveDate'
-// import EventSection from '../components/EventSection'
-// import SpeakerSection from '../components/SpeakerSection'
-// import HappyHour from '../components/HappyHour'
-
-// Homepage index.html
 const Index = props => (
-  <React.Fragment>
+  <>
     <Hero />
-    <EventPromo
-      title='Happy Hour!'
-      date='Jan 23'
-      location='The Winslow'
-      text='Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.'
-      href='https://www.meetup.com/NYC-Design-Systems-Coalition/events/257976364/'
-      button='RSVP'
-      image='https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG'
-    />
+    <EventPromo {...nextEvent} />
     <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
       <Container py={6}>
@@ -47,7 +36,7 @@ const Index = props => (
     <HostPromo />
     <Organizers />
     <Footer />
-  </React.Fragment>
+  </>
 )
 
 Index.defaultProps = {

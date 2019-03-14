@@ -8,24 +8,30 @@ import Flex from './Flex'
 import Box from './Box'
 import Text from './Text'
 
-const EventPromo = (props) => (
+export default ({
+  title,
+  date,
+  location,
+  text,
+  href,
+  button,
+  image,
+}) => (
   <Container id='next-meetup' py={6}>
     <Flex flexWrap='wrap' alignItems='center'>
       <Box py={4} width={[ 1, 2/3, 1/2 ]}>
         <Heading
           mb={3}
           fontSize={[ 5, 6]}>
-          {props.title}
+          {title}
         </Heading>
-        <Caps mb={3}>{props.date} @ {props.location}</Caps>
-        <Text mb={3} pr={[0,4]}>{props.text}</Text>
-        <Button as='a' href={props.href}>
-          {props.button}
+        <Caps mb={3}>{date} @ {location}</Caps>
+        <Text mb={3} pr={[0,4]}>{text}</Text>
+        <Button as='a' href={href}>
+          {button}
         </Button>
       </Box>
-      <Image py={0} src={props.image} width={[ 1, 1/3, 1/2 ]} />
+      <Image py={0} src={image} width={[ 1, 1/3, 1/2 ]} />
     </Flex>
   </Container>
 )
-
-export default EventPromo

@@ -19,8 +19,8 @@ const Section = ({ title, children }) => (
   </Box>
 )
 
-const StyleGuide = () => (
-  <div>
+export default () => (
+  <>
     <InnerHeader />
     <Container py={6}>
       <Heading as='h1' fontSize={5}>Style Guide</Heading>
@@ -76,7 +76,5 @@ const StyleGuide = () => (
         <Logos />
       </Section>
     </Container>
-  </div>
+  </>
 )
-
-export default StyleGuide

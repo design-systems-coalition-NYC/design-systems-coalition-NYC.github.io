@@ -7,8 +7,8 @@ import Footer from '../components/Footer'
 import TextLink from '../components/Link'
 import Cfp from '../components/Cfp'
 
-const About = () => (
-  <div>
+export default () => (
+  <>
     <InnerHeader />
     <Container py={6}>
       <Heading mb={3}>
@@ -30,7 +30,5 @@ const About = () => (
 
     </Container>
     <Footer />
-  </div>
+  </>
 )
-
-export default About

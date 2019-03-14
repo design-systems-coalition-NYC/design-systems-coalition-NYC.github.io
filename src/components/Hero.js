@@ -4,12 +4,9 @@ import Container from './Container'
 import Heading from './Heading'
 import Text from './Text'
 import Caps from './Caps'
+import { description } from '../content'
 
-const Hero = ({
-  title,
-  subhead,
-  description
-}) => (
+export default () => (
   <header>
     <Box
       pt={6}
@@ -21,9 +18,9 @@ const Hero = ({
           as='h1'
           fontSize={[ 7, 7, 8, 9 ]}
           mb={3}>
-          {title}
+          Design Systems Coalition
         </Heading>
-        <Caps mb={4}>{subhead}</Caps>
+        <Caps mb={4}>NYC</Caps>
         <Text fontSize={3}>
           {description}
         </Text>
@@ -31,11 +28,3 @@ const Hero = ({
     </Box>
   </header>
 )
-
-Hero.defaultProps = {
-  title: 'Design Systems Coalition',
-  subhead: 'NYC',
-  description: 'A community for people who build design systems to share and learn from each other.'
-}
-
-export default Hero
