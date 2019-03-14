@@ -4,17 +4,19 @@ import Hero from '../components/Hero'
 import Container from '../components/Container'
 import Box from '../components/Box'
 import Heading from '../components/Heading'
-import SaveDate from '../components/SaveDate'
 import Cfp from '../components/Cfp'
-import EventSection from '../components/EventSection'
 import EventPromo from '../components/EventPromo'
-import SpeakerSection from '../components/SpeakerSection'
 import PastEventCard from '../components/PastEventCard'
 import HostPromo from '../components/HostPromo'
-import HappyHour from '../components/HappyHour'
 import Organizers from '../components/Organizers'
 import Footer from '../components/Footer'
-import { pastEvents } from '../components/content'
+
+import { pastEvents } from '../content'
+
+// import SaveDate from '../components/SaveDate'
+// import EventSection from '../components/EventSection'
+// import SpeakerSection from '../components/SpeakerSection'
+// import HappyHour from '../components/HappyHour'
 
 // Homepage index.html
 const Index = props => (

@@ -1,3 +1,4 @@
+import React from 'react'
 import styled from 'styled-components'
 import {
   space,
@@ -6,8 +7,16 @@ import {
   fontWeight
 } from 'styled-system'
 import { Link } from 'gatsby'
+import isAbsoluteURL from 'is-absolute-url'
 
-const NavLink = styled.a`
+const BaseLink = ({ href, ...props }) =>
+  isAbsoluteURL(href)
+  // eslint-disable-next-line
+  ? <a href={href} {...props} />
+  : <Link to={href} {...props} />
+
+
+const NavLink = styled(BaseLink)`
   text-decoration: none;
   display: inline-block;
   ${space}

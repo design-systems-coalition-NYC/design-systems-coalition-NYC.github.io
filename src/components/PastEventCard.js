@@ -5,7 +5,6 @@ import BackgroundImage from './BackgroundImage'
 import Heading from './Heading'
 import Text from './Text'
 import Caps from './Caps'
-import Button from './Button'
 import Link from './Link'
 
 const PastEventCard = ({

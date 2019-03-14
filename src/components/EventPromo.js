@@ -7,7 +7,6 @@ import Image from './Image'
 import Flex from './Flex'
 import Box from './Box'
 import Text from './Text'
-import Link from './Link'
 
 const EventPromo = (props) => (
   <Container id='next-meetup' py={6}>
