@@ -5,11 +5,9 @@ import BackgroundImage from './BackgroundImage'
 import Heading from './Heading'
 import Button from './Button'
 
-const HostPromo = ({
-  image,
-  heading,
-  button
-}) => (
+const image = 'https://user-images.githubusercontent.com/334891/50564896-162cc900-0cf7-11e9-8f67-1798bdb24c71.jpg'
+
+export default () => (
   <section>
     <BackgroundImage
       src={image}
@@ -20,27 +18,16 @@ const HostPromo = ({
           <Heading
             fontSize={[ 5, 6 ]}
             mb={4}>
-            {heading}
+            Host or speak at our next meetup!
           </Heading>
           <Button
             as='a'
             bg='white'
-            href={button.href}>
-            {button.text}
+            href='http://designsystems.nyc/meetup/'>
+            Get Involved
           </Button>
         </Box>
       </Container>
     </BackgroundImage>
   </section>
 )
-
-HostPromo.defaultProps = {
-  image: 'https://user-images.githubusercontent.com/334891/50564896-162cc900-0cf7-11e9-8f67-1798bdb24c71.jpg',
-  heading: 'Host or speak at our next meetup!',
-  button: {
-    href: 'http://designsystems.nyc/meetup/',
-    text: 'Get Involved'
-  }
-}
-
-export default HostPromo

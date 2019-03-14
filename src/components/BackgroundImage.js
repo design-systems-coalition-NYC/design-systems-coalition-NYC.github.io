@@ -2,11 +2,10 @@ import styled from 'styled-components'
 import { height, style } from 'styled-system'
 import Box from './Box'
 
-const ratio = props => ({
-  width: '100%',
+const ratio = props => props.ratio ? ({
   height: 0,
   paddingBottom: (props.ratio * 100) + '%'
-})
+}) : null
 
 const image = props => props.src ? ({
   backgroundImage: `url(${props.src})`
