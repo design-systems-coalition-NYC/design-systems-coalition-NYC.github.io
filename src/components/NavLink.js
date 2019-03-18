@@ -9,7 +9,7 @@ import {
 import { Link } from 'gatsby'
 import isAbsoluteURL from 'is-absolute-url'
 
-const BaseLink = ({ href, ...props }) =>
+const BaseLink = ({ href = '', ...props }) =>
   isAbsoluteURL(href)
   // eslint-disable-next-line
   ? <a href={href} {...props} />
