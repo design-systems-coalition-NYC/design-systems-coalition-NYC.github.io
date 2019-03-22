@@ -9,5 +9,7 @@ deploy:
   skip_cleanup: true
   github_token: $GH_TOKEN
   local_dir: public
+  target-branch: master
+  keep-history: true
   on:
-    branch: master
+    branch: develop
