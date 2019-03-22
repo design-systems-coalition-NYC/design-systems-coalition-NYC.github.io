@@ -2,15 +2,24 @@ export const description = 'A community for people who build design systems to s
 
 export const nextEvent = {
   title: 'Happy Hour!',
-  date: 'Jan 23',
+  date: 'March 27',
   location: 'The Winslow',
   text: 'Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.',
-  href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/257976364/',
+  href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/259942025/',
   button: 'RSVP',
   image: 'https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG',
 }
 
 export const pastEvents = [
+  {
+    title: 'Happy Hour!',
+    date: 'Jan 23',
+    location: 'The Winslow',
+    text: 'Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.',
+    href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/257976364/',
+    button: 'RSVP',
+    image: 'https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG',
+  },
   {
     title: 'Shaping design systems',
     date: 'December 5',
