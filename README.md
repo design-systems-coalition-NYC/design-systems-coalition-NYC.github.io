@@ -1,4 +1,0 @@
-
-# https://designsystems.nyc
-
-
