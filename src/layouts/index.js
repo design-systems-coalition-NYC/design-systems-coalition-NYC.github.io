@@ -28,7 +28,7 @@ const App = props => (
       />
       <meta name='og:title' content='Design Systems Coalition NYC' />
       <meta name='og:description' content={description} />
-      <meta name='og:image' content='http://designsystems.nyc/assets/apple-touch-icon.png' />
+      <meta name='og:image' content='http://designsystems.nyc/apple-touch-icon.png' />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:site' content='@nyc_dsc' />
     </Helmet>

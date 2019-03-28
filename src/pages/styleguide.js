@@ -58,13 +58,13 @@ export default () => (
       </Section>
       <Section title='Image'>
         <Image
-          src='http://designsystems.nyc/assets/join-us-bg-4.jpg'
+          src='http://designsystems.nyc/join-us-bg-4.jpg'
         />
       </Section>
       <Section title='BackgroundImage'>
         <BackgroundImage
           ratio={1/2}
-          src='http://designsystems.nyc/assets/join-us-bg-4.jpg'
+          src='http://designsystems.nyc/join-us-bg-4.jpg'
         />
       </Section>
       <Section title='Avatar'>
