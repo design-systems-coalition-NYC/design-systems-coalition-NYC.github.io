@@ -19,7 +19,7 @@ export default ({
 }) => (
   <Container id='next-meetup' py={6}>
     <Flex flexWrap='wrap' alignItems='center'>
-      <Box py={4} width={[ 1, 2/3, 1/2 ]}>
+      <Box py={4} width={[ 1, 2/3, 2/3 ]}>
         <Heading
           mb={3}
           fontSize={[ 5, 6]}>
@@ -31,7 +31,7 @@ export default ({
           {button}
         </Button>
       </Box>
-      <Image py={0} src={image} width={[ 1, 1/3, 1/2 ]} />
+      <Image py={0} src={image} width={[ 1, 1/3, 1/3 ]} />
     </Flex>
   </Container>
 )

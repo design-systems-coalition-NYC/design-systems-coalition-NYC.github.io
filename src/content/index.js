@@ -1,16 +1,24 @@
 export const description = 'A community for people who build design systems to share and learn from each other.'
 
 export const nextEvent = {
-  title: 'Happy Hour!',
-  date: 'March 27',
-  location: 'The Winslow',
-  text: 'Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.',
-  href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/259942025/',
+  title: 'Save the date',
+  date: 'April 23',
+  location: 'Reaktor',
+  text: 'Join us for the next meetup with 3 lightning talks followed by Q&A, and social time before and after talks. Food and drinks provided thanks to our hosts Reaktor. More details tba!',
+  href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/260450846/',
   button: 'RSVP',
-  image: 'https://user-images.githubusercontent.com/334891/41512111-a336b338-7251-11e8-93b8-7371c8e50a39.JPG',
 }
 
 export const pastEvents = [
+  {
+    title: 'Happy Hour!',
+    date: 'March 27',
+    location: 'The Winslow',
+    text: 'Join us for a happy hour and meet other design systems professionals and enthusiasts. This event will give folks the opportunity to meet up in a casual setting.',
+    href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/259942025/',
+    button: 'RSVP',
+    image: 'https://user-images.githubusercontent.com/334891/45930307-7c51c500-bf2c-11e8-97ce-0e1c2231c76f.jpg',
+  },
   {
     title: 'Happy Hour!',
     date: 'Jan 23',
