@@ -7,14 +7,14 @@ export const speakers = [
 
   },
   {
-    href: 'https://twitter.com/marissachristy',
+    href: 'https://donniedamato.info/',
     image: 'https://user-images.githubusercontent.com/334891/56477494-45b53c00-6474-11e9-8fa2-e3f6c74e25b4.jpeg',
     name: 'Donnie D’Amato',
     bio: 'Donnie is a Senior UX Engineer at Compass, based in New York City. Expert in rapid, high-fidelity interaction prototyping and framework agnostic web components.'
 
   },
   {
-    href: 'https://twitter.com/lauradhahn',
+    href: 'https://twitter.com/jxnblk',
     image: 'https://user-images.githubusercontent.com/334891/56477436-852f5880-6473-11e9-89d1-d8f313de492e.jpg',
     name: 'Brent Jackson',
     bio: 'Brent is a Software Developer at Gatsby, creator of Styled System, Rebass, MDX Deck, Colorable, Palx, & Basscss. Focusing on design systems, developer education, React architecture, and front-end design tooling. Previously at Priceline.com, Kickstarter, Etsy, and The Grid.'
