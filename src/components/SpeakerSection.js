@@ -47,7 +47,7 @@ const SpeakerSection = ({
 )
 
 SpeakerSection.defaultProps = {
-  speakers = []
+  speakers: []
 }
 
 export default SpeakerSection

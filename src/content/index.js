@@ -1,10 +1,10 @@
 export const description = 'A community for people who build design systems to share and learn from each other.'
 
 export const nextEvent = {
-  title: 'Save the date',
+  title: 'Designing for scalability',
   date: 'April 24',
   location: 'Reaktor',
-  text: 'Join us for the next meetup with 3 lightning talks followed by Q&A, and social time before and after talks. Food and drinks provided thanks to our hosts Reaktor. More details tba!',
+  text: 'Join us for this meetup with lightning talks focussed on designing for scalability—how do you prioritize, collaborate, design for different platforms, and build a design system that works for different needs and provide a great developer experience.',
   href: 'https://www.meetup.com/NYC-Design-Systems-Coalition/events/260450846/',
   button: 'RSVP',
 }
