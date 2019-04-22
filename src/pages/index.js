@@ -6,6 +6,7 @@ import Box from '../components/Box'
 import Heading from '../components/Heading'
 import Cfp from '../components/Cfp'
 import EventPromo from '../components/EventPromo'
+import SpeakerSection from '../components/SpeakerSection'
 import PastEventCard from '../components/PastEventCard'
 import HostPromo from '../components/HostPromo'
 import Organizers from '../components/Organizers'
@@ -16,10 +17,15 @@ import {
   pastEvents
 } from '../content'
 
+import {
+  speakers
+} from '../content/speakers'
+
 const Index = props => (
   <>
     <Hero />
     <EventPromo {...nextEvent} />
+    <SpeakerSection speakers={speakers} />
     <Cfp href='https://t.co/nWT3FMTXCy' />
     <section id='past-meetups'>
       <Container py={6}>
