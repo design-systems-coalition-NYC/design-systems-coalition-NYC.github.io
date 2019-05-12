@@ -25,7 +25,7 @@ const App = props => (
       <link
         rel='icon'
         type='image/png'
-        href='apple-touch-icon.png'
+        href='favicon.png'
       />
       <link
         rel='apple-touch-icon'
