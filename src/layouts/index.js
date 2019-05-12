@@ -23,6 +23,11 @@ const App = props => (
         content='A community for people who build design systems to share and learn from each other'
       />
       <link
+        rel='icon'
+        type='image/png'
+        href='apple-touch-icon.png'
+      />
+      <link
         rel='apple-touch-icon'
         href='apple-touch-icon.png'
       />
