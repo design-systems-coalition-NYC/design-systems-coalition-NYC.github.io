@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { jsx, Flex } from 'theme-ui'
+import { jsx, Flex, ThemeProvider } from 'theme-ui'
 import {
   chunkElements
 } from './util'
+import BackgroundImage from '../components/BackgroundImage'
 import Card from './Card'
 
 const Cards = ({
@@ -13,18 +14,23 @@ const Cards = ({
 }) => {
   const cards = chunkElements(type => type === 'img')(children)
   return (
-    <Flex flexWrap='wrap' mx={-3}>
-      {cards.map((card, i) => (
-        <Card
-          {...props}
-          key={i}
-          children={card}
-          css={{
-            width,
-          }}
-        />
-      ))}
-    </Flex>
+    <ThemeProvider
+      components={{
+        img: BackgroundImage,
+      }}>
+      <Flex flexWrap='wrap' mx={-3}>
+        {cards.map((card, i) => (
+          <Card
+            {...props}
+            key={i}
+            children={card}
+            css={{
+              width,
+            }}
+          />
+        ))}
+      </Flex>
+    </ThemeProvider>
   )
 }
 

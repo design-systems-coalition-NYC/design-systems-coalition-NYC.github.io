@@ -1,36 +1,14 @@
-import { ThemeProvider } from 'theme-ui'
 import Cards from '../blocks/Cards'
 import Section from '../blocks/Section'
-import MediaObject from '../blocks/MediaObject'
+import MediaCards from '../blocks/MediaCards'
 
-export default props =>
-  <ThemeProvider
-    {...props}
-    theme={{
-      styles: {
-        img: {
-          width: 96,
-          height: 96,
-          borderRadius: 9999,
-          filter: 'grayscale(100%)',
-        },
-        h3: {
-          mb: 0,
-        },
-        p: {
-          m: 0,
-        }
-      }
-    }}
-  />
+export default MediaCards
 
 <Section>
 
 ## Organizers
 
-<Cards
-  Card={MediaObject}
->
+<Cards>
 
 ![Diana Mounter](https://user-images.githubusercontent.com/334891/45935813-4852c000-bf7d-11e8-8e97-8ae77ab85086.jpg)
 

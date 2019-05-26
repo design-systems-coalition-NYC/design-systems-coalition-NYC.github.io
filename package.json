@@ -18,6 +18,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
+    "remark-slug": "^5.1.1",
     "remark-unwrap-images": "^0.2.0",
     "styled-system": "^4.2.2",
     "theme-ui": "^0.0.16"
