@@ -6,7 +6,7 @@ export default props =>
     theme={{
       styles: {
         h1: {
-          fontSize: [ 7, 7, 8, 9 ],
+          fontSize: [ 7, 7, 8 ],
           lineHeight: 'heading',
           m: 0,
         },

@@ -1,15 +1,16 @@
 /** @jsx jsx */
 import {
   jsx,
-  useThemeUI,
   Flex,
   Box,
   Styled,
 } from 'theme-ui'
+import { useEditableTheme } from './ThemeEditor'
 
 const Chip = ({
   name,
   value,
+  onChange,
 }) =>
   <div
     css={{
@@ -23,18 +24,41 @@ const Chip = ({
         outline: '1px solid',
       }}
     />
-    <div>{name}</div>
-    <Styled.code>{value}</Styled.code>
+    <label>
+      <div>{name}</div>
+      <input
+        type='text'
+        value={value}
+        css={{
+          fontFamily: 'monospace',
+          fontSize: 2,
+          color: 'inherit',
+          bg: 'transparent',
+          border: 0,
+          m: 0,
+          p: 0,
+          ':focus': {
+            outline: '1px solid',
+          }
+        }}
+        onChange={e => {
+          onChange({ [name]: e.target.value })
+        }}
+      />
+    </label>
   </div>
 
 export default props => {
-  const { theme } = useThemeUI()
+  const { state, setState } = useEditableTheme()
 
-  const colors = Object.keys(theme.colors)
-    .filter(key => typeof theme.colors[key] === 'string')
+  const colors = Object.keys(state.colors)
+    .filter(key => typeof state.colors[key] === 'string')
     .map(key => ({
       name: key,
-      value: theme.colors[key]
+      value: state.colors[key],
+      onChange: next => {
+        setState({ colors: next })
+      }
     }))
 
   return (

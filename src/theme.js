@@ -33,15 +33,6 @@ export const theme = {
         secondary: '#000a52',
       }
     },
-
-    // legacy
-    // black: '#000',
-    // darkgray: '#444',
-    // gray: '#ccc',
-    // lightgray: '#eee',
-    // blue: '#09a',
-    // tomato: 'tomato',
-    // darken: `rgba(0, 0, 0, ${1/8})`
   },
   radii: [ 0, 2 ],
   space: [
@@ -65,9 +56,11 @@ export const theme = {
     48,
     64,
     96,
-    128
   ],
   styles: {
+    Container: {
+      maxWidth: 1280,
+    },
     h1: {
       fontSize: 6,
       lineHeight: 'heading',
