@@ -1,18 +1,22 @@
 
-const theme = {
+export const theme = {
   breakpoints: [
     '32em',
     '48em',
     '64em',
     '96em'
   ],
-  fonts: [
-    'system-ui, sans-serif'
-  ],
-  lineHeight: 1.5,
+  fonts: {
+    body: 'system-ui, sans-serif',
+  },
+  lineHeights: {
+    body: 1.5,
+    heading: 1.125,
+  },
   colors: {
     black: '#000',
     text: '#000',
+    background: '#fff',
     darkgray: '#444',
     gray: '#ccc',
     lightgray: '#eee',
@@ -43,7 +47,50 @@ const theme = {
     64,
     96,
     128
-  ]
+  ],
+  styles: {
+    h1: {
+      fontSize: 5,
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+    },
+    h2: {
+      fontSize: 4,
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+    },
+    h3: {
+      fontSize: 2,
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+      textTransform: 'uppercase',
+      letterSpacing: '0.2em',
+    },
+    h4: {
+      fontSize: 3,
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+    },
+    a: {
+      '&[title=button]': {
+        textDecoration: 'none',
+        display: 'inline-block',
+        textAlign: 'center',
+        fontSize: 2,
+        fontWeight: 'bold',
+        lineHeight: 1,
+        px: 3,
+        py: 2,
+        color: 'text',
+        bg: 'tomato',
+        '&:hover': {
+          color: 'background',
+          bg: 'text',
+        }
+      }
+    },
+  }
 }
+
 
 export default theme

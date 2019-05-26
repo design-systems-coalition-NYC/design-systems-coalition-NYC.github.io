@@ -1,13 +1,12 @@
-import styled from 'styled-components'
-import Box from './Box'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 
-const Container = styled(Box)`
-  max-width: 1024px;
-`
-
-Container.defaultProps = {
-  mx: 'auto',
-  px: 4,
-}
-
-export default Container
+export default props =>
+  <div
+    {...props}
+    css={{
+      maxWidth: 1024,
+      mx: 'auto',
+      px: 4,
+    }}
+  />

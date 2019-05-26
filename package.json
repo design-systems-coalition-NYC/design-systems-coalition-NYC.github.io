@@ -5,20 +5,21 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@mdx-js/mdx": "^1.0.18",
-    "@mdx-js/react": "^1.0.16",
-    "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.4.3",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.11",
+    "@mdx-js/mdx": "^1.0.20",
+    "@mdx-js/react": "^1.0.20",
+    "emotion-theming": "^10.0.10",
+    "gatsby": "^2.7.1",
     "gatsby-mdx": "^0.6.3",
-    "gatsby-plugin-catch-links": "^2.0.13",
+    "gatsby-plugin-catch-links": "^2.0.15",
     "gatsby-plugin-react-helmet": "^3.0.12",
-    "gatsby-plugin-styled-components": "^3.0.7",
     "is-absolute-url": "^2.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
-    "styled-components": "^4.2.0",
-    "styled-system": "^4.2.2"
+    "styled-system": "^4.2.2",
+    "theme-ui": "^0.0.16"
   },
   "devDependencies": {},
   "scripts": {
@@ -39,13 +40,5 @@
   "bugs": {
     "url": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io/issues"
   },
-  "homepage": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io#readme",
-  "x0": {
-    "template": "./src/html.js",
-    "cssLibrary": "styled-components",
-    "routes": [
-      "/",
-      "/styleguide"
-    ]
-  }
+  "homepage": "https://github.com/design-systems-coalition-NYC/design-systems-coalition-NYC.github.io#readme"
 }

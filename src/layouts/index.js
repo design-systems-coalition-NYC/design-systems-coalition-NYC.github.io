@@ -1,18 +1,10 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { Global } from '@emotion/core'
+import { ThemeProvider, css } from 'theme-ui'
 import theme from '../components/theme'
 import Box from '../components/Box'
 import { description } from '../content'
-
-const Style = createGlobalStyle`
-  body {
-    margin: 0;
-    font-family: 'Helvetica Neue', Helvetica, system-ui, sans-serif;
-    line-height: 1.5;
-  }
-  * { box-sizing: border-box }
-`
 
 const App = props => (
   <>
@@ -39,7 +31,18 @@ const App = props => (
     </Helmet>
     <ThemeProvider theme={theme}>
       <Box color='text'>
-        <Style />
+        <Global
+          styles={css({
+            body: {
+              margin: 0,
+              fontFamily: 'body',
+              lineHeight: 'body',
+            },
+            '*': {
+              boxSizing: 'border-box',
+            }
+          })}
+        />
         {props.children}
       </Box>
     </ThemeProvider>
