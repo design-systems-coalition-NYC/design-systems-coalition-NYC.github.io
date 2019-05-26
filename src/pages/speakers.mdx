@@ -1,40 +1,22 @@
-import Banner from '../blocks/Banner'
-import Event from '../blocks/Event'
+import { Flex, ThemeProvider } from 'theme-ui'
+import BackgroundImage from '../components/BackgroundImage'
 import Section from '../blocks/Section'
+import Cards from '../blocks/Cards'
 import Card from '../blocks/Card'
-import { Flex } from 'theme-ui'
 
-<Banner>
-
-# Design Systems Coalition
-
-## NYC
-
-A community for people who build design systems to share and learn from each other
-
-</Banner>
-
-<Event>
-
-## Designing for Scalability
-
-### April 24 @ Reaktor
-
-Join us for this meetup with lightning talks focussed on designing for scalability—how do you prioritize, collaborate, design for different platforms, and build a design system that works for different needs and provide a great developer experience.
-
-[RSVP](https://www.meetup.com/NYC-Design-Systems-Coalition/events/260450846/ 'button')
-
-</Event>
+export default props =>
+  <ThemeProvider
+    components={{
+      img: BackgroundImage,
+    }}>
+    {props.children}
+  </ThemeProvider>
 
 <Section>
 
 ## Speakers
 
-<Flex
-  flexWrap='wrap'
-  mx={-3}>
-
-<Card>
+<Cards width={[ '100%', '50%', '33%' ]}>
 
 ![](https://user-images.githubusercontent.com/334891/56477438-852f5880-6473-11e9-8d91-83e154a258c6.jpeg)
 
@@ -42,9 +24,8 @@ Join us for this meetup with lightning talks focussed on designing for scalabili
 
 Juliet is a lead product designer at Reaktor where she is currently working on a design system for a client. Previously, she was a demanding user of design systems when she was a designer of products for higher education at Macmillan Learning. She moved to Brooklyn three years ago from Amsterdam with her two cats.
 
-</Card>
+[LinkedIn](https://www.linkedin.com/in/julietdyer/')
 
-<Card>
 
 ![](https://user-images.githubusercontent.com/334891/56477494-45b53c00-6474-11e9-8fa2-e3f6c74e25b4.jpeg)
 
@@ -52,9 +33,8 @@ Juliet is a lead product designer at Reaktor where she is currently working on a
 
 Donnie is a Senior UX Engineer at Compass, based in New York City. Expert in rapid, high-fidelity interaction prototyping and framework agnostic web components.
 
-</Card>
+[Website](https://donniedamato.info/)
 
-<Card>
 
 ![](https://user-images.githubusercontent.com/334891/56477436-852f5880-6473-11e9-89d1-d8f313de492e.jpg)
 
@@ -62,15 +42,8 @@ Donnie is a Senior UX Engineer at Compass, based in New York City. Expert in rap
 
 Brent is a Software Developer at Gatsby, creator of Styled System, Rebass, MDX Deck, Colorable, Palx, & Basscss. Focusing on design systems, developer education, React architecture, and front-end design tooling. Previously at Priceline.com, Kickstarter, Etsy, and The Grid.
 
-</Card>
+[Twitter](https://twitter.com/jxnblk)
 
-</Flex>
-
-</Section>
-
-<Section>
-
-We’re looking for speakers for future meetups!
-[Submit a talk →](https://t.co/nWT3FMTXCy)
+</Cards>
 
 </Section>

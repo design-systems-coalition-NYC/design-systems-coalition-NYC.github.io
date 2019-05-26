@@ -50,12 +50,12 @@ export const theme = {
   ],
   styles: {
     h1: {
-      fontSize: 5,
+      fontSize: 6,
       lineHeight: 'heading',
       fontWeight: 'heading',
     },
     h2: {
-      fontSize: 4,
+      fontSize: 5,
       lineHeight: 'heading',
       fontWeight: 'heading',
     },
@@ -71,14 +71,18 @@ export const theme = {
       lineHeight: 'heading',
       fontWeight: 'heading',
     },
+    img: {
+      maxWidth: '100%',
+      height: 'auto',
+    },
     a: {
+      color: 'tomato',
       '&[title=button]': {
         textDecoration: 'none',
         display: 'inline-block',
         textAlign: 'center',
         fontSize: 2,
         fontWeight: 'bold',
-        lineHeight: 1,
         px: 3,
         py: 2,
         color: 'text',

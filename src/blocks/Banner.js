@@ -9,7 +9,7 @@ export default props =>
       color: 'black',
       bg: 'tomato',
       h1: {
-        fontSize: [ 7,, 8, 9 ],
+        fontSize: [ 7, null, 8, 9 ],
         lineHeight: 'heading',
         m: 0,
       },

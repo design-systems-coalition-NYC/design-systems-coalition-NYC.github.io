@@ -30,6 +30,7 @@ const BackgroundImage = styled(Box)`
 `
 
 BackgroundImage.defaultProps = {
+  ratio: 1,
   size: 'cover',
   position: 'center center',
 }

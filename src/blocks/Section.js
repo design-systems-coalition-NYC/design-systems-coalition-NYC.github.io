@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, css } from 'theme-ui'
+import { jsx } from 'theme-ui'
 import Container from '../components/Container'
 
 export default props =>
@@ -9,7 +9,5 @@ export default props =>
     }}>
     <section
       {...props}
-      css={{
-      }}
     />
   </Container>

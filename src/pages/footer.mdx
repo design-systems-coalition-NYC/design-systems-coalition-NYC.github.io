@@ -1,0 +1,49 @@
+import { ThemeProvider } from 'theme-ui'
+import Container from '../components/Container'
+import Invert from '../blocks/Invert'
+import Box from '../components/Box'
+
+export default props =>
+  <ThemeProvider
+    theme={{
+      styles: {
+        ul: {
+          listStyle: 'none',
+          display: 'flex',
+          alignItems: 'center',
+          p: 0,
+          m: 0,
+        },
+        a: {
+          color: 'inherit',
+          fontWeight: 'bold',
+          textDecoration: 'none',
+          px: 2,
+          py: 2,
+        },
+      }
+    }}>
+    <Invert
+      {...props}
+      css={{
+        width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        flexWrap: 'wrap',
+      }}
+    />
+  </ThemeProvider>
+
+- [DSC](https://design.systems/coalition)
+- [Twitter](https://twitter.com/nyc_dsc)
+- [Flickr](https://www.flickr.com/people/158537588@N02/)
+- [YouTube](https://www.youtube.com/channel/UC0qWdJQb-hCUVp4ZfbPuPUQ)
+- [Medium](https://publication.design.systems/)
+- [GitHub](https://github.com/design-systems-coalition-NYC/meetup)
+- [Slack](http://designsystems.herokuapp.com/)
+- [Code of Conduct](/meetup/code-of-conduct)
+- [Style Guide](/styleguide)
+
+<Box mx='auto' />
+
+- [Join us on Meetup](https://www.meetup.com/NYC-Design-Systems-Coalition/ 'button')
