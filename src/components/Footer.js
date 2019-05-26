@@ -36,9 +36,7 @@ export default props =>
         {...props}
         css={{
           width: '100%',
-          display: 'flex',
-          alignItems: 'center',
-          flexWrap: 'wrap',
+          py: 4,
         }}
       />
     </Container>

@@ -3,11 +3,14 @@ import { Global } from '@emotion/core'
 import { ColorModeProvider, ThemeProvider, css } from 'theme-ui'
 import ThemeEditor from './components/ThemeEditor'
 import theme from './theme'
+import components from './mdx-components'
 
 export default props => {
   return (
     <ColorModeProvider initialColorMode='light'>
-      <ThemeProvider theme={theme}>
+      <ThemeProvider
+        components={components}
+        theme={theme}>
         <ThemeEditor>
           <Global
             styles={css({

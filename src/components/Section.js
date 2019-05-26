@@ -1,12 +1,20 @@
 /** @jsx jsx */
-import { jsx, Container } from 'theme-ui'
+import { jsx, ThemeProvider, Container } from 'theme-ui'
 
-export default props =>
-  <Container
-    css={{
-      py: 5,
-    }}>
-    <section
-      {...props}
-    />
-  </Container>
+export default ({
+  components,
+  theme,
+  ...props
+}) =>
+  <ThemeProvider
+    components={components}
+    theme={theme}>
+    <Container
+      css={{
+        py: 5,
+      }}>
+      <section
+        {...props}
+      />
+    </Container>
+  </ThemeProvider>

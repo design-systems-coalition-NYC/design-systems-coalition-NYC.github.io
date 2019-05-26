@@ -103,7 +103,6 @@ export const theme = {
         color: 'background',
         bg: 'primary',
         '&:hover': {
-          outline: '4px solid gold',
           bg: 'secondary',
         }
       }
