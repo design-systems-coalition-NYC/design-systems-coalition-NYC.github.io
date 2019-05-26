@@ -1,4 +1,3 @@
-
 export const theme = {
   breakpoints: [
     '32em',

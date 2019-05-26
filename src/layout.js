@@ -3,8 +3,9 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from 'react-helmet'
 import { Global } from '@emotion/core'
 import { ColorModeProvider, ThemeProvider, css } from 'theme-ui'
-import theme from './components/theme'
 import Box from './components/Box'
+import theme from './theme'
+
 
 const useSiteMetadata = () => {
   const data = useStaticQuery(graphql`
@@ -21,7 +22,7 @@ const useSiteMetadata = () => {
 }
 
 const Layout = props => {
-  const meta = {} // useSiteMetadata()
+  const meta = {} //useSiteMetadata()
 
   return (
     <>

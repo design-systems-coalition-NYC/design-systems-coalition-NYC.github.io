@@ -1,7 +1,12 @@
 import React from 'react'
 import Layout from './layout'
 
-export const wrapRootElement = ({ element, props }) =>
+const Root = props =>
   <Layout>
-    {element}
+    {props.children}
   </Layout>
+
+export const wrapRootElement = ({ element, props }) =>
+  <Root>
+    {element}
+  </Root>
