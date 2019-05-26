@@ -13,9 +13,28 @@ export const theme = {
     heading: 1.125,
   },
   colors: {
-    black: '#000',
     text: '#000',
     background: '#fff',
+    primary: 'tomato',
+    secondary: 'rebeccapurple',
+
+    modes: {
+      dark: {
+        text: '#fff',
+        background: '#000',
+        primary: 'tomato',
+        secondary: 'magenta',
+      },
+      tomato: {
+        text: '#000',
+        background: 'tomato',
+        primary: '#018',
+        secondary: '#000a52',
+      }
+    },
+
+    // legacy
+    black: '#000',
     darkgray: '#444',
     gray: '#ccc',
     lightgray: '#eee',
@@ -75,7 +94,10 @@ export const theme = {
       height: 'auto',
     },
     a: {
-      color: 'tomato',
+      color: 'primary',
+      ':hover': {
+        color: 'secondary',
+      },
       '&[title=button]': {
         textDecoration: 'none',
         display: 'inline-block',
@@ -85,10 +107,10 @@ export const theme = {
         px: 3,
         py: 2,
         color: 'text',
-        bg: 'tomato',
+        bg: 'primary',
         '&:hover': {
           color: 'background',
-          bg: 'text',
+          bg: 'secondary',
         }
       }
     },

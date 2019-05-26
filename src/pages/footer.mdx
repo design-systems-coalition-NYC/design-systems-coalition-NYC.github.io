@@ -1,6 +1,5 @@
 import { ThemeProvider } from 'theme-ui'
 import Container from '../components/Container'
-import Invert from '../blocks/Invert'
 import Box from '../components/Box'
 
 export default props =>
@@ -10,9 +9,16 @@ export default props =>
         ul: {
           listStyle: 'none',
           display: 'flex',
+          flexWrap: 'wrap',
           alignItems: 'center',
           p: 0,
           m: 0,
+          mx: -2,
+        },
+        li: {
+          ':last-child': {
+            ml: 'auto',
+          }
         },
         a: {
           color: 'inherit',
@@ -20,18 +26,23 @@ export default props =>
           textDecoration: 'none',
           px: 2,
           py: 2,
+          '&[title=button]': {
+            my: 3,
+          }
         },
       }
     }}>
-    <Invert
-      {...props}
-      css={{
-        width: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        flexWrap: 'wrap',
-      }}
-    />
+    <Container>
+      <footer
+        {...props}
+        css={{
+          width: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          flexWrap: 'wrap',
+        }}
+      />
+    </Container>
   </ThemeProvider>
 
 - [DSC](https://design.systems/coalition)
@@ -41,9 +52,6 @@ export default props =>
 - [Medium](https://publication.design.systems/)
 - [GitHub](https://github.com/design-systems-coalition-NYC/meetup)
 - [Slack](http://designsystems.herokuapp.com/)
-- [Code of Conduct](/meetup/code-of-conduct)
+- [Code of Conduct](/code-of-conduct)
 - [Style Guide](/styleguide)
-
-<Box mx='auto' />
-
 - [Join us on Meetup](https://www.meetup.com/NYC-Design-Systems-Coalition/ 'button')

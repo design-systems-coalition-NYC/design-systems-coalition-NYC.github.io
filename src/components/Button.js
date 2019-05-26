@@ -38,8 +38,8 @@ Button.defaultProps = {
   px: 3,
   py: 2,
   borderRadius: 0,
-  bg: 'tomato',
-  color: 'text'
+  bg: 'primary',
+  color: 'background'
 }
 
 export default Button

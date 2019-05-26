@@ -8,5 +8,6 @@ export default props =>
       maxWidth: 1024,
       mx: 'auto',
       px: 4,
+      ...props.css,
     }}
   />
