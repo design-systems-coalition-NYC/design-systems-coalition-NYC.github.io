@@ -15,7 +15,7 @@ export default props =>
           mx: -2,
         },
         li: {
-          ':last-child': {
+          '&:last-child': {
             ml: 'auto',
           }
         },

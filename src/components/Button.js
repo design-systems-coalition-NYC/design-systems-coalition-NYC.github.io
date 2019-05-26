@@ -17,12 +17,6 @@ const Button = styled.button`
   text-align: center;
   border: 0;
 
-  &:focus {}
-  &:hover {
-    box-shadow: inset 0 0 0 999px ${themeGet('colors.darken')};
-  }
-  &:active {}
-
   ${space}
   ${width}
   ${color}

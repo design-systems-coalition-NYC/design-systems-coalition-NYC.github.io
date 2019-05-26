@@ -7,6 +7,7 @@ export const theme = {
   ],
   fonts: {
     body: 'system-ui, sans-serif',
+    monospace: 'Menlo, monospace',
   },
   lineHeights: {
     body: 1.5,
@@ -34,13 +35,13 @@ export const theme = {
     },
 
     // legacy
-    black: '#000',
-    darkgray: '#444',
-    gray: '#ccc',
-    lightgray: '#eee',
-    blue: '#09a',
-    tomato: 'tomato',
-    darken: `rgba(0, 0, 0, ${1/8})`
+    // black: '#000',
+    // darkgray: '#444',
+    // gray: '#ccc',
+    // lightgray: '#eee',
+    // blue: '#09a',
+    // tomato: 'tomato',
+    // darken: `rgba(0, 0, 0, ${1/8})`
   },
   radii: [ 0, 2 ],
   space: [
@@ -95,7 +96,7 @@ export const theme = {
     },
     a: {
       color: 'primary',
-      ':hover': {
+      '&:hover': {
         color: 'secondary',
       },
       '&[title=button]': {
@@ -109,11 +110,17 @@ export const theme = {
         color: 'background',
         bg: 'primary',
         '&:hover': {
-          color: 'background',
+          outline: '4px solid gold',
           bg: 'secondary',
         }
       }
     },
+    pre: {
+      fontFamily: 'monospace',
+    },
+    code: {
+      fontFamily: 'monospace',
+    }
   }
 }
 

@@ -9,7 +9,7 @@ export default props =>
           color: 'inherit',
           fontWeight: 'bold',
           textDecoration: 'none',
-          ':hover': {
+          '&:hover': {
             color: 'primary',
           },
         },
