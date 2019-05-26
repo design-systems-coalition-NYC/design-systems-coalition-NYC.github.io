@@ -1,6 +1,5 @@
 import styled from '@emotion/styled'
 import { height, style } from 'styled-system'
-import Box from './Box'
 
 const ratio = props => props.ratio ? ({
   height: 0,
@@ -21,13 +20,13 @@ const size = style({
   cssProperty: 'backgroundSize'
 })
 
-const BackgroundImage = styled(Box)`
-  ${image}
-  ${position}
-  ${size}
-  ${height}
-  ${ratio}
-`
+const BackgroundImage = styled('div')(
+  image,
+  position,
+  size,
+  height,
+  ratio
+)
 
 BackgroundImage.defaultProps = {
   ratio: 1,

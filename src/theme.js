@@ -106,7 +106,7 @@ export const theme = {
         fontWeight: 'bold',
         px: 3,
         py: 2,
-        color: 'text',
+        color: 'background',
         bg: 'primary',
         '&:hover': {
           color: 'background',
