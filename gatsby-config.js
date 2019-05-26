@@ -1,5 +1,6 @@
 const remarkPlugins = [
   require('remark-unwrap-images'),
+  require('remark-slug'),
 ]
 
 const data = {

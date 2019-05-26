@@ -1,6 +1,5 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
-import Container from './components/Container'
+import { jsx, Container } from 'theme-ui'
 import Header from './pages/header.mdx'
 import Footer from './pages/footer.mdx'
 

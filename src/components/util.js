@@ -1,4 +1,3 @@
-
 const PROP = 'originalType'
 
 export const isHeading = tag => /^h[1-6]/.test(tag)

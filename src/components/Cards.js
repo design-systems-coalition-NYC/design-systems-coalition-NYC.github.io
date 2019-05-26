@@ -3,7 +3,7 @@ import { jsx, Flex, ThemeProvider } from 'theme-ui'
 import {
   chunkElements
 } from './util'
-import BackgroundImage from '../components/BackgroundImage'
+import BackgroundImage from './BackgroundImage'
 import Card from './Card'
 
 const Cards = ({
