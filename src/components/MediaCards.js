@@ -1,8 +1,9 @@
 /** @jsx jsx */
-import { jsx, ThemeProvider } from 'theme-ui'
+import { jsx } from 'theme-ui'
+import Cards from './Cards'
 
-export default props =>
-  <ThemeProvider
+export default props => console.log(props) ||
+  <Cards
     {...props}
     theme={{
       styles: {
@@ -16,7 +17,7 @@ export default props =>
           filter: 'grayscale(100%)',
         },
         h3: {
-          mb: 0,
+          m: 0,
         },
         p: {
           m: 0,
@@ -24,4 +25,3 @@ export default props =>
       }
     }}
   />
-

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Container } from 'theme-ui'
-import Header from './pages/header.mdx'
-import Footer from './pages/footer.mdx'
+import Header from './sections/header.mdx'
+import Footer from './sections/footer.mdx'
 
 export default props =>
   <div>

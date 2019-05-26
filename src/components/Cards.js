@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Flex, ThemeProvider } from 'theme-ui'
+import merge from 'lodash.merge'
 import {
   chunkElements
 } from './util'
@@ -9,7 +10,9 @@ import Card from './Card'
 const Cards = ({
   Card,
   width,
+  ratio = 1,
   children,
+  theme,
   ...props
 }) => {
   const cards = chunkElements(type => type === 'img')(children)
@@ -17,7 +20,14 @@ const Cards = ({
     <ThemeProvider
       components={{
         img: BackgroundImage,
-      }}>
+      }}
+      theme={merge({
+        styles: {
+          img: {
+            paddingBottom: (ratio * 100) + '%',
+          }
+        }
+      }, theme)}>
       <Flex flexWrap='wrap' mx={-3}>
         {cards.map((card, i) => (
           <Card
