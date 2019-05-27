@@ -9,19 +9,22 @@ export default props =>
           color: 'inherit',
           fontWeight: 'bold',
           textDecoration: 'none',
-          '&:hover': {
-            color: 'primary',
-          },
         },
       }
     }}>
-    <Container
-      {...props}
+    <div
       css={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'space-between',
-        py: 3,
-      }}
-    />
+        color: 'banner.text',
+        bg: 'banner.background',
+      }}>
+      <Container
+        {...props}
+        css={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          py: 3,
+        }}
+      />
+    </div>
   </ThemeProvider>

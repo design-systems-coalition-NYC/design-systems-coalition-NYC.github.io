@@ -18,13 +18,21 @@ export const theme = {
     background: '#fff',
     primary: 'tomato',
     secondary: 'rebeccapurple',
+    banner: {
+      text: '#000',
+      background: 'tomato',
+    },
 
     modes: {
       dark: {
         text: '#fff',
         background: '#000',
         primary: 'tomato',
-        secondary: 'magenta',
+        secondary: 'rebeccapurple',
+        banner: {
+          text: 'tomato',
+          background: 'black',
+        },
       },
       tomato: {
         text: '#000',

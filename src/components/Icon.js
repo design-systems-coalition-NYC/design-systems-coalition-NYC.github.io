@@ -17,11 +17,15 @@ export default ({
         fontWeight: 'bold',
         fontSize: size / 3,
         letterSpacing: '0.1em',
-        marginLeft: '0.1em',
         color: 'black',
         backgroundColor: 'tomato',
       }}>
-      DSC
+      <div
+        style={{
+          marginLeft: '0.1em',
+        }}>
+        DSC
+      </div>
     </div>
   )
 }

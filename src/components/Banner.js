@@ -12,12 +12,14 @@ export default props =>
         },
         p: {
           fontSize: 3,
-        }
+        },
       }
     }}>
     <header
       css={{
         py: [ 5, 6 ],
+        color: 'banner.text',
+        bg: 'banner.background',
       }}>
       <Container {...props} />
     </header>
