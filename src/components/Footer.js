@@ -1,46 +1,44 @@
-import React from 'react'
-import Flex from './Flex'
-import Box from './Box'
-import Container from './Container'
-import NavLink from './NavLink'
-import Button from './Button'
-import { links } from '../content'
+/** @jsx jsx */
+import { jsx, ThemeProvider, Container } from 'theme-ui'
 
-const Footer = ({
-  links = [],
-}) => (
-  <footer>
-    <Box color='tomato' bg='black'>
-      <Container>
-        <Flex
-          flexWrap='wrap'
-          alignItems='center'
-          mx={-2}
-          py={3}>
-          {links.map(link => (
-            <NavLink
-              key={link.href}
-              m={2}
-              href={link.href}>
-              {link.text}
-            </NavLink>
-          ))}
-          <Box mx='auto' />
-          <Button
-            as='a'
-            m={2}
-            mt={[4,2]}
-            href='https://www.meetup.com/NYC-Design-Systems-Coalition/'>
-            Join us on Meetup
-          </Button>
-        </Flex>
-      </Container>
-    </Box>
-  </footer>
-)
+export default props =>
+  <ThemeProvider
+    theme={{
+      styles: {
+        ul: {
+          listStyle: 'none',
+          display: 'flex',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+          p: 0,
+          m: 0,
+          mx: -2,
+        },
+        li: {
+          '&:last-child': {
+            ml: 'auto',
+          }
+        },
+        a: {
+          color: 'inherit',
+          fontWeight: 'bold',
+          textDecoration: 'none',
+          px: 2,
+          py: 2,
+          '&[title=button]': {
+            my: 3,
+          }
+        },
+      }
+    }}>
+    <Container>
+      <footer
+        {...props}
+        css={{
+          width: '100%',
+          py: 4,
+        }}
+      />
+    </Container>
+  </ThemeProvider>
 
-Footer.defaultProps = {
-  links,
-}
-
-export default Footer

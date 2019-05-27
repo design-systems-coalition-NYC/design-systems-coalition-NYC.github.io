@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from '@emotion/styled'
 import {
   space,
   color,
@@ -6,7 +6,6 @@ import {
   fontSize,
   fontWeight,
   borderRadius,
-  themeGet,
 } from 'styled-system'
 
 const Button = styled.button`
@@ -16,12 +15,6 @@ const Button = styled.button`
   display: inline-block;
   text-align: center;
   border: 0;
-
-  &:focus {}
-  &:hover {
-    box-shadow: inset 0 0 0 999px ${themeGet('colors.darken')};
-  }
-  &:active {}
 
   ${space}
   ${width}
@@ -38,8 +31,8 @@ Button.defaultProps = {
   px: 3,
   py: 2,
   borderRadius: 0,
-  bg: 'tomato',
-  color: 'text'
+  bg: 'primary',
+  color: 'background'
 }
 
 export default Button
