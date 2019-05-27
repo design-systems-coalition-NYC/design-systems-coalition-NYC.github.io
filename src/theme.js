@@ -1,3 +1,14 @@
+const heading = {
+  lineHeight: 'heading',
+  a: {
+    color: 'inherit',
+    textDecoration: 'none',
+    ':hover': {
+      color: 'primary',
+    }
+  }
+}
+
 export const theme = {
   breakpoints: [
     '32em',
@@ -72,24 +83,20 @@ export const theme = {
     h1: {
       fontSize: 6,
       lineHeight: 'heading',
-      fontWeight: 'heading',
     },
     h2: {
+      ...heading,
       fontSize: 5,
-      lineHeight: 'heading',
-      fontWeight: 'heading',
     },
     h3: {
+      ...heading,
       fontSize: 2,
-      lineHeight: 'heading',
-      fontWeight: 'heading',
       textTransform: 'uppercase',
       letterSpacing: '0.2em',
     },
     h4: {
+      ...heading,
       fontSize: 3,
-      lineHeight: 'heading',
-      fontWeight: 'heading',
     },
     img: {
       maxWidth: '100%',

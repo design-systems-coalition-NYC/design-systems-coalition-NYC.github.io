@@ -1,12 +1,8 @@
 /** @jsx jsx */
-import {
-  jsx,
-  useThemeUI,
-} from 'theme-ui'
+import { jsx } from 'theme-ui'
 import { useEditableTheme } from './ThemeEditor'
 
 export default props => {
-  const { theme } = useThemeUI()
   const { state, setState } = useEditableTheme()
   const { fonts, fontSizes } = state
 

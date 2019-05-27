@@ -3,7 +3,6 @@ import {
   jsx,
   Flex,
   Box,
-  Styled,
 } from 'theme-ui'
 import { useEditableTheme } from './ThemeEditor'
 

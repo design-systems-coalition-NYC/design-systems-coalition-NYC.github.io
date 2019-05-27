@@ -6,7 +6,6 @@ import {
   fontSize,
   fontWeight,
   borderRadius,
-  themeGet,
 } from 'styled-system'
 
 const Button = styled.button`

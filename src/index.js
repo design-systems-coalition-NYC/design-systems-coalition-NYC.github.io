@@ -1,10 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from 'react-helmet'
-import { Global } from '@emotion/core'
-import { ColorModeProvider, ThemeProvider, css } from 'theme-ui'
 import Root from './root'
-import theme from './theme'
 
 const useSiteMetadata = () => {
   const data = useStaticQuery(graphql`
