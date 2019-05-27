@@ -2,7 +2,7 @@
 import { jsx } from 'theme-ui'
 import Cards from './Cards'
 
-export default props => console.log(props) ||
+export default props =>
   <Cards
     {...props}
     theme={{
