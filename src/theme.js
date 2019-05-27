@@ -39,7 +39,7 @@ export const theme = {
         text: '#fff',
         background: '#000',
         primary: 'tomato',
-        secondary: 'rebeccapurple',
+        secondary: '#40cde6',
         banner: {
           text: 'tomato',
           background: 'black',
