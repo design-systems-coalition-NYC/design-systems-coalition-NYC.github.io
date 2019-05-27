@@ -5,7 +5,6 @@ import Button from './Button'
 const modes = [
   'light',
   'dark',
-  // 'tomato',
 ]
 
 export default props => {

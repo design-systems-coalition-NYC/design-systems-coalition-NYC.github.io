@@ -10,9 +10,6 @@ export default ({ href, ...props }) => {
           img: {
             mb: 3,
           },
-          h3: {
-            // mt: 0, mb: 2,
-          },
         }
       }}>
       <Tag
@@ -24,7 +21,6 @@ export default ({ href, ...props }) => {
           color: 'inherit',
           textDecoration: 'none',
           p: 3,
-          // flex: '1 1 256px',
         }}
       />
     </ThemeProvider>
