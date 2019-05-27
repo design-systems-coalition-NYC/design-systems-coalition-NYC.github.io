@@ -106,6 +106,7 @@ export const theme = {
       color: 'primary',
       '&:hover': {
         color: 'secondary',
+        textDecorationStyle: 'wavy',
       },
       '&[title=button]': {
         textDecoration: 'none',
