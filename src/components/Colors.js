@@ -11,11 +11,9 @@ const Chip = ({
   value,
   onChange,
 }) =>
-  <div
-    css={{
-    }}>
+  <div>
     <div
-      css={{
+      sx={{
         width: '100%',
         height: 0,
         paddingBottom: '100%',
@@ -28,7 +26,7 @@ const Chip = ({
       <input
         type='text'
         value={value}
-        css={{
+        sx={{
           fontFamily: 'monospace',
           fontSize: 2,
           color: 'inherit',
@@ -68,9 +66,10 @@ export default props => {
         {colors.map(color => (
           <Box
             key={color.name}
-            p={3}
-            width={[ 1/2, 1/3, 1 / colors.length ]}
-          >
+            sx={{
+              p: 3,
+              width: [ 1/2, 1/3, 1 / colors.length ],
+            }}>
             <Chip {...color} />
           </Box>
         ))}

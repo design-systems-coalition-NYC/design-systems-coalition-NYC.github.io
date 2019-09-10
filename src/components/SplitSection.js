@@ -5,7 +5,7 @@ import Section from './Section'
 export default props =>
   <Section
     {...props}
-    css={{
+    sx={{
       display: 'grid',
       gridTemplateColumns: [
         '1fr',
@@ -14,22 +14,6 @@ export default props =>
       ],
       gridGap: 32,
       alignItems: 'center',
-      ...props.css
-    }}
-    theme={{
-      styles: {
-        img: {
-          gridColumnStart: 1,
-          gridColumnEnd: 2,
-        },
-        div: {
-          m: 0,
-          gridColumnStart: [ 1, 1, 2 ],
-          gridColumnEnd: [ 2, 2, 3 ],
-        },
-        h2: {
-          m: 0,
-        }
-      }
+      ...props.sx
     }}
   />

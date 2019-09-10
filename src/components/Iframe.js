@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui'
 
 export default props =>
   <div
-    css={{
+    sx={{
       width: '100%',
       height: 0,
       paddingBottom: (900 / 16) + '%',
@@ -14,7 +14,7 @@ export default props =>
     <iframe
       allowFullScreen
       {...props}
-      css={{
+      sx={{
         position: 'absolute',
         width: '100%',
         height: '100%',

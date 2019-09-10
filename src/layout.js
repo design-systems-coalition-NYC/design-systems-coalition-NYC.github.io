@@ -7,7 +7,7 @@ export default props =>
   <div>
     <Header />
     <Container
-      css={{
+      sx={{
         py: 4,
       }}>
       {props.children}

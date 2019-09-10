@@ -16,13 +16,13 @@ export default props =>
       }
     }}>
     <div
-      css={{
+      sx={{
         color: 'banner.text',
         bg: 'banner.background',
       }}>
       <Container
         {...props}
-        css={{
+        sx={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',

@@ -16,7 +16,7 @@ export default props =>
       }
     }}>
     <header
-      css={{
+      sx={{
         py: [ 5, 6 ],
         color: 'banner.text',
         bg: 'banner.background',

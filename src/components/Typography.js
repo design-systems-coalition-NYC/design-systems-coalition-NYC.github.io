@@ -17,7 +17,7 @@ export default props => {
             <input
               type='text'
               value={fonts[key]}
-              css={{
+              sx={{
                 fontFamily: key,
                 fontSize: 5,
                 border: 0,
@@ -42,7 +42,7 @@ export default props => {
       {sizes.map((size, i) => (
         <div
           key={i}
-          css={{
+          sx={{
             fontSize: size,
             fontWeight: 'bold',
             overflowX: 'hidden',
@@ -52,7 +52,7 @@ export default props => {
             <input
               type='number'
               value={size}
-              css={{
+              sx={{
                 width: '2.5em',
                 fontSize: 'inherit',
                 fontWeight: 'inherit',

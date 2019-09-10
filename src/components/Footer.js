@@ -34,7 +34,7 @@ export default props =>
     <Container>
       <footer
         {...props}
-        css={{
+        sx={{
           width: '100%',
           py: 4,
         }}

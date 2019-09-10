@@ -16,7 +16,7 @@ export default ({ href, ...props }) => {
         {...props}
         href={href}
         target={href ? '_blank' : undefined}
-        css={{
+        sx={{
           display: 'block',
           color: 'inherit',
           textDecoration: 'none',
