@@ -3,8 +3,8 @@ import {
   jsx,
   Flex,
   Box,
+  useThemeUI,
 } from 'theme-ui'
-import { useEditableTheme } from './ThemeEditor'
 
 const Chip = ({
   name,
@@ -46,29 +46,31 @@ const Chip = ({
   </div>
 
 export default props => {
-  const { state, setState } = useEditableTheme()
+  const { theme, setTheme } = useThemeUI()
 
-  const colors = Object.keys(state.colors)
-    .filter(key => typeof state.colors[key] === 'string')
+  const colors = Object.keys(theme.colors)
+    .filter(key => typeof theme.colors[key] === 'string')
     .map(key => ({
       name: key,
-      value: state.colors[key],
+      value: theme.colors[key],
       onChange: next => {
-        setState({ colors: next })
+        setTheme({ colors: next })
       }
     }))
 
   return (
     <div>
       <Flex
-        mx={-3}
-        flexWrap='wrap'>
+        sx={{
+          mx: -3,
+          flexWrap: 'wrap',
+        }}>
         {colors.map(color => (
           <Box
             key={color.name}
             sx={{
               p: 3,
-              width: [ 1/2, 1/3, 1 / colors.length ],
+              width: [ 1/2, 1/3, 1 / colors.length ].map(n => (n * 100) + '%'),
             }}>
             <Chip {...color} />
           </Box>

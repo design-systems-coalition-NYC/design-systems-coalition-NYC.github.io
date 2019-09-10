@@ -1,10 +1,9 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
-import { useEditableTheme } from './ThemeEditor'
+import { jsx, useThemeUI } from 'theme-ui'
 
 export default props => {
-  const { state, setState } = useEditableTheme()
-  const { fonts, fontSizes } = state
+  const { theme, setTheme } = useThemeUI()
+  const { fonts, fontSizes } = theme
 
   const sizes = [ ...fontSizes ].reverse()
 
@@ -29,7 +28,7 @@ export default props => {
                 }
               }}
               onChange={e => {
-                setState({
+                setTheme({
                   fonts: {
                     [key]: e.target.value
                   }
@@ -69,7 +68,7 @@ export default props => {
                 const n = parseInt(e.target.value)
                 const next = [...fontSizes]
                 next[sizes.length - i - 1] = n
-                setState({
+                setTheme({
                   fontSizes: next
                 })
               }}
