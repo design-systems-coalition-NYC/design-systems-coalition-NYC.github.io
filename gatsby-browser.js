@@ -1,4 +1,1 @@
-export {
-  wrapRootElement,
-  wrapPageElement,
-} from './src'
+export { wrapPageElement } from './src'

@@ -1,7 +1,8 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from 'react-helmet'
-import Root from './root'
+import { Global } from '@emotion/core'
+import { css } from 'theme-ui'
 
 const useSiteMetadata = () => {
   const data = useStaticQuery(graphql`
@@ -43,15 +44,24 @@ const Page = props => {
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@nyc_dsc' />
       </Helmet>
+      <Global
+        styles={css({
+          body: {
+            margin: 0,
+            fontFamily: 'body',
+            lineHeight: 'body',
+            color: 'text',
+            bg: 'background',
+          },
+          '*': {
+            boxSizing: 'border-box',
+          }
+        })}
+      />
       {props.children}
     </>
   )
 }
-
-export const wrapRootElement = ({ element, props }) =>
-  <Root>
-    {element}
-  </Root>
 
 export const wrapPageElement = ({ element, props }) => {
   return (

@@ -11,10 +11,11 @@ const data = {
 module.exports = {
   siteMetadata: data,
   plugins: [
+    'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
-      resolve: 'gatsby-mdx',
+      resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: ['.mdx', '.md'],
         remarkPlugins,

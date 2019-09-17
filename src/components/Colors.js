@@ -3,19 +3,17 @@ import {
   jsx,
   Flex,
   Box,
+  useThemeUI,
 } from 'theme-ui'
-import { useEditableTheme } from './ThemeEditor'
 
 const Chip = ({
   name,
   value,
   onChange,
 }) =>
-  <div
-    css={{
-    }}>
+  <div>
     <div
-      css={{
+      sx={{
         width: '100%',
         height: 0,
         paddingBottom: '100%',
@@ -28,7 +26,7 @@ const Chip = ({
       <input
         type='text'
         value={value}
-        css={{
+        sx={{
           fontFamily: 'monospace',
           fontSize: 2,
           color: 'inherit',
@@ -48,29 +46,32 @@ const Chip = ({
   </div>
 
 export default props => {
-  const { state, setState } = useEditableTheme()
+  const { theme, setTheme } = useThemeUI()
 
-  const colors = Object.keys(state.colors)
-    .filter(key => typeof state.colors[key] === 'string')
+  const colors = Object.keys(theme.colors)
+    .filter(key => typeof theme.colors[key] === 'string')
     .map(key => ({
       name: key,
-      value: state.colors[key],
+      value: theme.colors[key],
       onChange: next => {
-        setState({ colors: next })
+        setTheme({ colors: next })
       }
     }))
 
   return (
     <div>
       <Flex
-        mx={-3}
-        flexWrap='wrap'>
+        sx={{
+          mx: -3,
+          flexWrap: 'wrap',
+        }}>
         {colors.map(color => (
           <Box
             key={color.name}
-            p={3}
-            width={[ 1/2, 1/3, 1 / colors.length ]}
-          >
+            sx={{
+              p: 3,
+              width: [ 1/2, 1/3, 1 / colors.length ].map(n => (n * 100) + '%'),
+            }}>
             <Chip {...color} />
           </Box>
         ))}

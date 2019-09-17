@@ -1,10 +1,9 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
-import { useEditableTheme } from './ThemeEditor'
+import { jsx, useThemeUI } from 'theme-ui'
 
 export default props => {
-  const { state, setState } = useEditableTheme()
-  const { fonts, fontSizes } = state
+  const { theme, setTheme } = useThemeUI()
+  const { fonts, fontSizes } = theme
 
   const sizes = [ ...fontSizes ].reverse()
 
@@ -17,7 +16,7 @@ export default props => {
             <input
               type='text'
               value={fonts[key]}
-              css={{
+              sx={{
                 fontFamily: key,
                 fontSize: 5,
                 border: 0,
@@ -29,7 +28,7 @@ export default props => {
                 }
               }}
               onChange={e => {
-                setState({
+                setTheme({
                   fonts: {
                     [key]: e.target.value
                   }
@@ -42,7 +41,7 @@ export default props => {
       {sizes.map((size, i) => (
         <div
           key={i}
-          css={{
+          sx={{
             fontSize: size,
             fontWeight: 'bold',
             overflowX: 'hidden',
@@ -52,7 +51,7 @@ export default props => {
             <input
               type='number'
               value={size}
-              css={{
+              sx={{
                 width: '2.5em',
                 fontSize: 'inherit',
                 fontWeight: 'inherit',
@@ -69,7 +68,7 @@ export default props => {
                 const n = parseInt(e.target.value)
                 const next = [...fontSizes]
                 next[sizes.length - i - 1] = n
-                setState({
+                setTheme({
                   fontSizes: next
                 })
               }}

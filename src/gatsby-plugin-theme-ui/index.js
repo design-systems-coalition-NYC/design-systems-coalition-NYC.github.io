@@ -1,12 +1,4 @@
 const heading = {
-  lineHeight: 'heading',
-  a: {
-    color: 'inherit',
-    textDecoration: 'none',
-    ':hover': {
-      color: 'primary',
-    }
-  }
 }
 
 export const theme = {
@@ -24,6 +16,8 @@ export const theme = {
     body: 1.5,
     heading: 1.125,
   },
+  initialColorMode: 'light',
+  useCustomProperties: true,
   colors: {
     text: '#000',
     background: '#fff',
@@ -33,7 +27,6 @@ export const theme = {
       text: '#000',
       background: 'tomato',
     },
-
     modes: {
       dark: {
         text: '#fff',
@@ -76,6 +69,18 @@ export const theme = {
     64,
     96,
   ],
+  text: {
+    heading: {
+      lineHeight: 'heading',
+      a: {
+        color: 'inherit',
+        textDecoration: 'none',
+        ':hover': {
+          color: 'primary',
+        }
+      }
+    },
+  },
   styles: {
     Container: {
       maxWidth: 1280,
@@ -85,17 +90,17 @@ export const theme = {
       lineHeight: 'heading',
     },
     h2: {
-      ...heading,
+      variant: 'text.heading',
       fontSize: 5,
     },
     h3: {
-      ...heading,
+      variant: 'text.heading',
       fontSize: 2,
       textTransform: 'uppercase',
       letterSpacing: '0.2em',
     },
     h4: {
-      ...heading,
+      variant: 'text.heading',
       fontSize: 3,
     },
     img: {

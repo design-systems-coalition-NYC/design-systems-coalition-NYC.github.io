@@ -28,13 +28,13 @@ const Cards = ({
           }
         }
       }, theme)}>
-      <Flex flexWrap='wrap' mx={-3}>
+      <Flex sx={{ flexWrap: 'wrap', mx: -3 }}>
         {cards.map((card, i) => (
           <Card
             {...props}
             key={i}
             children={card}
-            css={{
+            sx={{
               width,
             }}
           />
